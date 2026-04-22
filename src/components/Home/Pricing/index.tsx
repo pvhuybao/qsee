@@ -75,30 +75,22 @@ const Pricing = () => {
   return (
     <>
       <section className="dark:bg-darkmode overflow-hidden py-14">
-        <div
-          ref={ref}
-          className="container mx-auto lg:max-w-(--breakpoint-xl) md:max-w-(--breakpoint-md) px-4 "
-        >
-          <motion.div {...TopAnimation}>
+        <div ref={ref} className="container mx-auto lg:max-w-(--breakpoint-xl) md:max-w-(--breakpoint-md) px-4 ">
+          <div {...TopAnimation}>
             <h2 className="dark:text-white text-midnight_text text-center md:text-35 sm:text-28 text-24">
               Choose your
-              <span className="text-primary max-w-max ml-2">
-                preferred plan
-              </span>
+              <span className="text-primary max-w-max ml-2">preferred plan</span>
             </h2>
             <p className="text-base text-6 font-normal text-muted dark:text-darktext text-center m-auto py-6 lg:max-w-50% sm:max-w-75%">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
-          </motion.div>
-          <motion.div {...bottomAnimation}>
+          </div>
+          <div {...bottomAnimation}>
             <div className="text-center pb-6">
               <div className="inline-flex items-center bg-heroBg dark:bg-midnight_text dark:bg-semidark rounded-xl p-2">
                 <button
                   className={`text-17 font-normal text-midnight_text dark:text-white py-3 px-7 rounded-xl ${
-                    tabConfig.planType === "Monthly"
-                      ? "bg-white text-darkmode dark:bg-darkmode"
-                      : ""
+                    tabConfig.planType === "Monthly" ? "bg-white text-darkmode dark:bg-darkmode" : ""
                   }`}
                   onClick={() =>
                     dispatch({
@@ -116,9 +108,7 @@ const Pricing = () => {
                 </button>
                 <button
                   className={`text-17 font-normal text-midnight_text dark:text-white py-3 px-7 rounded-xl ${
-                    tabConfig.planType === "Annually"
-                      ? "bg-white text-darkmode dark:bg-darkmode"
-                      : ""
+                    tabConfig.planType === "Annually" ? "bg-white text-darkmode dark:bg-darkmode" : ""
                   }`}
                   onClick={() =>
                     dispatch({
@@ -138,42 +128,20 @@ const Pricing = () => {
             </div>
             <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-8 items-end mt-12">
               <div>
-                <p className="pb-3 border-b border-border dark:border-dark_border text-muted text-17">
-                  Monthly service fee
-                </p>
-                <p className="py-3 border-b border-border dark:border-dark_border text-muted text-17">
-                  Direct debits
-                </p>
-                <p className="py-3 border-b border-border dark:border-dark_border text-muted text-17">
-                  Online payments
-                </p>
-                <p className="py-3 border-b border-border dark:border-dark_border text-muted text-17">
-                  Deposits to Savers
-                </p>
-                <p className="py-3 border-b border-border dark:border-dark_border text-muted text-17">
-                  ATM withdrawals
-                </p>
-                <p className="py-3 border-b border-border dark:border-dark_border text-muted text-17">
-                  International transaction fees
-                </p>
-                <p className="py-3 border-b border-border dark:border-dark_border text-muted text-17">
-                  International ATM withdrawal
-                </p>
-                <p className="py-3 border-b border-border dark:border-dark_border text-muted text-17">
-                  Overdrawn interest rate
-                </p>
+                <p className="pb-3 border-b border-border dark:border-dark_border text-muted text-17">Monthly service fee</p>
+                <p className="py-3 border-b border-border dark:border-dark_border text-muted text-17">Direct debits</p>
+                <p className="py-3 border-b border-border dark:border-dark_border text-muted text-17">Online payments</p>
+                <p className="py-3 border-b border-border dark:border-dark_border text-muted text-17">Deposits to Savers</p>
+                <p className="py-3 border-b border-border dark:border-dark_border text-muted text-17">ATM withdrawals</p>
+                <p className="py-3 border-b border-border dark:border-dark_border text-muted text-17">International transaction fees</p>
+                <p className="py-3 border-b border-border dark:border-dark_border text-muted text-17">International ATM withdrawal</p>
+                <p className="py-3 border-b border-border dark:border-dark_border text-muted text-17">Overdrawn interest rate</p>
               </div>
               <div className="bg-white dark:bg-midnight_text  pt-8 px-8 rounded-lg border border-border dark:border-dark_border">
-                <h3 className="text-22 font-bold text-midnight_text text-center dark:text-primary">
-                  Personal
-                </h3>
+                <h3 className="text-22 font-bold text-midnight_text text-center dark:text-primary">Personal</h3>
                 <div className="mt-4 flex flex-col items-center">
-                  <p className="text-40 font-medium uppercase text-midnight_text dark:text-white">
-                    {tabConfig.personalPrice}
-                  </p>
-                  <p className="text-base text-midnight_text dark:text-white">
-                    {tabConfig.duration}
-                  </p>
+                  <p className="text-40 font-medium uppercase text-midnight_text dark:text-white">{tabConfig.personalPrice}</p>
+                  <p className="text-base text-midnight_text dark:text-white">{tabConfig.duration}</p>
                 </div>
                 <Link
                   href="#"
@@ -182,69 +150,37 @@ const Pricing = () => {
                   Try for free
                 </Link>
                 <div className="mt-10 mb-2">
-                  <p className="pb-3 text-muted text-center border-b border-border dark:border-dark_border">
-                    Free
-                  </p>
+                  <p className="pb-3 text-muted text-center border-b border-border dark:border-dark_border">Free</p>
                   <div className="py-3 border-b border-border dark:border-dark_border flex justify-center">
                     <div className="w-5 h-5 bg-danger rounded-full flex items-center justify-center">
-                      <Icon
-                        icon="iconamoon:close-fill"
-                        width="18"
-                        height="18"
-                        className="text-white"
-                      />
+                      <Icon icon="iconamoon:close-fill" width="18" height="18" className="text-white" />
                     </div>
                   </div>
-                  <p className="py-3 border-b border-border dark:border-dark_border text-muted text-center">
-                    *Free
-                  </p>
-                  <p className="py-3 border-b border-border dark:border-dark_border text-muted text-center">
-                    *Free
-                  </p>
+                  <p className="py-3 border-b border-border dark:border-dark_border text-muted text-center">*Free</p>
+                  <p className="py-3 border-b border-border dark:border-dark_border text-muted text-center">*Free</p>
                   <div className="py-3 border-b border-border dark:border-dark_border flex justify-center">
                     <div className="w-5 h-5 bg-danger rounded-full flex items-center justify-center">
-                      <Icon
-                        icon="iconamoon:close-fill"
-                        width="18"
-                        height="18"
-                        className="text-white"
-                      />
+                      <Icon icon="iconamoon:close-fill" width="18" height="18" className="text-white" />
                     </div>
                   </div>
                   <div className="border-b border-border dark:border-dark_border py-3 flex justify-center">
                     <div className="w-5 h-5 bg-danger rounded-full flex items-center justify-center">
-                      <Icon
-                        icon="iconamoon:close-fill"
-                        width="18"
-                        height="18"
-                        className="text-white"
-                      />
+                      <Icon icon="iconamoon:close-fill" width="18" height="18" className="text-white" />
                     </div>
                   </div>
                   <div className="py-3 border-b border-border dark:border-dark_border flex justify-center">
                     <div className="w-5 h-5 bg-danger rounded-full flex items-center justify-center">
-                      <Icon
-                        icon="iconamoon:close-fill"
-                        width="18"
-                        height="18"
-                        className="text-white"
-                      />
+                      <Icon icon="iconamoon:close-fill" width="18" height="18" className="text-white" />
                     </div>
                   </div>
                   <p className="py-3 text-muted text-center">9.81% P.A.</p>
                 </div>
               </div>
               <div className="bg-white dark:bg-midnight_text pt-8 px-8 rounded-lg border border-border dark:border-dark_border">
-                <h3 className="text-22 font-bold text-midnight_text text-center dark:text-primary">
-                  Professional
-                </h3>
+                <h3 className="text-22 font-bold text-midnight_text text-center dark:text-primary">Professional</h3>
                 <div className="mt-4 flex flex-col items-center">
-                  <p className="text-40 font-medium uppercase text-midnight_text dark:text-white">
-                    ${tabConfig.professionalPrice}
-                  </p>
-                  <p className="text-base text-midnight_text dark:text-white">
-                    {tabConfig.duration}
-                  </p>
+                  <p className="text-40 font-medium uppercase text-midnight_text dark:text-white">${tabConfig.professionalPrice}</p>
+                  <p className="text-base text-midnight_text dark:text-white">{tabConfig.duration}</p>
                 </div>
                 <Link
                   href="#"
@@ -253,62 +189,33 @@ const Pricing = () => {
                   Try free for 14 days
                 </Link>
                 <div className="mt-10 mb-2">
-                  <p className="pb-3 border-b dark:border-dark_border border-border text-muted text-center">
-                    Free
-                  </p>
+                  <p className="pb-3 border-b dark:border-dark_border border-border text-muted text-center">Free</p>
                   <div className="py-3 border-b border-border dark:border-dark_border flex justify-center">
                     <div className="w-5 h-5 bg-blue-500 rounded-full flex items-center justify-center">
-                      <Icon
-                        icon="solar:unread-outline"
-                        width="18"
-                        height="18"
-                        className="text-white"
-                      />
+                      <Icon icon="solar:unread-outline" width="18" height="18" className="text-white" />
                     </div>
                   </div>
-                  <p className="py-3 border-b border-border dark:border-dark_border text-muted text-center">
-                    Free & unlimited
-                  </p>
-                  <p className="py-3 border-b border-border dark:border-dark_border text-muted text-center">
-                    Free & unlimited
-                  </p>
+                  <p className="py-3 border-b border-border dark:border-dark_border text-muted text-center">Free & unlimited</p>
+                  <p className="py-3 border-b border-border dark:border-dark_border text-muted text-center">Free & unlimited</p>
                   <div className="py-3 border-b border-border dark:border-dark_border flex justify-center">
                     <div className="w-5 h-5 bg-blue-500 rounded-full flex items-center justify-center">
-                      <Icon
-                        icon="solar:unread-outline"
-                        width="18"
-                        height="18"
-                        className="text-white"
-                      />
+                      <Icon icon="solar:unread-outline" width="18" height="18" className="text-white" />
                     </div>
                   </div>
-                  <p className="py-3 border-b border-border dark:border-dark_border text-muted text-center">
-                    0.5%
-                  </p>
+                  <p className="py-3 border-b border-border dark:border-dark_border text-muted text-center">0.5%</p>
                   <div className="py-3 border-b border-border dark:border-dark_border flex justify-center">
                     <div className="w-5 h-5 bg-blue-500 rounded-full flex items-center justify-center">
-                      <Icon
-                        icon="solar:unread-outline"
-                        width="18"
-                        height="18"
-                        className="text-white"
-                      />
+                      <Icon icon="solar:unread-outline" width="18" height="18" className="text-white" />
                     </div>
                   </div>
                   <p className="py-3 text-muted text-center">9.81% P.A.</p>
                 </div>
               </div>
               <div className="bg-white dark:bg-midnight_text pt-8 px-8 rounded-lg border border-border dark:border-dark_border">
-                <h3 className="text-22 text-center font-bold text-midnight_text dark:text-primary">
-                  Association
-                </h3>
+                <h3 className="text-22 text-center font-bold text-midnight_text dark:text-primary">Association</h3>
                 <div className="mt-4 flex flex-col items-center">
-                  <p className="text-40 font-medium uppercase text-midnight_text dark:text-white">
-                    ${tabConfig.organizationPrice}
-                  </p>
-                  <p className="text-base text-midnight_text dark:text-white">
-                    {tabConfig.duration}
-                  </p>
+                  <p className="text-40 font-medium uppercase text-midnight_text dark:text-white">${tabConfig.organizationPrice}</p>
+                  <p className="text-base text-midnight_text dark:text-white">{tabConfig.duration}</p>
                 </div>
                 <Link
                   href="#"
@@ -317,53 +224,30 @@ const Pricing = () => {
                   Try free for 14 days
                 </Link>
                 <div className="mt-10 mb-2">
-                  <p className="pb-3 border-b dark:border-dark_border border-border text-muted text-center">
-                    Free
-                  </p>
+                  <p className="pb-3 border-b dark:border-dark_border border-border text-muted text-center">Free</p>
                   <div className="py-3 border-b border-border dark:border-dark_border flex justify-center">
                     <div className="w-5 h-5 bg-blue-500 rounded-full flex items-center justify-center">
-                      <Icon
-                        icon="solar:unread-outline"
-                        width="18"
-                        height="18"
-                        className="text-white"
-                      />
+                      <Icon icon="solar:unread-outline" width="18" height="18" className="text-white" />
                     </div>
                   </div>
-                  <p className="py-3 border-b border-border dark:border-dark_border text-muted text-center">
-                    Free & unlimited
-                  </p>
-                  <p className="py-3 border-b border-border dark:border-dark_border text-muted text-center">
-                    Free & unlimited
-                  </p>
+                  <p className="py-3 border-b border-border dark:border-dark_border text-muted text-center">Free & unlimited</p>
+                  <p className="py-3 border-b border-border dark:border-dark_border text-muted text-center">Free & unlimited</p>
                   <div className="py-3 border-b border-border dark:border-dark_border flex justify-center">
                     <div className="w-5 h-5 bg-blue-500 rounded-full flex items-center justify-center">
-                      <Icon
-                        icon="solar:unread-outline"
-                        width="18"
-                        height="18"
-                        className="text-white"
-                      />
+                      <Icon icon="solar:unread-outline" width="18" height="18" className="text-white" />
                     </div>
                   </div>
-                  <p className="py-3 border-b border-border dark:border-dark_border text-muted text-center">
-                    0.5%
-                  </p>
+                  <p className="py-3 border-b border-border dark:border-dark_border text-muted text-center">0.5%</p>
                   <div className="py-3 border-b border-border dark:border-dark_border flex justify-center">
                     <div className="w-5 h-5 bg-blue-500 rounded-full flex items-center justify-center">
-                      <Icon
-                        icon="solar:unread-outline"
-                        width="18"
-                        height="18"
-                        className="text-white"
-                      />
+                      <Icon icon="solar:unread-outline" width="18" height="18" className="text-white" />
                     </div>
                   </div>
                   <p className="py-3 text-muted text-center">6% P.A.</p>
                 </div>
               </div>
             </div>
-          </motion.div>
+          </div>
         </div>
       </section>
     </>

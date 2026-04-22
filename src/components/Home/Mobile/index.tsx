@@ -25,32 +25,22 @@ const Mobile = () => {
     <section className="dark:bg-darkmode overflow-x-hidden py-14">
       <div className="container mx-auto lg:max-w-(--breakpoint-xl) md:max-w-(--breakpoint-md) px-4">
         <div ref={ref} className="grid md:grid-cols-12 items-center lg:gap-12 gap-6">
-          <motion.div {...leftAnimation} className="lg:col-span-6 col-span-12">
+          <div {...leftAnimation} className="lg:col-span-6 col-span-12">
             <h2 className="lg:text-35 text-24 text-midnight_text font-semibold dark:text-white">
               Mobile wallets made for
               <br />
-              <span className="lg:text-35 text-24 text-primary font-semibold lg:max-w-max">
-                any situation
-              </span>
+              <span className="lg:text-35 text-24 text-primary font-semibold lg:max-w-max">any situation</span>
             </h2>
             <p className="mt-6 text-muted dark:text-white dark:text-opacity-70 lg:text-17 lg:max-w-full max-w-75%">
-              Cards issued through us can easily be added to mobile wallets to
-              be used to buy online, in store, and in-app.
+              Cards issued through us can easily be added to mobile wallets to be used to buy online, in store, and in-app.
             </p>
             <div className="flex flex-col gap-6 mt-16">
               {perks.map((item, index) => (
                 <div key={index} className="flex items-start gap-5">
                   <div className="w-6 h-6 bg-primary rounded-full flex items-center justify-center">
-                    <Icon
-                      icon="solar:unread-outline"
-                      width="24"
-                      height="24"
-                      className="text-white"
-                    />
+                    <Icon icon="solar:unread-outline" width="24" height="24" className="text-white" />
                   </div>
-                  <p className="text-base text-muted dark:text-white dark:text-opacity-70">
-                    {item.text}
-                  </p>
+                  <p className="text-base text-muted dark:text-white dark:text-opacity-70">{item.text}</p>
                 </div>
               ))}
             </div>
@@ -60,25 +50,15 @@ const Mobile = () => {
                 className="lg:text-17 flex gap-4 items-center bg-primary text-white py-2 px-4 lg:py-3 lg:px-8 rounded-lg mt-12 border border-primary hover:text-primary hover:bg-transparent"
               >
                 Get Started
-                <Icon
-                  icon="solar:alt-arrow-right-linear"
-                  width="13"
-                  height="13"
-                />
+                <Icon icon="solar:alt-arrow-right-linear" width="13" height="13" />
               </Link>
             </div>
-          </motion.div>
-          <motion.div {...rightAnimation} className="lg:col-span-6 col-span-12">
+          </div>
+          <div {...rightAnimation} className="lg:col-span-6 col-span-12">
             <div className="lg:max-w-full max-w-75% mx-auto">
-              <Image
-                src="/images/mobile/mobile.png"
-                alt="image"
-                width={555}
-                height={634}
-                style={{ width: "100%", height: "100%" }}
-              />
+              <Image src="/images/mobile/mobile.png" alt="image" width={555} height={634} style={{ width: "100%", height: "100%" }} />
             </div>
-          </motion.div>
+          </div>
         </div>
       </div>
     </section>
