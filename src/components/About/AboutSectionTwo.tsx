@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const AboutSectionTwo = () => {
   return (
-    <section className="py-16 md:py-20 lg:py-28">
+    <section className="py-10">
       <div className="container">
         <div className="-mx-4 flex flex-wrap items-center">
           <div className="w-full px-4 lg:w-1/2">
@@ -28,29 +28,41 @@ const AboutSectionTwo = () => {
             <div className="max-w-[470px]">
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Bug free code
+                  GIỚI THIỆU
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Công Ty Cổ Phần Xây Dựng và Dịch Vụ Kỹ Thuật QSEE là doanh
+                  nghiệp hàng đầu trong lĩnh vực Cơ - Điện - Lạnh - Cấp thoát
+                  nước cho các tòa nhà cao tầng, nhà xưởng, và đặc biệt là cung
+                  cấp giải pháp toàn diện cho hệ thống điện năng lượng mặt trời
+                  (NLMT), bao gồm tài chính, tư vấn thiết kế, mua sắm và lắp
+                  đặt.
+                </p>
+                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                  Với đội ngũ kỹ thuật viên giàu kinh nghiệm và trang thiết bị
+                  hiện đại, QSEE JSC cam kết mang đến giải pháp thông minh, an
+                  toàn, chất lượng cao, đáp ứng đa dạng nhu cầu của khách hàng.
                 </p>
               </div>
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Premier support
+                  Tiêu chí hoạt động
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt.
+                  Chúng tôi hoạt động dựa trên tiêu chí: Giải pháp đầu tư tiết
+                  kiệm; sản phẩm chất lượng; thi công chuyên nghiệp; an toàn;
+                  bảo hành - bảo trì dài hạn.
                 </p>
               </div>
               <div className="mb-1">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Next.js
+                  Cam kết
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt
-                  consectetur adipiscing elit setim.
+                  Sự tận tâm và chỉn chu trong từng dự án của QSEE JSC không chỉ
+                  mang lại lợi ích bền vững mà còn đảm bảo sự hài lòng tuyệt
+                  đối cho khách hàng. QSEE JSC - Đối tác đáng tin cậy cho mọi
+                  công trình.
                 </p>
               </div>
             </div>

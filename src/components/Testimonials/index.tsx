@@ -5,28 +5,28 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
+    name: "InterContinental Saigon",
+    designation: "Dự án M&E & bảo trì AHU, PAU — Quận 1, TP. HCM",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Cung cấp dịch vụ bảo trì định kỳ hệ thống điều hòa trung tâm phục vụ khối khách sạn cao cấp tại trung tâm thành phố.",
     image: "/images/testimonials/auth-01.png",
     star: 5,
   },
   {
     id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
+    name: "Công ty TNHH Sản xuất Lê Phan Gia",
+    designation: "Hệ thống solar áp mái 1.336 kWp — Bình Dương",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Lắp đặt hệ thống điện mặt trời áp mái quy mô công nghiệp, tối ưu điện tự sản tại KCN Nam Tân Uyên mở rộng.",
     image: "/images/testimonials/auth-02.png",
     star: 5,
   },
   {
     id: 3,
-    name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
+    name: "Kerry Integrated Logistics (Việt Nam)",
+    designation: "Cải tạo điện kho Sóng Thần 2 — Bình Dương",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Thi công hệ thống chữa cháy tự động và cải tạo hạ tầng điện kho logistics tại khu công nghiệp Sóng Thần 2.",
     image: "/images/testimonials/auth-03.png",
     star: 5,
   },
@@ -37,8 +37,8 @@ const Testimonials = () => {
     <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="What Our Users Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="Phản hồi từ công trình"
+          paragraph="Ghi nhận từ các dự án cơ - điện - lạnh và năng lượng mặt trời mà QSEE trực tiếp triển khai, vận hành hoặc bảo trì dài hạn."
           center
         />
 

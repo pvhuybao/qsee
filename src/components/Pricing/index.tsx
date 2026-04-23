@@ -8,11 +8,11 @@ const Pricing = () => {
   const [isMonthly, setIsMonthly] = useState(true);
 
   return (
-    <section id="pricing" className="relative z-10 py-16 md:py-20 lg:py-28">
+    <section id="pricing" className="relative z-10 py-10">
       <div className="container">
         <SectionTitle
-          title="Simple and Affordable Pricing"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="Hợp tác cùng QSEE"
+          paragraph="Báo giá linh hoạt theo công trình, phạm vi thi công và hình thức bảo trì. Vui lòng cung cấp thông tin công trình để QSEE tư vấn phương án tối ưu về tài chính và vận hành."
           center
           width="665px"
         />
@@ -27,7 +27,7 @@ const Pricing = () => {
                   : "text-dark dark:text-white"
               } mr-4 cursor-pointer text-base font-semibold`}
             >
-              Monthly
+              Tư vấn & mua sắm
             </span>
             <div
               onClick={() => setIsMonthly(!isMonthly)}
@@ -52,50 +52,95 @@ const Pricing = () => {
                   : "pointer-events-none text-primary"
               } ml-4 cursor-pointer text-base font-semibold`}
             >
-              Yearly
+              Thi công & bảo trì
             </span>
           </div>
         </div>
 
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
           <PricingBox
-            packageName="Lite"
-            price={isMonthly ? "40" : "120"}
-            duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            packageName="Tư vấn, thiết kế"
+            price="Liên hệ"
+            duration="báo giá"
+            subtitle={
+              isMonthly
+                ? "Khảo sát hiện trạng, tư vấn phương án tài chính và sơ bộ công năng công trình."
+                : "Bản vẽ thi công chi tiết, kế hoạch an toàn và tối ưu vận hành theo từng công trình."
+            }
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="inactive" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
+            <OfferList
+              text="Tư vấn quy mô, phương án tài trợ"
+              status="active"
+            />
+            <OfferList
+              text="Hồ sơ thiết kế, phối cảnh kỹ thuật"
+              status="active"
+            />
+            <OfferList text="Bóc tính, lập dự toán" status="active" />
+            <OfferList
+              text="Bàn giao hồ sơ, handover kỹ thuật"
+              status="active"
+            />
+            <OfferList text="Giám sát tác giả" status="inactive" />
+            <OfferList
+              text="Bảo dưỡng theo hợp đồng dài hạn"
+              status="inactive"
+            />
           </PricingBox>
           <PricingBox
-            packageName="Basic"
-            price={isMonthly ? "399" : "789"}
-            duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            packageName="Lắp đặt trọn gói"
+            price="Liên hệ"
+            duration="báo giá"
+            subtitle={
+              isMonthly
+                ? "Mua sắm thiết bị, vận chuyển, lắp đặt, thử tải và bàn giao tài liệu bảo hành."
+                : "Hạng mục cơ - điện - lạnh, cấp thoát nước và công tác bàn giao, nghiệm thu tại hiện trường."
+            }
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
+            <OfferList
+              text="Cung ứng thiết bị, vật tư theo bản vẽ trúng thầu"
+              status="active"
+            />
+            <OfferList
+              text="Thi công an toàn, bám tiến độ dự án"
+              status="active"
+            />
+            <OfferList text="Chạy thử, hiệu chỉnh, kiểm định" status="active" />
+            <OfferList text="Hồ sơ nghiệm thu, bảo hành" status="active" />
+            <OfferList
+              text="Đào tạo vận hành cho kỹ sư tại chỗ"
+              status="active"
+            />
+            <OfferList text="Mở rộng, nâng công suất" status="inactive" />
           </PricingBox>
           <PricingBox
-            packageName="Plus"
-            price={isMonthly ? "589" : "999"}
-            duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            packageName="Bảo trì & vận hành"
+            price="Liên hệ"
+            duration="báo giá"
+            subtitle={
+              isMonthly
+                ? "Bảo dưỡng ngăn hạn, kiểm tra theo hạng mục, phản hồi nhanh sự cố bất thường."
+                : "Hợp đồng dài hạn 12–24 tháng, kế hoạch bảo dưỡng định kỳ, có báo cáo hiệu suất."
+            }
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="active" />
+            <OfferList
+              text="Vận hành, giám sát từ xa, kiểm tra tuần/ tháng"
+              status="active"
+            />
+            <OfferList
+              text="Bảo dưỡng hệ thống lạnh, AHU, PAU"
+              status="active"
+            />
+            <OfferList text="Dọn tấm pin, cân chỉnh chiều" status="active" />
+            <OfferList
+              text="Thay thế, dự phòng linh kiện chính hãng"
+              status="active"
+            />
+            <OfferList
+              text="Báo cáo hiệu suất, đề xuất cải tạo"
+              status="active"
+            />
+            <OfferList text="Ưu tiên ứng cứu sự cố" status="active" />
           </PricingBox>
         </div>
       </div>

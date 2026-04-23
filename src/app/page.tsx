@@ -12,9 +12,9 @@ import Video from "@/components/Video";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Free Next.js Template for Startup and SaaS",
-  description: "This is Home for Startup Nextjs Template",
-  // other metadata
+  title: "QSEE JSC - Giải pháp năng lượng mặt trời & Cơ điện lạnh",
+  description:
+    "Công ty Cổ phần Xây dựng và Dịch vụ Kỹ thuật QSEE: Cơ - Điện - Lạnh, cấp thoát nước, hệ thống điện mặt trời. Tư vấn, thiết kế, tài chính, mua sắm và lắp đặt trọn gói.",
 };
 
 export default function Home() {
@@ -22,13 +22,12 @@ export default function Home() {
     <>
       <ScrollUp />
       <Hero />
+      <AboutSectionTwo />
       <Features />
       <Blog />
       <Video />
-      <AboutSectionTwo />
       <Brands />
       <AboutSectionOne />
-      <AboutSectionTwo />
       <Testimonials />
       <Pricing />
       <Contact />

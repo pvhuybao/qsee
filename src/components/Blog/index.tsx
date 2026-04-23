@@ -7,21 +7,11 @@ const Blog = () => {
     <section id="blog" className="bg-gray-light dark:bg-bg-color-dark py-10">
       <div className="container mb-8">
         <SectionTitle
-          title="DỰ ÁN Solar"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="Dự án tiêu biểu"
+          paragraph="Một số công trình cơ - điện - lạnh và năng lượng mặt trời mà QSEE triển khai tại khách sạn, logistics, bất động sản công nghiệp và hộ sử dụng điện kèm lưu trữ (BESS)."
           center
         />
 
-        <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 md:gap-x-6 lg:gap-x-8 xl:grid-cols-3">
-          {blogData.map((blog) => (
-            <div key={blog.id} className="w-full">
-              <SingleBlog blog={blog} />
-            </div>
-          ))}
-        </div>
-      </div>
-
-      <div className="container">
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 md:gap-x-6 lg:gap-x-8 xl:grid-cols-3">
           {blogData.map((blog) => (
             <div key={blog.id} className="w-full">

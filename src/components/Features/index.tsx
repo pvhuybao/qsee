@@ -9,7 +9,7 @@ const Features = () => {
         <div className="container">
           <SectionTitle
             title="LĨNH VỰC KINH DOANH"
-            paragraph="Công Ty Cổ Phần Xây Dựng và Dịch Vụ Kỹ Thuật QSEE là doanh nghiệp hàng đầu trong lĩnh vực Cơ - Điện - Lạnh - Cấp thoát nước cho các tòa nhà cao tầng, nhà xưởng, và đặc biệt là cung cấp giải pháp toàn diện cho hệ thống điện năng lượng mặt trời (NLMT), bao gồm tài chính, tư vấn thiết kế, mua sắm và lắp đặt."
+            paragraph="Tư vấn, thi công, bảo dưỡng và thương mại thiết bị: trọn bộ hành trình từ thiết kế, lắp đặt đến vận hành lâu dài cho hệ thống điện mặt trời và cơ - điện - lạnh."
             center
           />
 
