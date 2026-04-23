@@ -3,16 +3,17 @@ import { Blog } from "@/types/blog";
 const blogData: Blog[] = [
   {
     id: 1,
-    title: "Best UI components for modern websites",
+    title: "Bảo Trì Định Kỳ Hệ Thống ĐHKK Trung Tâm AHU và PAU",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/blog-01.jpg",
+      "INTERCONTINENTAL SAIGON (KUMHO ASIANA PLAZA) Địa Chỉ: 39 Lê Duẩn, Bến Nghé, Quận 1, TP. Hồ Chí Minh, Việt Nam",
+    image:
+      "https://qsee.com.vn/_assets/media/22adf7026bd45d6c832f8c477737732c.jpg",
     author: {
       name: "Samuyl Joshi",
       image: "/images/blog/author-03.png",
       designation: "Graphic Designer",
     },
-    tags: ["creative"],
+    // tags: ["creative"],
     publishDate: "2025",
   },
   {

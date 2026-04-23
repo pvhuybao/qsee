@@ -5,11 +5,11 @@ import featuresData from "./featuresData";
 const Features = () => {
   return (
     <>
-      <section id="features" className="py-16 md:py-20 lg:py-28">
+      <section id="features" className="py-10">
         <div className="container">
           <SectionTitle
-            title="Main Features"
-            paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+            title="LĨNH VỰC KINH DOANH"
+            paragraph="Công Ty Cổ Phần Xây Dựng và Dịch Vụ Kỹ Thuật QSEE là doanh nghiệp hàng đầu trong lĩnh vực Cơ - Điện - Lạnh - Cấp thoát nước cho các tòa nhà cao tầng, nhà xưởng, và đặc biệt là cung cấp giải pháp toàn diện cho hệ thống điện năng lượng mặt trời (NLMT), bao gồm tài chính, tư vấn thiết kế, mua sắm và lắp đặt."
             center
           />
 

@@ -10,7 +10,7 @@ export default function Video() {
 
   return (
     <>
-      <section className="relative z-10 py-16 md:py-20 lg:py-28">
+      <section className="relative z-10 py-10">
         <div className="container">
           <SectionTitle
             title="We are ready to help"
@@ -34,7 +34,7 @@ export default function Video() {
                     <button
                       aria-label="video play button"
                       onClick={() => setOpen(true)}
-                      className="text-primary flex h-[70px] w-[70px] items-center justify-center rounded-full bg-white/75 transition hover:bg-white cursor-pointer"
+                      className="text-primary flex h-[70px] w-[70px] cursor-pointer items-center justify-center rounded-full bg-white/75 transition hover:bg-white"
                     >
                       <svg
                         width="16"
@@ -66,4 +66,4 @@ export default function Video() {
       />
     </>
   );
-};
+}

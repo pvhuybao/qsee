@@ -166,7 +166,7 @@ const Header = () => {
                   Sign In
                 </Link> */}
                 <Link
-                  href="/signup"
+                  href="#contact"
                   className="ease-in-up shadow-btn hover:shadow-btn-hover bg-primary hover:bg-primary/90 hidden rounded-xs px-8 py-3 text-base font-medium text-white transition duration-300 md:block md:px-9 lg:px-6 xl:px-9"
                 >
                   Liên hệ ngay
