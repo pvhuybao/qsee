@@ -20,7 +20,7 @@ const blogData: Blog[] = [
     title: "Bảo trì kho lạnh và hệ thống ĐHKK trung tâm",
     paragraph:
       "Công ty TNHH DKSH Việt Nam — Số 23 Đại Lộ Độc Lập, KCN VSIP.1, TX. Thuận An, Bình Dương.",
-    image: "/images/blog/blog-01.jpg",
+    image: "https://qsee.com.vn/_assets/media/084713f840681ed9e40a038a51b3c2eb.jpg",
     author: {
       name: "QSEE",
       image: "/images/blog/author-02.png",
@@ -33,7 +33,7 @@ const blogData: Blog[] = [
     title: "Hệ thống chữa cháy tự động và cải tạo điện kho",
     paragraph:
       "Kerry Integrated Logistics (Việt Nam) — Số 20 Đại Lộ Thống Nhất, KCN Sóng Thần 2, Dĩ An, Bình Dương.",
-    image: "/images/blog/blog-02.jpg",
+    image: "https://qsee.com.vn/_assets/media/e3bc08eb68b3f19fc40e72d576395213.jpg",
     author: {
       name: "QSEE",
       image: "/images/blog/author-03.png",
@@ -46,7 +46,7 @@ const blogData: Blog[] = [
     title: "Hệ thống điện mặt trời áp mái Green I-Park — 100 kWp",
     paragraph:
       "Công ty Cổ phần Green I-Park — KCN Liên Hà Thái, huyện Thái Thuỵ, Thái Bình.",
-    image: "/images/blog/blog-03.jpg",
+    image: "https://qsee.com.vn/_assets/media/bec7b256620829d310a9086af8b15c5c.png",
     author: {
       name: "QSEE",
       image: "/images/blog/author-01.png",
@@ -59,7 +59,7 @@ const blogData: Blog[] = [
     title: "Hệ thống điện mặt trời áp mái nhà máy Lê Phan Gia — 1.336 kWp",
     paragraph:
       "Công ty TNHH Sản xuất Lê Phan Gia — KCN Nam Tân Uyên mở rộng, Bình Dương.",
-    image: "/images/blog/blog-03.jpg",
+    image: "https://qsee.com.vn/_assets/media/87e1fad419b140da8c372f9a0a41d786.png",
     author: {
       name: "QSEE",
       image: "/images/blog/author-02.png",
@@ -72,7 +72,7 @@ const blogData: Blog[] = [
     title: "Hệ thống điện mặt trời áp mái nhà máy Sợi Long Vân — 2.700 kWp",
     paragraph:
       "Công ty TNHH Sợi Long Vân — KCN Châu Sơn, thành phố Phủ Lý, Hà Nam.",
-    image: "/images/blog/blog-02.jpg",
+    image: "https://qsee.com.vn/_assets/media/c87eab6c20f3c17cd79f4cbfdabff75c.png",
     author: {
       name: "QSEE",
       image: "/images/blog/author-03.png",

@@ -36,7 +36,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="absolute top-0 right-0 z-[-1] opacity-30 lg:opacity-100">
+        <div className="absolute top-0 right-0 h-full z-[-1] opacity-30 lg:opacity-100">
           <video autoPlay loop muted>
             <source
               src="https://etechsolar.vn/uploads/about/video-3.mp4"

@@ -13,7 +13,7 @@ export default function Video() {
       <section className="relative z-10 py-10">
         <div className="container">
           <SectionTitle
-            title="Hình ảnh công trình"
+            title="Giới thiệu công ty"
             paragraph="Các hạng mục lắp đặt điện mặt trời, hệ thống lạnh, kho bãi và tòa nhà cao tầng do QSEE thi công và bảo trì."
             center
             mb="80px"

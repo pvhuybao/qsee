@@ -1,14 +1,19 @@
 import { Brand } from "@/types/brand";
 import Image from "next/image";
 import brandsData from "./brandsData";
+import SectionTitle from "../Common/SectionTitle";
 
 const Brands = () => {
   return (
     <section className="pt-16">
       <div className="container">
         <div className="-mx-4 flex flex-wrap">
-          <div className="w-full px-4">
-            <div className="flex flex-wrap items-center justify-center rounded-xs bg-gray-light px-8 py-8 dark:bg-gray-dark sm:px-10 md:px-[50px] md:py-[40px] xl:p-[50px] 2xl:px-[70px] 2xl:py-[60px]">
+          <div className="w-full px-4 bg-gray-light dark:bg-gray-dark px-8 py-8">
+            <h3 className="mb-10 text-3xl leading-tight! font-bold text-black dark:text-white text-center">
+              Các đối tác của QSEE
+            </h3>
+            <div className="flex flex-wrap items-center justify-center rounded-xs">
+
               {brandsData.map((brand) => (
                 <SingleBrand key={brand.id} brand={brand} />
               ))}

@@ -34,10 +34,10 @@ const testimonialData: Testimonial[] = [
 
 const Testimonials = () => {
   return (
-    <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
+    <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-10">
       <div className="container">
         <SectionTitle
-          title="Phản hồi từ công trình"
+          title="Phản hồi từ khách hàng"
           paragraph="Ghi nhận từ các dự án cơ - điện - lạnh và năng lượng mặt trời mà QSEE trực tiếp triển khai, vận hành hoặc bảo trì dài hạn."
           center
         />
