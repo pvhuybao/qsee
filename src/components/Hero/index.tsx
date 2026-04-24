@@ -14,7 +14,7 @@ const Hero = () => {
                 <h1 className="mb-5 text-3xl leading-tight font-bold text-white sm:text-4xl sm:leading-tight md:text-6xl md:leading-tight dark:text-white">
                   QSEE JSC
                 </h1>
-                <p className="dark:text-body-color-dark mb-12 text-base leading-relaxed! font-bold text-white sm:text-lg md:text-2xl">
+                <p className="mb-12 text-base leading-relaxed! font-bold text-white sm:text-lg md:text-2xl">
                   Nhà cung cấp giải pháp năng lượng mặt trời hàng đầu tại Việt
                   Nam.
                 </p>
@@ -27,7 +27,7 @@ const Hero = () => {
                   </Link>
                   <Link
                     href="#blog"
-                    className="inline-block rounded-xs bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
+                    className="inline-block rounded-xs bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:text-white dark:hover:bg-white/5"
                   >
                     Dự án tiêu biểu
                   </Link>

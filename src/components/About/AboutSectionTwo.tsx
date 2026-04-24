@@ -60,9 +60,9 @@ const AboutSectionTwo = () => {
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
                   Sự tận tâm và chỉn chu trong từng dự án của QSEE JSC không chỉ
-                  mang lại lợi ích bền vững mà còn đảm bảo sự hài lòng tuyệt
-                  đối cho khách hàng. QSEE JSC - Đối tác đáng tin cậy cho mọi
-                  công trình.
+                  mang lại lợi ích bền vững mà còn đảm bảo sự hài lòng tuyệt đối
+                  cho khách hàng. QSEE JSC - Đối tác đáng tin cậy cho mọi công
+                  trình.
                 </p>
               </div>
             </div>

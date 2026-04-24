@@ -41,7 +41,7 @@ const Header = () => {
   return (
     <>
       <header
-        className={`header top-0 left-0 z-40 flex w-full items-center ${
+        className={`header top-0 left-0 z-40 flex w-full items-center dark:bg-gray-dark ${
           sticky
             ? "dark:bg-gray-dark dark:shadow-sticky-dark shadow-sticky fixed z-9999 bg-white/80 backdrop-blur-xs transition"
             : "absolute bg-transparent"
@@ -110,7 +110,7 @@ const Header = () => {
                         {menuItem.path ? (
                           <Link
                             href={menuItem.path}
-                            className={`flex py-2 text-base lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 ${
+                            className={`flex font-semibold py-2 text-base lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 ${
                               usePathName === menuItem.path
                                 ? "text-primary dark:text-white"
                                 : "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
@@ -158,16 +158,10 @@ const Header = () => {
                   </ul>
                 </nav>
               </div>
-              <div className="ml-20 flex items-center justify-end pr-16 lg:pr-0">
-                {/* <Link
-                  href="/signin"
-                  className="text-dark hidden px-7 py-3 text-base font-medium hover:opacity-70 md:block dark:text-white"
-                >
-                  Sign In
-                </Link> */}
+              <div className="ml-10 flex items-center justify-end pr-16 lg:pr-0">
                 <Link
                   href="#contact"
-                  className="ease-in-up shadow-btn hover:shadow-btn-hover bg-primary hover:bg-primary/90 hidden rounded-xs px-8 py-3 text-base font-medium text-white transition duration-300 md:block md:px-9 lg:px-6 xl:px-9"
+                  className="ease-in-up mr-4 shadow-btn hover:shadow-btn-hover bg-primary hover:bg-primary/90 hidden rounded-lg px-8 py-3 text-base font-medium text-white transition duration-300 md:block md:px-9 lg:px-6 xl:px-9"
                 >
                   Liên hệ ngay
                 </Link>
