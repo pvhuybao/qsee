@@ -2,22 +2,24 @@ import Image from "next/image";
 
 const AboutSectionTwo = () => {
   return (
-    <section id="about" className="py-10">
+    <section id="about" className="bg-gray-light dark:bg-bg-color-dark py-10">
       <div className="container">
-        <div className="-mx-4 flex flex-wrap">
+        <div className="-mx-4 flex flex-col-reverse flex-wrap lg:flex-row">
           <div className="w-full px-4 lg:w-1/2">
             <div
               className="relative mx-auto mb-12 aspect-77/100 max-w-[580px] text-center"
               data-wow-delay=".15s"
             >
               <Image
-                src="https://qsee.com.vn/_assets/media/81ebcd84ba3fdb5ade362608e7bdc716.jpg"
+                // src="https://qsee.com.vn/_assets/media/81ebcd84ba3fdb5ade362608e7bdc716.jpg"
+                src="/images/about/about-image.png"
                 alt="about image"
                 fill
                 className="drop-shadow-three rounded-lg dark:hidden dark:drop-shadow-none"
               />
               <Image
-                src="https://qsee.com.vn/_assets/media/81ebcd84ba3fdb5ade362608e7bdc716.jpg"
+                // src="https://qsee.com.vn/_assets/media/81ebcd84ba3fdb5ade362608e7bdc716.jpg"
+                src="/images/about/about-image.png"
                 alt="about image"
                 fill
                 className="drop-shadow-three hidden rounded-lg dark:block dark:drop-shadow-none"
@@ -62,7 +64,7 @@ const AboutSectionTwo = () => {
                 <h3 className="mb-4 text-xl font-bold text-black sm:text-2xl lg:text-xl xl:text-2xl dark:text-white">
                   Cam kết
                 </h3>
-                <p className="text-body-color dark:text-body-color-dark text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed">
+                <p className="text-body-color dark:text-body-color-dark mb-4 text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed">
                   Sự tận tâm và chỉn chu trong từng dự án của QSEE JSC không chỉ
                   mang lại lợi ích bền vững mà còn đảm bảo sự hài lòng tuyệt đối
                   cho khách hàng. QSEE JSC - Đối tác đáng tin cậy cho mọi công
