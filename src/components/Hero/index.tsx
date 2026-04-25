@@ -36,12 +36,9 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="absolute top-0 right-0 h-full w-full z-[-1] lg:opacity-100">
+        <div className="absolute top-0 right-0 z-[-1] h-full w-full lg:opacity-100">
           <video className="h-full w-full object-cover" autoPlay loop muted>
-            <source
-              src="https://etechsolar.vn/uploads/about/video-3.mp4"
-              type="video/mp4"
-            />
+            <source src="\videos\hero-video.mp4" type="video/mp4" />
           </video>
         </div>
         {/* <div className="absolute bottom-0 left-0 z-[-1] opacity-30 lg:opacity-100">
