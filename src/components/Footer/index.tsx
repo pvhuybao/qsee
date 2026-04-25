@@ -8,27 +8,26 @@ const Footer = () => {
       <footer className="dark:bg-gray-dark relative z-10 bg-white pt-8">
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
-            <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
+            <div className="w-full px-4 md:w-1/2 lg:w-4/12">
               <div className="mb-12 max-w-[360px] lg:mb-16">
-                <Link href="/" className="mb-8 inline-block">
+                <Link href="/" className="mb-1 inline-block">
                   <Image
-                    src="/images/logo/logo-2.svg"
+                    src="/images/qsee-logo.jpg"
                     alt="logo"
-                    className="w-full dark:hidden"
+                    className="h-24 w-24 dark:hidden"
                     width={140}
                     height={30}
                   />
                   <Image
-                    src="/images/logo/logo-2.svg"
+                    src="/images/qsee-logo.jpg"
                     alt="logo"
-                    className="hidden w-full dark:block"
+                    className="hidden h-24 w-24 dark:block"
                     width={140}
                     height={30}
                   />
                 </Link>
-                <p className="text-body-color dark:text-body-color-dark mb-9 text-base leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer lobortis.
+                <p className="text-body-color dark:text-body-color-dark mb-6 text-base leading-relaxed">
+                  35/15A Phan Bội Châu, Phường Bình Thạnh, TP. Hồ Chí Minh.
                 </p>
                 <div className="flex items-center">
                   <a
@@ -109,7 +108,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
+            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12">
               <div className="mb-10">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
                   Useful Links
@@ -143,7 +142,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
+            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12">
               <div className="mb-10">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
                   Terms
@@ -177,7 +176,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
+            <div className="w-full px-4 md:w-1/2 lg:w-4/12">
               <div className="mb-10">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
                   Support & Help
