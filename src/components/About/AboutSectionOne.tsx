@@ -50,18 +50,18 @@ const AboutSectionOne = () => {
             </div>
 
             <div className="w-full px-4 lg:w-1/2">
-              <div className="relative mx-auto aspect-25/24 max-w-[500px]">
+              <div className="relative mx-auto aspect-25/24 max-w-[440px]">
                 <Image
                   src="https://qsee.com.vn/_assets/media/0f3bcefac1e0bf996eb068dfd1119912.jpg"
                   alt="about-image"
                   fill
-                  className="drop-shadow-three mx-auto max-w-full lg:mr-0 dark:hidden dark:drop-shadow-none"
+                  className="drop-shadow-three mx-auto max-w-full rounded-xl lg:mr-0 dark:hidden dark:drop-shadow-none"
                 />
                 <Image
                   src="https://qsee.com.vn/_assets/media/0f3bcefac1e0bf996eb068dfd1119912.jpg"
                   alt="about-image"
                   fill
-                  className="drop-shadow-three mx-auto hidden max-w-full lg:mr-0 dark:block dark:drop-shadow-none"
+                  className="drop-shadow-three mx-auto hidden max-w-full rounded-xl lg:mr-0 dark:block dark:drop-shadow-none"
                 />
               </div>
             </div>

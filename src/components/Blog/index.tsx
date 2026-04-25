@@ -4,7 +4,10 @@ import blogData from "./blogData";
 
 const Blog = () => {
   return (
-    <section id="blog" className="bg-gray-light dark:bg-bg-color-dark py-10">
+    <section
+      id="projects"
+      className="bg-gray-light dark:bg-bg-color-dark py-10"
+    >
       <div className="container">
         <SectionTitle
           title="Dự án tiêu biểu"

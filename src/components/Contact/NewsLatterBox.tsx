@@ -6,14 +6,14 @@ const NewsLatterBox = () => {
   const { theme } = useTheme();
 
   return (
-    <div className="shadow-three dark:bg-gray-dark relative z-10 rounded-xs bg-white p-8 sm:p-11 lg:p-8 xl:p-11">
+    <div className="shadow-three dark:bg-gray-dark relative z-10 rounded-xs bg-white p-8">
       <h3 className="mb-4 text-2xl leading-tight font-bold text-black dark:text-white">
         Địa chỉ & liên hệ
       </h3>
-      <p className="border-body-color/25 text-body-color mb-11 border-b pb-11 text-base leading-relaxed dark:border-white/25">
+      <p className="border-body-color/25 text-body-color mb-7 border-b pb-6 text-base leading-relaxed dark:border-white/25">
         <strong>Trụ sở:</strong> 35/15A Phan Bội Châu, Phường Bình Thạnh, TP. Hồ
         Chí Minh.
-        <br />
+        <div className="h-3"></div>
         <strong>VP đại diện:</strong> 311G31 Đường số 8, Khu phố 1, Phường Bình
         Trưng, TP. Hồ Chí Minh.
         <br />
