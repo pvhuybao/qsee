@@ -20,7 +20,7 @@ const SectionTitle = ({
         <h2 className="mb-4 text-3xl leading-tight! font-bold text-black dark:text-white">
           {title}
         </h2>
-        <p className="text-body-color text-base leading-relaxed! md:text-lg">
+        <p className="text-body-color dark:text-body-color-dark text-base leading-relaxed! md:text-lg">
           {paragraph}
         </p>
       </div>
