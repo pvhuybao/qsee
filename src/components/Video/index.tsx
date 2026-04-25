@@ -16,7 +16,6 @@ export default function Video() {
             title="Giới thiệu công ty"
             paragraph="Các hạng mục lắp đặt điện mặt trời, hệ thống lạnh, kho bãi và tòa nhà cao tầng do QSEE thi công và bảo trì."
             center
-            mb="80px"
           />
         </div>
         <div className="relative overflow-hidden">

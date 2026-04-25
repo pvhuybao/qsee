@@ -5,7 +5,7 @@ import blogData from "./blogData";
 const Blog = () => {
   return (
     <section id="blog" className="bg-gray-light dark:bg-bg-color-dark py-10">
-      <div className="container mb-8">
+      <div className="container">
         <SectionTitle
           title="Dự án tiêu biểu"
           paragraph="Một số công trình cơ - điện - lạnh và năng lượng mặt trời mà QSEE triển khai tại khách sạn, logistics, bất động sản công nghiệp và hộ sử dụng điện kèm lưu trữ (BESS)."

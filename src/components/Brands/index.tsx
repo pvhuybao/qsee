@@ -5,15 +5,14 @@ import SectionTitle from "../Common/SectionTitle";
 
 const Brands = () => {
   return (
-    <section className="pt-16">
-      <div className="container">
-        <div className="-mx-4 flex flex-wrap">
-          <div className="w-full px-4 bg-gray-light dark:bg-gray-dark px-8 py-8">
-            <h3 className="mb-10 text-3xl leading-tight! font-bold text-black dark:text-white text-center">
+    <section>
+      <div>
+        <div className="flex flex-wrap">
+          <div className="bg-gray-light dark:bg-gray-dark w-full px-8 py-8">
+            <h3 className="mb-10 text-center text-3xl leading-tight! font-bold text-black dark:text-white">
               Các đối tác của QSEE
             </h3>
             <div className="flex flex-wrap items-center justify-center rounded-xs">
-
               {brandsData.map((brand) => (
                 <SingleBrand key={brand.id} brand={brand} />
               ))}

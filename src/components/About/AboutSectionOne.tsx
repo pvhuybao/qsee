@@ -9,7 +9,7 @@ const checkIcon = (
 
 const AboutSectionOne = () => {
   const List = ({ text }) => (
-    <p className="text-body-color mb-5 flex items-center text-lg font-medium">
+    <p className="text-body-color dark:text-body-color-dark mb-5 flex items-center text-lg font-medium">
       <span className="bg-primary/10 text-primary mr-4 flex h-[30px] w-[30px] items-center justify-center rounded-md">
         {checkIcon}
       </span>
@@ -20,7 +20,7 @@ const AboutSectionOne = () => {
   return (
     <section id="about" className="pt-10">
       <div className="container">
-        <div className="border-b border-body-color/[.15] pb-10 dark:border-white/[.15]">
+        <div className="border-body-color/[.15] border-b pb-10 dark:border-white/[.15]">
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
@@ -55,13 +55,13 @@ const AboutSectionOne = () => {
                   src="https://qsee.com.vn/_assets/media/0f3bcefac1e0bf996eb068dfd1119912.jpg"
                   alt="about-image"
                   fill
-                  className="mx-auto max-w-full drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
+                  className="drop-shadow-three mx-auto max-w-full lg:mr-0 dark:hidden dark:drop-shadow-none"
                 />
                 <Image
                   src="https://qsee.com.vn/_assets/media/0f3bcefac1e0bf996eb068dfd1119912.jpg"
                   alt="about-image"
                   fill
-                  className="mx-auto hidden max-w-full drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
+                  className="drop-shadow-three mx-auto hidden max-w-full lg:mr-0 dark:block dark:drop-shadow-none"
                 />
               </div>
             </div>
