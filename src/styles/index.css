@@ -138,3 +138,28 @@ layer(base);
 /* html {
   scroll-behavior: smooth;
 } */
+
+@layer components {
+  .reveal-stagger .reveal-item {
+    @apply will-change-transform;
+    opacity: 0;
+    transform: translate3d(0, 1.5rem, 0);
+    transition:
+      opacity 0.6s ease-out,
+      transform 0.6s ease-out;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .reveal-stagger .reveal-item {
+      @apply will-change-auto;
+      opacity: 1;
+      transform: none;
+      transition: none;
+    }
+  }
+
+  .reveal-stagger.reveal-stagger-active .reveal-item {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
