@@ -3,7 +3,16 @@ import Image from "next/image";
 import Link from "next/link";
 
 const SingleBlog = ({ blog }: { blog: Blog }) => {
-  const { title, image, paragraph, company, author, tags, publishDate } = blog;
+  const {
+    title,
+    thumbnail,
+    images,
+    paragraph,
+    company,
+    author,
+    tags,
+    publishDate,
+  } = blog;
   return (
     <>
       <div className="group shadow-one hover:shadow-two dark:bg-dark dark:hover:shadow-gray-dark relative h-full overflow-hidden rounded-xs bg-white duration-300">
@@ -14,7 +23,7 @@ const SingleBlog = ({ blog }: { blog: Blog }) => {
           {/* <span className="bg-primary absolute top-6 right-6 z-20 inline-flex items-center justify-center rounded-full px-4 py-2 text-sm font-semibold text-white capitalize">
             {tags[0]}
           </span> */}
-          <Image src={image} alt="image" fill className="object-cover" />
+          <Image src={thumbnail} alt="image" fill className="object-cover" />
         </Link>
 
         <div className="p-6">

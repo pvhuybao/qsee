@@ -24,13 +24,13 @@ type BlogSidebarPageProps = {
 
 const BlogSidebarPage = async ({ params }: BlogSidebarPageProps) => {
   const { id } = await params;
-  const blogId = Number(id);
+
   const allBlogs = [
     ...solarCompanyData,
     ...solarFamilyData,
     ...solarFeaturedData,
   ];
-  const blog = allBlogs.find((item) => item.id === blogId);
+  const blog = allBlogs.find((item) => item.id === id);
 
   if (!blog) {
     notFound();
@@ -40,17 +40,17 @@ const BlogSidebarPage = async ({ params }: BlogSidebarPageProps) => {
 
   return (
     <>
-      <section className="bg-gray-light dark:bg-bg-color-dark overflow-hidden pt-[80px] pb-[40px] md:pt-[130px]">
+      <section className="dark:bg-bg-color-dark overflow-hidden bg-[#f4f6ff] pt-[80px] pb-[40px] md:pt-[130px]">
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 lg:w-8/12">
               <div>
-                <h1 className="mb-4 text-3xl leading-tight font-bold text-black sm:leading-tight dark:text-white">
+                <h1 className="text-body-color dark:text-body-color-dark mb-4 text-3xl leading-tight font-bold sm:leading-tight">
                   {blog.title}
                 </h1>
 
                 <div>
-                  <p className="text-body-color dark:text-body-color-dark mb-2 text-2xl leading-relaxed font-bold sm:leading-relaxed lg:leading-relaxed xl:leading-relaxed">
+                  <p className="mb-2 text-2xl leading-relaxed font-bold text-black sm:leading-relaxed lg:leading-relaxed xl:leading-relaxed dark:text-white">
                     {blog.company ?? ""}
                   </p>
                   <p className="text-body-color dark:text-body-color-dark mb-3 text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed lg:leading-relaxed xl:text-lg xl:leading-relaxed">
@@ -58,30 +58,16 @@ const BlogSidebarPage = async ({ params }: BlogSidebarPageProps) => {
                   </p>
                   <div className="h-4"></div>
                   <div className="mb-6 flex w-full flex-col gap-8 overflow-hidden rounded-sm">
-                    <div className="relative aspect-97/60 w-full sm:aspect-97/44">
-                      <Image
-                        src={blog.image}
-                        alt="image"
-                        fill
-                        className="h-full w-full object-cover object-center"
-                      />
-                    </div>
-                    <div className="relative aspect-97/60 w-full sm:aspect-97/44">
-                      <Image
-                        src="https://qsee.com.vn/_assets/media/80eca2f5f1a587452dfa8e58b84f9410.png"
-                        alt="image"
-                        fill
-                        className="h-full w-full object-cover object-center"
-                      />
-                    </div>
-                    <div className="relative aspect-97/60 w-full sm:aspect-97/44">
-                      <Image
-                        src="https://qsee.com.vn/_assets/media/3986815d87a151f6c0eaffb3dfbeb009.png"
-                        alt="image"
-                        fill
-                        className="h-full w-full object-cover object-center"
-                      />
-                    </div>
+                    {blog.images?.map((image) => (
+                      <div className="relative aspect-97/60 w-full sm:aspect-97/44">
+                        <Image
+                          src={image}
+                          alt="image"
+                          fill
+                          className="h-full w-full object-cover object-center"
+                        />
+                      </div>
+                    ))}
                   </div>
 
                   <div className="items-center justify-between sm:flex">
