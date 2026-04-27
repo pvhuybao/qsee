@@ -50,7 +50,7 @@ const AboutSectionTwo = () => {
                 <h3 className="mb-4 text-xl font-bold text-black sm:text-2xl lg:text-xl xl:text-2xl dark:text-white">
                   Tiêu chí hoạt động
                 </h3>
-                <p className="text-body-color dark:text-body-color-dark text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed">
+                <div className="text-body-color dark:text-body-color-dark text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed">
                   Chúng tôi hoạt động dựa trên tiêu chí:
                   <ul className="ml-8 list-disc">
                     <li>Giải pháp đầu tư tiết kiệm</li>
@@ -59,7 +59,7 @@ const AboutSectionTwo = () => {
                     <li>An toàn</li>
                     <li>Bảo hành - bảo trì dài hạn</li>
                   </ul>
-                </p>
+                </div>
               </div>
               <div className="mb-1">
                 <h3 className="mb-4 text-xl font-bold text-black sm:text-2xl lg:text-xl xl:text-2xl dark:text-white">

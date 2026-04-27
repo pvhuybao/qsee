@@ -10,14 +10,13 @@ const NewsLatterBox = () => {
       <h3 className="mb-4 text-2xl leading-tight font-bold text-black dark:text-white">
         Địa chỉ & liên hệ
       </h3>
-      <p className="border-body-color/25 text-body-color mb-7 border-b pb-6 text-base leading-relaxed dark:border-white/25">
+      <div className="border-body-color/25 text-body-color mb-7 border-b pb-6 text-base leading-relaxed dark:border-white/25">
         <strong>Trụ sở:</strong> 35/15A Phan Bội Châu, Phường Bình Thạnh, TP. Hồ
         Chí Minh.
         <div className="h-3"></div>
-        <strong>VP đại diện:</strong> 311G31 Đường số 8, Khu phố 1, Phường Bình
-        Trưng, TP. Hồ Chí Minh.
-        <br />
-        Hotline, email theo công bố tại trang {` `}
+        <strong className="mt-3">VP đại diện:</strong> 311G31 Đường số 8, Khu
+        phố 1, Phường Bình Trưng, TP. Hồ Chí Minh. Hotline, email theo công bố
+        tại trang {` `}
         <a
           className="text-primary hover:underline"
           href="https://qsee.com.vn/"
@@ -27,7 +26,7 @@ const NewsLatterBox = () => {
           qsee.com.vn
         </a>
         .
-      </p>
+      </div>
       <div>
         <input
           type="text"
@@ -47,8 +46,7 @@ const NewsLatterBox = () => {
           className="bg-primary shadow-submit hover:bg-primary/90 dark:shadow-submit-dark mb-5 flex w-full cursor-pointer items-center justify-center rounded-xs px-9 py-4 text-base font-medium text-white duration-300"
         />
         <p className="text-body-color dark:text-body-color-dark text-center text-base leading-relaxed">
-          Bạn sẽ nhận cập nhật về công nghệ NLMT và ưu đãi từ QSEE khi cần mở
-          rộng công trình.
+          Bạn sẽ nhận cập nhật về công nghệ NLMT và ưu đãi từ QSEE
         </p>
       </div>
 
