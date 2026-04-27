@@ -1,6 +1,6 @@
 import { Blog } from "@/types/blog";
 
-const solarForCompanyData: Blog[] = [
+const solarCompanyData: Blog[] = [
   {
     id: 1,
     title: "Hệ Thống Điện Mặt Trời Áp Mái Green I-Park Công Suất 100 kWp",
@@ -50,14 +50,14 @@ const solarForCompanyData: Blog[] = [
   },
 ];
 
-const solarForCompanyData12121: Blog[] = [
+const solarFamilyData: Blog[] = [
   {
-    id: 1,
-    title: "Hệ Thống Điện Mặt Trời Áp Mái Green I-Park Công Suất 100 kWp",
+    id: 11,
+    title: "Hệ Thống Điện Mặt Trời Áp Mái Nhà Vườn Thư giãn - Nhà Bè.",
     paragraph:
-      "Dự án M&E: InterContinental Saigon (Kumho Asiana Plaza), 39 Lê Duẩn, Bến Nghé, Quận 1, TP. Hồ Chí Minh.",
+      "Chủ Vườn Thư GIãn - Nhà bè, Công suất 11.9kWp - 3 pha và lưu trữ 14.3 kWh",
     image:
-      "https://qsee.com.vn/_assets/media/22adf7026bd45d6c832f8c477737732c.jpg",
+      "https://qsee.com.vn/_assets/media/a99fa05adf7f42a34a5d126bd5ff8597.png",
     author: {
       name: "QSEE",
       image: "/images/blog/author-01.png",
@@ -66,12 +66,11 @@ const solarForCompanyData12121: Blog[] = [
     publishDate: "2024",
   },
   {
-    id: 2,
-    title: "Bảo trì kho lạnh và hệ thống ĐHKK trung tâm",
-    paragraph:
-      "Công ty TNHH DKSH Việt Nam — Số 23 Đại Lộ Độc Lập, KCN VSIP.1, TX. Thuận An, Bình Dương.",
+    id: 12,
+    title: "Hệ Thống Điện Mặt Trời Áp Hộ gia đình - Vũng Tàu.",
+    paragraph: "Công suất 14.28 kWp - 3 pha, kèm hệ BESS lưu trữ 10.24 kWh",
     image:
-      "https://qsee.com.vn/_assets/media/084713f840681ed9e40a038a51b3c2eb.jpg",
+      "https://qsee.com.vn/_assets/media/3ee6911bee044d4843727c918db4419d.png",
     author: {
       name: "QSEE",
       image: "/images/blog/author-02.png",
@@ -80,12 +79,12 @@ const solarForCompanyData12121: Blog[] = [
     publishDate: "2024",
   },
   {
-    id: 3,
-    title: "Hệ thống chữa cháy tự động và cải tạo điện kho",
-    paragraph:
-      "Kerry Integrated Logistics (Việt Nam) — Số 20 Đại Lộ Thống Nhất, KCN Sóng Thần 2, Dĩ An, Bình Dương.",
+    id: 13,
+    title:
+      "Hệ Thống Điện Mặt Trời Áp Hộ gia đình - Huỳnh Tịnh Của, Hồ Chí Minh.",
+    paragraph: "Công suất 4.96 kWp - 1 pha, kèm hệ BESS lưu trữ 5.12 kWh",
     image:
-      "https://qsee.com.vn/_assets/media/e3bc08eb68b3f19fc40e72d576395213.jpg",
+      "https://qsee.com.vn/_assets/media/cba0e6e2a2a1c0490310e0398c2af603.png",
     author: {
       name: "QSEE",
       image: "/images/blog/author-03.png",
@@ -181,4 +180,4 @@ const blogData: Blog[] = [
   //   publishDate: "2022",
   // },
 ];
-export { blogData, solarForCompanyData };
+export { blogData, solarCompanyData, solarFamilyData };

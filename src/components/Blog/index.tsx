@@ -1,22 +1,35 @@
 import SectionTitle from "../Common/SectionTitle";
 import SingleBlog from "./SingleBlog";
-import { solarForCompanyData } from "../../data/blogData";
+import { solarCompanyData, solarFamilyData } from "../../data/blogData";
 
-const Blog = ({ type }: { type?: "company" | "business" | string }) => {
+const Blog = ({
+  type,
+  noBgColor,
+}: {
+  type?: "company" | "business" | string;
+  noBgColor?: boolean;
+}) => {
   let title = "Dự án Solar";
+  let solarData = [];
 
-  if (type == "company") {
-    title = "Dự án Solar Công Nghiệp";
-  }
-
-  if (type == "business") {
-    title = "Dự án cho doanh nghiệp";
+  switch (type) {
+    case "company":
+      title = "Dự án Solar Công Nghiệp";
+      solarData = solarCompanyData;
+      break;
+    case "family":
+      title = "Dự án Solar Hộ gia đình";
+      solarData = solarFamilyData;
+      break;
+    case "business":
+      title = "Dự án cho doanh nghiệp";
+      break;
   }
 
   return (
     <section
       id="projects"
-      className="bg-gray-light dark:bg-bg-color-dark py-10"
+      className={`${noBgColor ? "" : "bg-gray-light dark:bg-bg-color-dark"} py-10`}
     >
       <div className="container">
         <SectionTitle
@@ -26,7 +39,7 @@ const Blog = ({ type }: { type?: "company" | "business" | string }) => {
         />
 
         <div className="grid grid-cols-1 gap-x-4 gap-y-10 md:grid-cols-2 xl:grid-cols-3">
-          {solarForCompanyData.map((blog) => (
+          {solarData.map((blog) => (
             <div key={blog.id} className="w-full">
               <SingleBlog blog={blog} />
             </div>

@@ -25,8 +25,8 @@ export default function Home() {
       <AboutSectionTwo />
       <Features />
       <Blog type="company" />
-      <Blog type="business" />
-      <Blog />
+      <Blog type="family" />
+      {/* <Blog /> */}
       <Video />
       <Brands />
       <AboutSectionOne />

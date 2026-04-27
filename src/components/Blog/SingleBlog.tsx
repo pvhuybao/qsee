@@ -6,7 +6,7 @@ const SingleBlog = ({ blog }: { blog: Blog }) => {
   const { title, image, paragraph, company, author, tags, publishDate } = blog;
   return (
     <>
-      <div className="group shadow-one hover:shadow-two dark:bg-dark dark:hover:shadow-gray-dark relative overflow-hidden rounded-xs bg-white duration-300">
+      <div className="group shadow-one hover:shadow-two dark:bg-dark dark:hover:shadow-gray-dark relative h-full overflow-hidden rounded-xs bg-white duration-300">
         <Link
           href="/blog-details"
           className="relative block aspect-37/22 w-full"
@@ -14,10 +14,10 @@ const SingleBlog = ({ blog }: { blog: Blog }) => {
           {/* <span className="bg-primary absolute top-6 right-6 z-20 inline-flex items-center justify-center rounded-full px-4 py-2 text-sm font-semibold text-white capitalize">
             {tags[0]}
           </span> */}
-          <Image src={image} alt="image" fill />
+          <Image src={image} alt="image" fill className="object-cover" />
         </Link>
 
-        <div className="p-6 sm:p-8 md:px-6 md:py-8 lg:p-8 xl:px-5 xl:py-8 2xl:p-8">
+        <div className="p-6">
           <h3>
             <Link
               href="/blog-details"
