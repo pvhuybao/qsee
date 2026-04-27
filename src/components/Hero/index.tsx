@@ -26,7 +26,7 @@ const Hero = () => {
                     Liên hệ
                   </Link>
                   <Link
-                    href="#blog"
+                    href="#projects"
                     className="inline-block rounded-xs bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:text-white"
                   >
                     Dự án tiêu biểu

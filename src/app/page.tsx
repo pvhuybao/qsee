@@ -25,6 +25,7 @@ export default function Home() {
       <AboutSectionTwo />
       <Features />
       <Blog />
+      <Blog />
       <Video />
       <Brands />
       <AboutSectionOne />

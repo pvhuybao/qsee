@@ -55,7 +55,8 @@ const AboutSectionTwo = () => {
                   <ul className="ml-8 list-disc">
                     <li>Giải pháp đầu tư tiết kiệm</li>
                     <li>Sản phẩm chất lượng</li>
-                    <li>Thi công chuyên nghiệp, an toàn</li>
+                    <li>Thi công chuyên nghiệp</li>
+                    <li>An toàn</li>
                     <li>Bảo hành - bảo trì dài hạn</li>
                   </ul>
                 </p>
@@ -68,7 +69,7 @@ const AboutSectionTwo = () => {
                   Sự tận tâm và chỉn chu trong từng dự án của QSEE JSC không chỉ
                   mang lại lợi ích bền vững mà còn đảm bảo sự hài lòng tuyệt đối
                   cho khách hàng. QSEE JSC - Đối tác đáng tin cậy cho mọi công
-                  trình.
+                  trình!
                 </p>
               </div>
             </div>
