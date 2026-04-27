@@ -8,7 +8,7 @@ const Testimonials = () => {
       <div className="container">
         <SectionTitle
           title="Phản hồi từ khách hàng"
-          paragraph="Ghi nhận từ các dự án cơ - điện - lạnh và năng lượng mặt trời mà QSEE trực tiếp triển khai, vận hành hoặc bảo trì dài hạn."
+          paragraph="Ghi nhận từ các dự án năng lượng mặt trời mà QSEE trực tiếp triển khai, vận hành hoặc bảo trì dài hạn."
           center
         />
 
