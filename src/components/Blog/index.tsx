@@ -2,7 +2,17 @@ import SectionTitle from "../Common/SectionTitle";
 import SingleBlog from "./SingleBlog";
 import { solarForCompanyData } from "../../data/blogData";
 
-const Blog = () => {
+const Blog = ({ type }: { type?: "company" | "business" | string }) => {
+  let title = 'Dự án Solar';
+
+  if (type == 'company') {
+    title = 'Dự án Solar Công Nghiệp'
+  }
+
+  if (type == 'business') {
+    title = 'Dự án cho doanh nghiệp'
+  }
+
   return (
     <section
       id="projects"
@@ -10,7 +20,7 @@ const Blog = () => {
     >
       <div className="container">
         <SectionTitle
-          title="Dự Án Solar Công Nghiệp"
+          title={title}
           paragraph="Một số công trình cơ - điện - lạnh và năng lượng mặt trời mà QSEE triển khai tại khách sạn, logistics, bất động sản công nghiệp và hộ sử dụng điện kèm lưu trữ (BESS)."
           center
         />

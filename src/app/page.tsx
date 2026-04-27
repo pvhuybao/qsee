@@ -24,7 +24,8 @@ export default function Home() {
       <Hero />
       <AboutSectionTwo />
       <Features />
-      <Blog />
+      <Blog type="company" />
+      <Blog type="business" />
       <Blog />
       <Video />
       <Brands />
