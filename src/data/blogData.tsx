@@ -4,6 +4,56 @@ const solarForCompanyData: Blog[] = [
   {
     id: 1,
     title: "Hệ Thống Điện Mặt Trời Áp Mái Green I-Park Công Suất 100 kWp",
+    company: "Công Ty Cổ Phần Green I-Park",
+    paragraph:
+      "Địa Chỉ: Khu Công Nghiệp Liên Hà Thái (GreeniP-1), Huyện Thái Thuỵ, Tỉnh Thái Bình, Việt Nam",
+    image:
+      "https://qsee.com.vn/_assets/media/bec7b256620829d310a9086af8b15c5c.png",
+    author: {
+      name: "QSEE",
+      image: "/images/blog/author-01.png",
+      designation: "Dự án M&E",
+    },
+    publishDate: "2024",
+  },
+  {
+    id: 2,
+    title:
+      "Hệ Thống Điện Mặt Trời Áp Mái Nhà Máy Lê Phan Gia Công Suất 1336 kWp",
+    company: "Công Ty TNHH Sản Xuất Lê Phan Gia",
+    paragraph:
+      "Địa Chỉ: Lô E15 & E16, Đường N4 & D1, Khu Công Nghiệp Nam Tân Uyên Mở Rộng, Phường Hội Nghĩa, Thị Xã Tân Uyên, Tỉnh Bình Dương, Việt Nam",
+    image:
+      "https://qsee.com.vn/_assets/media/d330d7bef83a6bcf7c2e01a1ccb25fd6.png",
+    author: {
+      name: "QSEE",
+      image: "/images/blog/author-02.png",
+      designation: "Bảo dưỡng công nghiệp",
+    },
+    publishDate: "2024",
+  },
+  {
+    id: 3,
+    title:
+      "Hệ Thống Điện Mặt Trời Áp Mái Nhà Máy Sợi Long Vân Công Suất 2700 kWp",
+    company: "Công Ty TNHH Sợi Long Vân",
+    paragraph:
+      "Địa chỉ: Khu Công Nghiệp Châu Sơn, Phường Châu Sơn, Thành Phố Phủ Lý, Tỉnh Hà Nam, Việt Nam",
+    image:
+      "https://qsee.com.vn/_assets/media/72686ce904e298fd7085c3b1a496a786.png",
+    author: {
+      name: "QSEE",
+      image: "/images/blog/author-03.png",
+      designation: "Cơ - điện logistics",
+    },
+    publishDate: "2023",
+  },
+];
+
+const solarForCompanyData12121: Blog[] = [
+  {
+    id: 1,
+    title: "Hệ Thống Điện Mặt Trời Áp Mái Green I-Park Công Suất 100 kWp",
     paragraph:
       "Dự án M&E: InterContinental Saigon (Kumho Asiana Plaza), 39 Lê Duẩn, Bến Nghé, Quận 1, TP. Hồ Chí Minh.",
     image:

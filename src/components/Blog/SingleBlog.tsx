@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const SingleBlog = ({ blog }: { blog: Blog }) => {
-  const { title, image, paragraph, author, tags, publishDate } = blog;
+  const { title, image, paragraph, company, author, tags, publishDate } = blog;
   return (
     <>
       <div className="group shadow-one hover:shadow-two dark:bg-dark dark:hover:shadow-gray-dark relative overflow-hidden rounded-xs bg-white duration-300">
@@ -21,11 +21,14 @@ const SingleBlog = ({ blog }: { blog: Blog }) => {
           <h3>
             <Link
               href="/blog-details"
-              className="hover:text-primary dark:hover:text-primary mb-3 block text-xl font-bold text-black sm:text-2xl dark:text-white"
+              className="hover:text-primary dark:hover:text-primary text-body-color dark:text-body-color-dark mb-3 block text-xl font-bold"
             >
               {title}
             </Link>
           </h3>
+          <h4 className="text-md mb-3 font-bold text-black dark:text-white">
+            {company}
+          </h4>
           <p className="border-body-color/10 text-body-color dark:text-body-color-dark border-t pt-3 text-base font-medium dark:border-white/10">
             {paragraph}
           </p>

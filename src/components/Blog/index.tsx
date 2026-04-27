@@ -3,14 +3,14 @@ import SingleBlog from "./SingleBlog";
 import { solarForCompanyData } from "../../data/blogData";
 
 const Blog = ({ type }: { type?: "company" | "business" | string }) => {
-  let title = 'Dự án Solar';
+  let title = "Dự án Solar";
 
-  if (type == 'company') {
-    title = 'Dự án Solar Công Nghiệp'
+  if (type == "company") {
+    title = "Dự án Solar Công Nghiệp";
   }
 
-  if (type == 'business') {
-    title = 'Dự án cho doanh nghiệp'
+  if (type == "business") {
+    title = "Dự án cho doanh nghiệp";
   }
 
   return (
@@ -25,7 +25,7 @@ const Blog = ({ type }: { type?: "company" | "business" | string }) => {
           center
         />
 
-        <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 md:gap-x-6 lg:gap-x-8 xl:grid-cols-3">
+        <div className="grid grid-cols-1 gap-x-4 gap-y-10 md:grid-cols-2 xl:grid-cols-3">
           {solarForCompanyData.map((blog) => (
             <div key={blog.id} className="w-full">
               <SingleBlog blog={blog} />
