@@ -51,7 +51,7 @@ const menuData: Menu[] = [
   //     {
   //       id: 44,
   //       title: "Blog Sidebar Page",
-  //       path: "/blog-sidebar",
+  //       path: "/projects",
   //       newTab: false,
   //     },
   //     {

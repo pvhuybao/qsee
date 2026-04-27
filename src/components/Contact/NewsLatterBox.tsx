@@ -10,7 +10,7 @@ const NewsLatterBox = () => {
       <h3 className="mb-4 text-2xl leading-tight font-bold text-black dark:text-white">
         Địa chỉ & liên hệ
       </h3>
-      <div className="border-body-color/25 text-body-color mb-7 border-b pb-6 text-base leading-relaxed dark:border-white/25">
+      <div className="border-body-color/25 text-body-color dark:text-body-color-dark mb-7 border-b pb-6 text-base leading-relaxed dark:border-white/25">
         <strong>Trụ sở:</strong> 35/15A Phan Bội Châu, Phường Bình Thạnh, TP. Hồ
         Chí Minh.
         <div className="h-3"></div>
