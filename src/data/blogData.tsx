@@ -12,6 +12,7 @@ const solarCompanyData: Blog[] = [
     images: [
       "https://qsee.com.vn/_assets/media/bec7b256620829d310a9086af8b15c5c.png",
     ],
+    capacity: 100,
     author: {
       name: "QSEE",
       image: "/images/blog/author-01.png",
@@ -31,6 +32,7 @@ const solarCompanyData: Blog[] = [
     images: [
       "https://qsee.com.vn/_assets/media/d330d7bef83a6bcf7c2e01a1ccb25fd6.png",
     ],
+    capacity: 1336,
     author: {
       name: "QSEE",
       image: "/images/blog/author-02.png",
@@ -50,6 +52,7 @@ const solarCompanyData: Blog[] = [
     images: [
       "https://qsee.com.vn/_assets/media/72686ce904e298fd7085c3b1a496a786.png",
     ],
+    capacity: 2700,
     author: {
       name: "QSEE",
       image: "/images/blog/author-03.png",
@@ -70,6 +73,7 @@ const solarFamilyData: Blog[] = [
     images: [
       "https://qsee.com.vn/_assets/media/a99fa05adf7f42a34a5d126bd5ff8597.png",
     ],
+    capacity: 11.9,
     author: {
       name: "QSEE",
       image: "/images/blog/author-01.png",
@@ -86,6 +90,7 @@ const solarFamilyData: Blog[] = [
     images: [
       "https://qsee.com.vn/_assets/media/3ee6911bee044d4843727c918db4419d.png",
     ],
+    capacity: 14.28,
     author: {
       name: "QSEE",
       image: "/images/blog/author-02.png",
@@ -103,6 +108,7 @@ const solarFamilyData: Blog[] = [
     images: [
       "https://qsee.com.vn/_assets/media/cba0e6e2a2a1c0490310e0398c2af603.png",
     ],
+    capacity: 4.96,
     author: {
       name: "QSEE",
       image: "/images/blog/author-03.png",
@@ -125,6 +131,7 @@ const solarFeaturedData: Blog[] = [
       "https://qsee.com.vn/_assets/media/87e1fad419b140da8c372f9a0a41d786.png",
       "https://qsee.com.vn/_assets/media/e0fb33815040c321c8a7716e48c3e64e.png",
     ],
+    capacity: 2137.59,
     author: {
       name: "QSEE",
       image: "/images/blog/author-01.png",
@@ -144,6 +151,7 @@ const solarFeaturedData: Blog[] = [
       "https://qsee.com.vn/_assets/media/c87eab6c20f3c17cd79f4cbfdabff75c.png",
       "https://qsee.com.vn/_assets/media/2b3fdb952cdf924082989ce322167b5d.png",
     ],
+    capacity: 1557.36,
     author: {
       name: "QSEE",
       image: "/images/blog/author-02.png",
@@ -163,6 +171,7 @@ const solarFeaturedData: Blog[] = [
       "https://qsee.com.vn/_assets/media/3986815d87a151f6c0eaffb3dfbeb009.png",
       "https://qsee.com.vn/_assets/media/80eca2f5f1a587452dfa8e58b84f9410.png",
     ],
+    capacity: 1557.36,
     author: {
       name: "QSEE",
       image: "/images/blog/author-03.png",

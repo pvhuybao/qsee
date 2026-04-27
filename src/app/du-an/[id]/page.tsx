@@ -85,25 +85,33 @@ const BlogSidebarPage = async ({ params }: BlogSidebarPageProps) => {
             </div>
             <div className="w-full px-4 lg:w-4/12">
               <div className="shadow-three dark:bg-gray-dark mb-10 rounded-xs bg-white dark:shadow-none">
-                <h3 className="border-body-color/10 border-b px-8 py-4 text-lg font-semibold text-black dark:border-white/10 dark:text-white">
+                <h3 className="border-body-color/10 border-b px-8 py-4 text-xl font-bold text-black dark:border-white/10 dark:text-white">
                   Thông tin chi tiết
                 </h3>
                 <ul className="px-8 py-6">
                   {blog.company && (
                     <li className="mb-6">
-                      <div className="mb-2 font-bold">Roof Owner:</div>
+                      <div className="mb-2 font-bold">Chủ sở hữu:</div>
                       <div>{blog.company}</div>
                     </li>
                   )}
                   <li className="mb-6">
-                    <div className="mb-2 font-bold">Capacity:</div>
-                    <div>1949.2 KW</div>
+                    <div className="mb-2 font-bold">Công suất:</div>
+                    <div>{blog.capacity} KW</div>
                   </li>
                   <li>
-                    <div className="mb-2 font-bold">Benefit:</div>
-                    <div className="mb-1">1,849.8 MWh/Year</div>
-                    <div className="mb-1">154.15 MWh/Month</div>
-                    <div>5.1 MWh/Day</div>
+                    <div className="mb-2 font-bold">Lợi ích:</div>
+                    <div className="mb-1">
+                      {(((blog.capacity * 2.6) / 1000) * 365).toFixed(2)}{" "}
+                      MWh/Năm
+                    </div>
+                    <div className="mb-1">
+                      {(((blog.capacity * 2.6) / 1000) * 30).toFixed(2)}{" "}
+                      MWh/Tháng
+                    </div>
+                    <div>
+                      {((blog.capacity * 2.6) / 1000).toFixed(2)} MWh/Ngày
+                    </div>
                   </li>
                 </ul>
               </div>
