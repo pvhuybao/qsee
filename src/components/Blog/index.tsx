@@ -1,6 +1,10 @@
 import SectionTitle from "../Common/SectionTitle";
 import SingleBlog from "./SingleBlog";
-import { solarCompanyData, solarFamilyData } from "../../data/blogData";
+import {
+  solarCompanyData,
+  solarFamilyData,
+  solarFeaturedData,
+} from "../../data/blogData";
 
 const Blog = ({
   type,
@@ -17,24 +21,25 @@ const Blog = ({
       title = "Dự án Solar Công Nghiệp";
       solarData = solarCompanyData;
       break;
+    case "fetured":
+      title = "Dự án tiêu biểu";
+      solarData = solarFeaturedData;
+      break;
     case "family":
       title = "Dự án Solar Hộ gia đình";
       solarData = solarFamilyData;
-      break;
-    case "business":
-      title = "Dự án cho doanh nghiệp";
       break;
   }
 
   return (
     <section
-      id="projects"
+      id={type}
       className={`${noBgColor ? "" : "bg-gray-light dark:bg-bg-color-dark"} py-10`}
     >
       <div className="container">
         <SectionTitle
           title={title}
-          paragraph="Một số công trình cơ - điện - lạnh và năng lượng mặt trời mà QSEE triển khai tại khách sạn, logistics, bất động sản công nghiệp và hộ sử dụng điện kèm lưu trữ (BESS)."
+          paragraph="Một số công trình năng lượng mặt trời tiêu biểu mà QSEE đã triển khai cho khách hàng"
           center
         />
 

@@ -1,6 +1,10 @@
 import SharePost from "@/components/Blog/SharePost";
 import NewsLatterBox from "@/components/Contact/NewsLatterBox";
-import { solarCompanyData, solarFamilyData } from "@/data/blogData";
+import {
+  solarCompanyData,
+  solarFamilyData,
+  solarFeaturedData,
+} from "@/data/blogData";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 
@@ -21,7 +25,11 @@ type BlogSidebarPageProps = {
 const BlogSidebarPage = async ({ params }: BlogSidebarPageProps) => {
   const { id } = await params;
   const blogId = Number(id);
-  const allBlogs = [...solarCompanyData, ...solarFamilyData];
+  const allBlogs = [
+    ...solarCompanyData,
+    ...solarFamilyData,
+    ...solarFeaturedData,
+  ];
   const blog = allBlogs.find((item) => item.id === blogId);
 
   if (!blog) {
@@ -49,7 +57,7 @@ const BlogSidebarPage = async ({ params }: BlogSidebarPageProps) => {
                     • Địa Chỉ: {normalizedAddress}
                   </p>
                   <div className="h-4"></div>
-                  <div className="mb-10 flex w-full flex-col gap-8 overflow-hidden rounded-sm">
+                  <div className="mb-6 flex w-full flex-col gap-8 overflow-hidden rounded-sm">
                     <div className="relative aspect-97/60 w-full sm:aspect-97/44">
                       <Image
                         src={blog.image}
@@ -95,10 +103,12 @@ const BlogSidebarPage = async ({ params }: BlogSidebarPageProps) => {
                   Thông tin chi tiết
                 </h3>
                 <ul className="px-8 py-6">
-                  <li className="mb-6">
-                    <div className="mb-2 font-bold">Roof Owner:</div>
-                    <div>CJ VINA AGRI CO., LTD - HA NAM BRANCH</div>
-                  </li>
+                  {blog.company && (
+                    <li className="mb-6">
+                      <div className="mb-2 font-bold">Roof Owner:</div>
+                      <div>{blog.company}</div>
+                    </li>
+                  )}
                   <li className="mb-6">
                     <div className="mb-2 font-bold">Capacity:</div>
                     <div>1949.2 KW</div>

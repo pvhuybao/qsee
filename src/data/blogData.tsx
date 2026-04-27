@@ -94,6 +94,54 @@ const solarFamilyData: Blog[] = [
   },
 ];
 
+const solarFeaturedData: Blog[] = [
+  {
+    id: 31,
+    title: "Hệ Thống Điện Mặt Trời Áp Mái Global Running 2,137.59 kWp",
+    company: "CÔNG TY TNHH GLOBAL RUNNING",
+    paragraph:
+      "Địa Chỉ: Cụm Công nghiệp Gia Thuận 1, Xã Gia Thuận, Huyện Gò Công Đông, Tỉnh Tiền Giang, Việt Nam.",
+    image:
+      "https://qsee.com.vn/_assets/media/25ecffbe410de7d5a26f6b0fcbcf3183.png",
+    author: {
+      name: "QSEE",
+      image: "/images/blog/author-01.png",
+      designation: "Dự án M&E",
+    },
+    publishDate: "2024",
+  },
+  {
+    id: 32,
+    title: "Lắp đặt Hệ thống điện mặt trời áp mái TTE Lubricant",
+    company: "CHI NHÁNH CÔNG TY TNHH TOTALENERGIES LPG VIỆT NAM TẠI ĐỒNG NAI",
+    paragraph:
+      "Địa Chỉ: KCN Gò Dầu, Xã Phước Thái, Huyện Long Thành, tỉnh Đồng Nai",
+    image:
+      "https://qsee.com.vn/_assets/media/2b3fdb952cdf924082989ce322167b5d.png",
+    author: {
+      name: "QSEE",
+      image: "/images/blog/author-02.png",
+      designation: "Bảo dưỡng công nghiệp",
+    },
+    publishDate: "2024",
+  },
+  {
+    id: 33,
+    title: "Lắp đặt Hệ thống điện mặt trời áp mái Nhà Máy Nhựa -  1,557.36 kWp",
+    company: "CÔNG TY CP SẢN XUẤT VÀ CÔNG NGHỆ NHỰA PHA LÊ",
+    paragraph:
+      "Địa Chỉ: Lô Đất CN4.3 KCN MP Đình Vũ, Khu Kinh tế Đình Vũ-Cát Hải - Phường Đông Hải 2 - Quận Hải An - TP. Hải Phòng",
+    image:
+      "https://qsee.com.vn/_assets/media/3986815d87a151f6c0eaffb3dfbeb009.png",
+    author: {
+      name: "QSEE",
+      image: "/images/blog/author-03.png",
+      designation: "Cơ - điện logistics",
+    },
+    publishDate: "2023",
+  },
+];
+
 const blogData: Blog[] = [
   {
     id: 1,
@@ -180,4 +228,4 @@ const blogData: Blog[] = [
   //   publishDate: "2022",
   // },
 ];
-export { blogData, solarCompanyData, solarFamilyData };
+export { blogData, solarCompanyData, solarFamilyData, solarFeaturedData };

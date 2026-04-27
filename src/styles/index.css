@@ -133,3 +133,8 @@ layer(base);
     @apply inline-flex;
   }
 }
+
+/* Custom css */
+html {
+  scroll-behavior: smooth;
+}

@@ -10,19 +10,19 @@ const menuData: Menu[] = [
   {
     id: 2,
     title: "Giới thiệu",
-    path: "#about",
+    path: "/#about",
     newTab: false,
   },
   {
     id: 33,
     title: "Dự án",
-    path: "#projects",
+    path: "/#company",
     newTab: false,
   },
   {
     id: 3,
-    title: "Liên hệ",
-    path: "#contact",
+    title: "Lĩnh vực",
+    path: "/#features",
     newTab: false,
   },
   // {

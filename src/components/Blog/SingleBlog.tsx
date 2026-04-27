@@ -8,7 +8,7 @@ const SingleBlog = ({ blog }: { blog: Blog }) => {
     <>
       <div className="group shadow-one hover:shadow-two dark:bg-dark dark:hover:shadow-gray-dark relative h-full overflow-hidden rounded-xs bg-white duration-300">
         <Link
-          href={`/projects/${blog.id}`}
+          href={`/du-an/${blog.id}`}
           className="relative block aspect-37/22 w-full"
         >
           {/* <span className="bg-primary absolute top-6 right-6 z-20 inline-flex items-center justify-center rounded-full px-4 py-2 text-sm font-semibold text-white capitalize">
@@ -20,7 +20,7 @@ const SingleBlog = ({ blog }: { blog: Blog }) => {
         <div className="p-6">
           <h3>
             <Link
-              href={`/projects/${blog.id}`}
+              href={`/du-an/${blog.id}`}
               className="hover:text-primary dark:hover:text-primary text-body-color dark:text-body-color-dark mb-3 block text-xl font-bold"
             >
               {title}

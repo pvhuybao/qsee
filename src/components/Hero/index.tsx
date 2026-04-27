@@ -19,17 +19,29 @@ const Hero = () => {
                   Nam.
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
-                  <Link
+                  {/* <Link
                     href="#contact"
                     className="bg-primary hover:bg-primary/80 rounded-xs px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out"
                   >
                     Liên hệ
+                  </Link> */}
+                  <Link
+                    href="#company"
+                    className="inline-block rounded-xs bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:text-white"
+                  >
+                    Solar Công nghiệp
                   </Link>
                   <Link
-                    href="#projects"
+                    href="#fetured"
                     className="inline-block rounded-xs bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:text-white"
                   >
                     Dự án tiêu biểu
+                  </Link>
+                  <Link
+                    href="#family"
+                    className="inline-block rounded-xs bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:text-white"
+                  >
+                    Solar Hộ gia đình
                   </Link>
                 </div>
               </div>

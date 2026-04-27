@@ -26,8 +26,8 @@ const Footer = () => {
                     height={30}
                   />
                 </Link>
-                <p className="text-body-color dark:text-body-color-dark mb-6 text-base leading-relaxed">
-                  35/15A Phan Bội Châu, Phường Bình Thạnh, TP. Hồ Chí Minh.
+                <p className="text-body-color dark:text-body-color-dark mb-6 text-[20px] leading-relaxed">
+                  Chào mừng đến với Website của QSEE JSC.
                 </p>
                 <div className="flex items-center">
                   <a
@@ -108,41 +108,51 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12">
-              <div className="mb-10">
-                <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Useful Links
-                </h2>
-                <ul>
-                  <li>
-                    <Link
-                      href="/blog"
-                      className="text-body-color hover:text-primary dark:text-body-color-dark dark:hover:text-primary mb-4 inline-block text-base duration-300"
-                    >
-                      Blog
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="/"
-                      className="text-body-color hover:text-primary dark:text-body-color-dark dark:hover:text-primary mb-4 inline-block text-base duration-300"
-                    >
-                      Pricing
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="/about"
-                      className="text-body-color hover:text-primary dark:text-body-color-dark dark:hover:text-primary mb-4 inline-block text-base duration-300"
-                    >
-                      About
-                    </Link>
-                  </li>
-                </ul>
+            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-8/12">
+              <h2 className="mb-4 text-2xl font-bold text-black uppercase dark:text-white">
+                Thông tin liên hệ
+              </h2>
+              <div className="mb-10 flex flex-col gap-3">
+                <div>
+                  <span className="mr-2 text-xl font-bold text-black dark:text-white">
+                    Địa chỉ Trụ sở:
+                  </span>
+                  <span className="text-body-color dark:text-body-color-dark font-medium">
+                    35/15A Phan Bội Châu, Phường Bình Thạnh, TP Hồ Chí Minh.
+                  </span>
+                </div>
+                <div>
+                  <span className="mr-2 text-xl font-bold text-black dark:text-white">
+                    VP đại diện:
+                  </span>
+                  <span className="text-body-color dark:text-body-color-dark font-medium">
+                    311G31 Đường số 8, Khu phố 1, Phường Bình Trưng, TP. Hồ Chí
+                    Minh.
+                  </span>
+                </div>
+                <div>
+                  <span className="mr-2 text-xl font-bold text-black dark:text-white">
+                    Hotline:
+                  </span>
+                  <a href="tel:0962260512" className="text-[blue]">
+                    <span className="font-medium">(+84) 966 266 578</span>
+                  </a>
+                </div>
+                <div>
+                  <span className="mr-2 text-xl font-bold text-black dark:text-white">
+                    Email:
+                  </span>
+                  <a
+                    href="mailto:sang.hv@qsee.com.vn"
+                    className="text-[blue] underline"
+                  >
+                    <span className="font-medium">info@qsee.com.vn</span>
+                  </a>
+                </div>
               </div>
             </div>
 
-            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12">
+            {/* <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12">
               <div className="mb-10">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
                   Terms
@@ -208,7 +218,7 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="absolute top-14 right-0 z-[-1]">

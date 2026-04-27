@@ -13,8 +13,8 @@ const ContactPage = () => {
   return (
     <>
       <Breadcrumb
-        pageName="Contact Page"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        pageName="Hợp tác cùng QSEE"
+        description="Chúng tôi hân hạnh được đồng hành và phục vụ Quý vị với tinh thần trách nhiệm, tiến độ đảm bảo và chất lượng cao nhất."
       />
 
       <Contact />

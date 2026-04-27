@@ -25,13 +25,14 @@ export default function Home() {
       <AboutSectionTwo />
       <Features />
       <Blog type="company" />
+      <Blog type="fetured" />
       <Blog type="family" />
       {/* <Blog /> */}
       <Video />
       <Brands />
       <AboutSectionOne />
       <Testimonials />
-      <Pricing />
+      {/* <Pricing /> */}
       <Contact />
     </>
   );
