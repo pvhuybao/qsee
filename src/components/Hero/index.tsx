@@ -1,4 +1,7 @@
+"use client";
+
 import Link from "next/link";
+import CountUp from "react-countup";
 
 const Hero = () => {
   return (
@@ -22,13 +25,13 @@ const Hero = () => {
                 <div className="mb-8 flex flex-wrap justify-center gap-4 text-white md:gap-8">
                   <div className="">
                     <div className="text-2xl font-bold text-[#00e300] md:text-3xl">
-                      5+
+                      <CountUp end={5} duration={2} suffix="+" />
                     </div>
                     <div className="text-xl font-medium">Năm kinh nghiệm</div>
                   </div>
                   <div>
                     <div className="text-2xl font-bold text-[#00e300] md:text-3xl">
-                      200+
+                      <CountUp end={200} duration={2} suffix="+" />
                     </div>
                     <div className="text-xl font-medium">
                       Dự án đã thực hiện
@@ -36,13 +39,13 @@ const Hero = () => {
                   </div>
                   <div>
                     <div className="text-2xl font-bold text-[#00e300] md:text-3xl">
-                      12+
+                      <CountUp end={12} duration={2} suffix="+" />
                     </div>
                     <div className="text-xl font-medium">Đang thi công</div>
                   </div>
                   <div>
                     <div className="text-2xl font-bold text-[#00e300] md:text-3xl">
-                      123 kWh+
+                      <CountUp end={123} duration={2} suffix="+ kWh" />
                     </div>
                     <div className="text-xl font-medium">
                       Tổng công suất lắp đặt

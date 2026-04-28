@@ -115,7 +115,7 @@ const BlogSidebarPage = async ({ params }: BlogSidebarPageProps) => {
                   </li>
                 </ul>
               </div>
-              <NewsLatterBox />
+              {/* <NewsLatterBox /> */}
             </div>
           </div>
         </div>
