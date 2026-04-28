@@ -25,13 +25,13 @@ const Hero = () => {
                 <div className="mb-8 flex flex-wrap justify-center gap-4 text-white md:gap-8">
                   <div className="">
                     <div className="text-2xl font-bold text-[#00e300] md:text-3xl">
-                      <CountUp end={5} duration={2} suffix="+" />
+                      <CountUp end={5} duration={3} suffix="+" />
                     </div>
                     <div className="text-xl font-medium">Năm kinh nghiệm</div>
                   </div>
                   <div>
                     <div className="text-2xl font-bold text-[#00e300] md:text-3xl">
-                      <CountUp end={200} duration={2} suffix="+" />
+                      <CountUp end={200} duration={3} suffix="+" />
                     </div>
                     <div className="text-xl font-medium">
                       Dự án đã thực hiện
@@ -39,13 +39,13 @@ const Hero = () => {
                   </div>
                   <div>
                     <div className="text-2xl font-bold text-[#00e300] md:text-3xl">
-                      <CountUp end={12} duration={2} suffix="+" />
+                      <CountUp end={12} duration={3} suffix="+" />
                     </div>
                     <div className="text-xl font-medium">Đang thi công</div>
                   </div>
                   <div>
                     <div className="text-2xl font-bold text-[#00e300] md:text-3xl">
-                      <CountUp end={123} duration={2} suffix="+ kWh" />
+                      <CountUp end={123} duration={3} suffix="+ kWh" />
                     </div>
                     <div className="text-xl font-medium">
                       Tổng công suất lắp đặt
