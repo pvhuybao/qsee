@@ -5,19 +5,51 @@ const Hero = () => {
     <>
       <section
         id="home"
-        className="dark:bg-gray-dark relative z-10 overflow-hidden bg-white pt-[120px] pb-16 md:pt-[150px] md:pb-[120px] xl:pt-[180px] xl:pb-[160px] 2xl:pt-[210px] 2xl:pb-[200px]"
+        className="dark:bg-gray-dark relative z-10 overflow-hidden bg-white pt-[80px] pb-8 md:pt-[150px] md:pb-[120px] xl:pt-[180px] xl:pb-[160px] 2xl:pt-[210px] 2xl:pb-[200px]"
       >
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
-              <div className="mx-auto max-w-[800px] text-center">
-                <h1 className="mb-5 text-3xl leading-tight font-bold text-white sm:text-4xl sm:leading-tight md:text-6xl md:leading-tight dark:text-white">
+              <div className="mx-auto max-w-[900px] rounded-lg border border-blue-700 bg-[#051e5b]/70 px-8 py-6 text-center backdrop-blur-xs">
+                <h1 className="mb-1 text-3xl leading-tight font-bold text-[#00e300] sm:leading-tight md:text-5xl md:leading-tight">
                   QSEE JSC
                 </h1>
-                <p className="mb-12 text-base leading-relaxed! font-bold text-white sm:text-lg md:text-2xl">
-                  Nhà cung cấp giải pháp năng lượng mặt trời hàng đầu tại Việt
-                  Nam.
+                <p className="mb-8 text-2xl leading-relaxed! font-bold text-white md:mb-12 md:text-4xl">
+                  Nhà cung cấp giải pháp năng lượng mặt trời hàng đầu tại{" "}
+                  <span className="text-[#00e300]"> Việt Nam.</span>
                 </p>
+
+                <div className="mb-8 flex flex-wrap justify-center gap-4 text-white md:gap-8">
+                  <div className="">
+                    <div className="text-2xl font-bold text-[#00e300] md:text-3xl">
+                      5+
+                    </div>
+                    <div className="text-xl font-medium">Năm kinh nghiệm</div>
+                  </div>
+                  <div>
+                    <div className="text-2xl font-bold text-[#00e300] md:text-3xl">
+                      200+
+                    </div>
+                    <div className="text-xl font-medium">
+                      Dự án đã thực hiện
+                    </div>
+                  </div>
+                  <div>
+                    <div className="text-2xl font-bold text-[#00e300] md:text-3xl">
+                      12+
+                    </div>
+                    <div className="text-xl font-medium">Đang thi công</div>
+                  </div>
+                  <div>
+                    <div className="text-2xl font-bold text-[#00e300] md:text-3xl">
+                      123 kWh+
+                    </div>
+                    <div className="text-xl font-medium">
+                      Tổng công suất lắp đặt
+                    </div>
+                  </div>
+                </div>
+
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
                   {/* <Link
                     href="#contact"
@@ -27,19 +59,19 @@ const Hero = () => {
                   </Link> */}
                   <Link
                     href="#company"
-                    className="inline-block rounded-xs bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:text-white"
+                    className="inline-block rounded-md bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90"
                   >
                     Solar Công nghiệp
                   </Link>
                   <Link
                     href="#fetured"
-                    className="inline-block rounded-xs bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:text-white"
+                    className="inline-block rounded-md bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90"
                   >
                     Dự án tiêu biểu
                   </Link>
                   <Link
                     href="#family"
-                    className="inline-block rounded-xs bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:text-white"
+                    className="inline-block rounded-md bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90"
                   >
                     Solar Hộ gia đình
                   </Link>
