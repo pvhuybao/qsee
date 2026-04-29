@@ -14,10 +14,10 @@ const Hero = () => {
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
               <div className="mx-auto max-w-[900px] rounded-lg border border-blue-700 bg-[#051e5b]/70 px-8 py-6 text-center backdrop-blur-xs">
-                <h1 className="mb-1 text-3xl leading-tight font-bold text-[#00e300] sm:leading-tight md:text-5xl md:leading-tight">
+                <h1 className="mb-1 text-3xl leading-tight font-medium text-[#00e300] sm:leading-tight md:text-5xl md:leading-tight">
                   QSEE JSC
                 </h1>
-                <p className="mb-8 text-2xl leading-relaxed! font-bold text-white md:mb-12 md:text-4xl">
+                <p className="mb-8 text-2xl leading-relaxed! font-medium text-white md:mb-12 md:text-4xl">
                   Nhà cung cấp giải pháp năng lượng mặt trời hàng đầu tại{" "}
                   <span className="text-[#00e300]"> Việt Nam.</span>
                 </p>
