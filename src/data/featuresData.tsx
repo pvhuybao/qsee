@@ -12,9 +12,9 @@ const featuresData: Feature[] = [
         <path d="M23.2222 0C22.6699 0 22.2222 0.447715 22.2222 1V12.3333C22.2222 12.8856 22.6699 13.3333 23.2222 13.3333H39C39.5523 13.3333 40 12.8856 40 12.3333V0.999999C40 0.447714 39.5523 0 39 0H23.2222ZM0 39C0 39.5523 0.447715 40 1 40H16.7778C17.3301 40 17.7778 39.5523 17.7778 39V27.6667C17.7778 27.1144 17.3301 26.6667 16.7778 26.6667H1C0.447716 26.6667 0 27.1144 0 27.6667V39ZM0 21.2222C0 21.7745 0.447715 22.2222 1 22.2222H16.7778C17.3301 22.2222 17.7778 21.7745 17.7778 21.2222V0.999999C17.7778 0.447714 17.3301 0 16.7778 0H1C0.447716 0 0 0.447715 0 1V21.2222Z" />
       </svg>
     ),
-    title: "TƯ VẤN, THI CÔNG",
+    title: "TƯ VẤN, THIẾT KẾ, THI CÔNG",
     paragraph:
-      "Tư vấn, thiết kế, thi công lắp đặt hệ thống điện mặt trời. Thi công và lắp đặt máy móc, thiết bị công nghiệp theo yêu cầu từng công trình.",
+      "Tư vấn, thiết kế, thi công lắp đặt hệ thống điện mặt trời phù hợp cho nhu cầu của mỗi Khách hàng, dự án.",
   },
   {
     id: 2,
@@ -27,9 +27,9 @@ const featuresData: Feature[] = [
         <path d="M18.9474 32.6316C18.9474 35.4705 19.8099 38.0969 21.2941 40.2796C21.7904 41.0094 21.3054 42.1053 20.4229 42.1053H4.21053C1.87368 42.1053 0 40.2316 0 37.8947V4.21053C0 1.89474 1.87368 0 4.21053 0H6.31579H16.8421H29.4737C31.7895 0 33.6842 1.87368 33.6842 4.21053V17.9544C33.6842 18.5032 33.1804 18.9474 32.6316 18.9474C25.0737 18.9474 18.9474 25.0737 18.9474 32.6316Z" />
       </svg>
     ),
-    title: "BẢO DƯỠNG",
+    title: "VẬN HÀNH VÀ BẢO TRÌ",
     paragraph:
-      "Bảo trì, bảo dưỡng, vận hành hệ thống điện mặt trời, giữ hiệu suất phát điện ổn định trong suốt vòng đời vận hành.",
+      "Cung cấp trọn gói  vận hành và bảo trì bảo dưỡng hệ thống điện mặt trời, đảm bảo an toàn, giữ hiệu suất phát điện ổn định trong suốt vòng đời dự án.",
   },
   {
     id: 3,
@@ -44,7 +44,7 @@ const featuresData: Feature[] = [
     ),
     title: "THƯƠNG MẠI",
     paragraph:
-      "Cung cấp các thiết bị và vật tư ngành điện - lạnh, đáp ứng nhu cầu bảo dưỡng, thay thế và mở rộng hệ thống.",
+      "Cung cấp các thiết bị và vật tư lắp đặt cho hệ thống điện mặt trời.",
   },
   // {
   //   id: 4,
@@ -61,21 +61,21 @@ const featuresData: Feature[] = [
   //   paragraph:
   //     "Thi công và bảo trì cơ - điện - lạnh, cấp thoát nước cho tòa nhà cao tầng, khách sạn, văn phòng và dự án hạ tầng kỹ thuật.",
   // },
-  {
-    id: 5,
-    icon: (
-      <svg width="40" height="40" viewBox="0 0 40 40" className="fill-current">
-        <path
-          opacity="0.5"
-          d="M39 12C39.5523 12 40 12.4477 40 13V39C40 39.5523 39.5523 40 39 40H13C12.4477 40 12 39.5523 12 39V33C12 32.4477 12.4477 32 13 32H31C31.5523 32 32 31.5523 32 31V13C32 12.4477 32.4477 12 33 12H39Z"
-        />
-        <rect width="28" height="28" rx="1" />
-      </svg>
-    ),
-    title: "Solar công nghiệp",
-    paragraph:
-      "Lắp đặt hệ thống điện mặt trời áp mái công suất từ trăm kWp đến hàng MWp cho nhà xưởng, kho logistics và khu công nghiệp.",
-  },
+  // {
+  //   id: 5,
+  //   icon: (
+  //     <svg width="40" height="40" viewBox="0 0 40 40" className="fill-current">
+  //       <path
+  //         opacity="0.5"
+  //         d="M39 12C39.5523 12 40 12.4477 40 13V39C40 39.5523 39.5523 40 39 40H13C12.4477 40 12 39.5523 12 39V33C12 32.4477 12.4477 32 13 32H31C31.5523 32 32 31.5523 32 31V13C32 12.4477 32.4477 12 33 12H39Z"
+  //       />
+  //       <rect width="28" height="28" rx="1" />
+  //     </svg>
+  //   ),
+  //   title: "Solar công nghiệp",
+  //   paragraph:
+  //     "Lắp đặt hệ thống điện mặt trời áp mái công suất từ trăm kWp đến hàng MWp cho nhà xưởng, kho logistics và khu công nghiệp.",
+  // },
   // {
   //   id: 6,
   //  icon: (

@@ -14,7 +14,7 @@ export default function Video() {
         <div className="container">
           <SectionTitle
             title="Giới thiệu công ty"
-            paragraph="Các hạng mục lắp đặt điện mặt trời, hệ thống lạnh, kho bãi và tòa nhà cao tầng do QSEE thi công và bảo trì."
+            paragraph="QSEE JSC (tên đầy đủ: Công Ty Cổ Phần Xây Dựng và Dịch Vụ Kỹ Thuật QSEE) là doanh nghiệp trong lĩnh vực tư vấn phát triển, thiết kế, cung cấp và thi công hệ thống điện năng lượng mặt trời."
             center
           />
         </div>

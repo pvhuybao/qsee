@@ -27,23 +27,26 @@ const AboutSectionTwo = () => {
             </div>
           </div>
           <div className="w-full px-4 lg:w-1/2">
-            <div className="max-w-[470px]">
+            <div className="">
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black sm:text-2xl lg:text-xl xl:text-2xl dark:text-white">
                   GIỚI THIỆU
                 </h3>
                 <p className="text-body-color dark:text-body-color-dark mb-3 text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed">
-                  Công Ty Cổ Phần Xây Dựng và Dịch Vụ Kỹ Thuật QSEE là doanh
-                  nghiệp hàng đầu trong lĩnh vực Cơ - Điện - Lạnh - Cấp thoát
-                  nước cho các tòa nhà cao tầng, nhà xưởng, và đặc biệt là cung
-                  cấp giải pháp toàn diện cho hệ thống điện năng lượng mặt trời
-                  (NLMT), bao gồm tài chính, tư vấn thiết kế, mua sắm và lắp
-                  đặt.
+                  QSEE JSC (tên đầy đủ: Công Ty Cổ Phần Xây Dựng và Dịch Vụ Kỹ
+                  Thuật QSEE) là doanh nghiệp trong lĩnh vực tư vấn phát triển,
+                  thiết kế, cung cấp và thi công hệ thống điện năng lượng mặt
+                  trời.
                 </p>
                 <p className="text-body-color dark:text-body-color-dark text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed">
-                  Với đội ngũ kỹ thuật viên giàu kinh nghiệm và trang thiết bị
-                  hiện đại, QSEE JSC cam kết mang đến giải pháp thông minh, an
-                  toàn, chất lượng cao, đáp ứng đa dạng nhu cầu của khách hàng.
+                  Với đội ngũ nhân sự chất lượng, có nền tảng quản lý, kỹ thuật
+                  vững chắc và bề dày kinh nghiệm khi đã tham gia phát triển và
+                  triển khai nhiều dự án Điện mặt trời lớn cho những tệp khách
+                  hàng đa dạng, từ những nhà xưởng sản xuẩt, tòa nhà, với các
+                  yêu cầu khắc khe về chất lượng, an toàn và cam kết bền vững
+                  theo tiêu chuẩn quốc tế, QSEE JSC đã khẳng định vị thế là đối
+                  tác chiến lược tin cậy trong lĩnh vực năng lượng tái tạo, điển
+                  hình là hệ thống Điện mặt trời.
                 </p>
               </div>
               <div className="mb-9">
@@ -53,11 +56,23 @@ const AboutSectionTwo = () => {
                 <div className="text-body-color dark:text-body-color-dark text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed">
                   Chúng tôi hoạt động dựa trên tiêu chí:
                   <ul className="ml-8 list-disc">
-                    <li>Giải pháp đầu tư tiết kiệm</li>
-                    <li>Sản phẩm chất lượng</li>
-                    <li>Thi công chuyên nghiệp</li>
-                    <li>An toàn</li>
-                    <li>Bảo hành - bảo trì dài hạn</li>
+                    <li>
+                      Giải pháp đầu tư <strong>HIỆU QUẢ</strong>
+                    </li>
+                    <li>
+                      Sản phẩm <strong>CHẤT LƯỢNG</strong>
+                    </li>
+                    <li>
+                      Quản lý Thi công <strong>CHUYÊN NGHIỆP</strong>
+                    </li>
+                    <li>
+                      <strong>AN TOÀN</strong>
+                    </li>
+                    <li>
+                      <strong>CAM KẾT</strong> và <strong>GẮN BÓ</strong> lâu
+                      dài với khách hàng qua các dịch vụ Vận hành O&M chuyên
+                      nghiệp
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -66,10 +81,10 @@ const AboutSectionTwo = () => {
                   Cam kết
                 </h3>
                 <p className="text-body-color dark:text-body-color-dark mb-4 text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed">
-                  Sự tận tâm và chỉn chu trong từng dự án của QSEE JSC không chỉ
-                  mang lại lợi ích bền vững mà còn đảm bảo sự hài lòng tuyệt đối
-                  cho khách hàng. QSEE JSC - Đối tác đáng tin cậy cho mọi công
-                  trình!
+                  Năng lực, kinh nghiệm cùng sự tận tâm và chỉn chu trong mỗi
+                  chi tiết của dự án là CAM KẾT của chúng tôi nhằm đảm bảo mang
+                  lại HIỆU QUẢ tối đa và lợi ích LÂU DÀI, BÊN VỮNG cho khách
+                  hàng. QSEE JSC- Đối tác đáng tin cậy cho mọi công trình!
                 </p>
               </div>
             </div>
