@@ -2,6 +2,7 @@
 
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import ContactSticky from "@/components/ContactSticky";
 import ScrollToTop from "@/components/ScrollToTop";
 import { Inter } from "next/font/google";
 import "../styles/index.css";
@@ -28,7 +29,10 @@ export default function RootLayout({
             {children}
             <Footer />
           </div>
-          <ScrollToTop />
+          <div className="fixed right-3 bottom-4 z-[99] flex flex-col items-center gap-4 md:right-8 md:bottom-10">
+            <ContactSticky />
+            <ScrollToTop />
+          </div>
         </Providers>
       </body>
     </html>

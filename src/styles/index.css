@@ -189,3 +189,21 @@ layer(base);
     transform: translate3d(0, 0, 0);
   }
 }
+
+@keyframes contact-ring {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.06);
+    opacity: 0.55;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .contact-sticky-pulse {
+    animation: none !important;
+  }
+}
