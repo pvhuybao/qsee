@@ -18,7 +18,7 @@ const Hero = () => {
                   QSEE JSC
                 </h1>
                 <p className="mb-8 text-2xl leading-relaxed! font-medium text-white md:mb-12 md:text-4xl">
-                  Nhà cung cấp giải pháp năng lượng mặt trời hàng đầu tại{" "}
+                  Nhà cung cấp, lắp đặt hệ thống điện mặt trời tiêu chuẩn tại{" "}
                   <span className="text-[#00e300]"> Việt Nam.</span>
                 </p>
 
