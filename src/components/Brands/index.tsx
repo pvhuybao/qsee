@@ -39,7 +39,7 @@ const SingleBrand = ({ brand }: { brand: Brand }) => {
         alt={name}
         loading="lazy"
         decoding="async"
-        className="w-autoobject-contain block h-18"
+        className="w-autoobject-contain block h-20"
       />
     </a>
   );
