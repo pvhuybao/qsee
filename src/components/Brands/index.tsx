@@ -7,7 +7,7 @@ const Brands = () => {
   return (
     <section>
       <div className="bg-gray-light dark:bg-gray-dark w-full py-8">
-        <h3 className="mb-6 text-center text-3xl leading-tight! font-bold text-black dark:text-white">
+        <h3 className="mb-8 text-center text-3xl leading-tight! font-bold text-black dark:text-white">
           Các đối tác của QSEE
         </h3>
         <div className="w-full overflow-hidden rounded-xs">
