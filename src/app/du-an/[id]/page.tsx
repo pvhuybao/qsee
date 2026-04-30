@@ -4,7 +4,7 @@ import {
   solarCompanyData,
   solarFamilyData,
   solarFeaturedData,
-} from "@/data/blogData";
+} from "@/data/projectData";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 
@@ -40,7 +40,7 @@ const BlogSidebarPage = async ({ params }: BlogSidebarPageProps) => {
 
   return (
     <>
-      <section className="dark:bg-bg-color-dark overflow-hidden bg-[#f4f6ff] pt-[80px] pb-[40px] md:pt-[130px]">
+      <section className="dark:bg-bg-color-dark overflow-hidden bg-[#f7f8ff] pt-[80px] pb-[40px] md:pt-[130px]">
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 lg:w-8/12">
@@ -59,12 +59,12 @@ const BlogSidebarPage = async ({ params }: BlogSidebarPageProps) => {
                   <div className="h-4"></div>
                   <div className="mb-6 flex w-full flex-col gap-8 overflow-hidden rounded-sm">
                     {blog.images?.map((image) => (
-                      <div className="relative aspect-97/60 w-full sm:aspect-97/44">
+                      <div className="relative aspect-97/60 w-full">
                         <Image
                           src={image}
                           alt="image"
                           fill
-                          className="h-full w-full object-cover object-center"
+                          className="h-full w-full object-contain object-center"
                         />
                       </div>
                     ))}

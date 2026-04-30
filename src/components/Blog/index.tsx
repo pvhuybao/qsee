@@ -5,7 +5,7 @@ import {
   solarCompanyData,
   solarFamilyData,
   solarFeaturedData,
-} from "../../data/blogData";
+} from "../../data/projectData";
 
 const Blog = ({
   type,
@@ -38,10 +38,7 @@ const Blog = ({
       className={`${noBgColor ? "" : "bg-gray-light dark:bg-bg-color-dark"} py-10`}
     >
       <ScrollRevealStagger className="container">
-        <div
-          className="reveal-item w-full"
-          style={{ transitionDelay: "0ms" }}
-        >
+        <div className="reveal-item w-full" style={{ transitionDelay: "0ms" }}>
           <SectionTitle
             title={title}
             paragraph="Một số công trình năng lượng mặt trời tiêu biểu mà QSEE đã triển khai cho khách hàng"
@@ -49,7 +46,7 @@ const Blog = ({
           />
         </div>
 
-        <div className="grid grid-cols-1 gap-x-4 gap-y-10 md:grid-cols-2 xl:grid-cols-3">
+        <div className="grid grid-cols-1 gap-x-4 gap-y-10 md:grid-cols-2 xl:grid-cols-4">
           {solarData.map((blog, i) => (
             <div
               key={blog.id}
