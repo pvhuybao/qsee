@@ -66,17 +66,23 @@ const Hero = () => {
                   >
                     Solar Công nghiệp
                   </Link>
-                  <Link
+                  {/* <Link
                     href="#fetured"
                     className="inline-block rounded-md bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90"
                   >
                     Dự án tiêu biểu
-                  </Link>
+                  </Link> */}
                   <Link
                     href="#family"
                     className="inline-block rounded-md bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90"
                   >
                     Solar Hộ gia đình
+                  </Link>
+                  <Link
+                    href="#products"
+                    className="inline-block rounded-md bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90"
+                  >
+                    Vật tư và thiết bị
                   </Link>
                 </div>
               </div>
