@@ -1,22 +1,20 @@
 import { Brand } from "@/types/brand";
-import Image from "next/image";
 import brandsData from "../../data/brandsData";
-import SectionTitle from "../Common/SectionTitle";
 
 const Brands = () => {
+  const loopItems = [...brandsData, ...brandsData];
+
   return (
     <section>
-      <div>
-        <div className="flex flex-wrap">
-          <div className="bg-gray-light dark:bg-gray-dark w-full px-8 py-8">
-            <h3 className="mb-10 text-center text-3xl leading-tight! font-bold text-black dark:text-white">
-              Các đối tác của QSEE
-            </h3>
-            <div className="flex flex-wrap items-center justify-center rounded-xs">
-              {brandsData.map((brand) => (
-                <SingleBrand key={brand.id} brand={brand} />
-              ))}
-            </div>
+      <div className="bg-gray-light dark:bg-gray-dark w-full py-8">
+        <h3 className="mb-6 text-center text-3xl leading-tight! font-bold text-black dark:text-white">
+          Các đối tác của QSEE
+        </h3>
+        <div className="w-full overflow-hidden rounded-xs">
+          <div className="brands-marquee-track">
+            {loopItems.map((brand, index) => (
+              <SingleBrand key={`${brand.id}-${index}`} brand={brand} />
+            ))}
           </div>
         </div>
       </div>
@@ -27,19 +25,22 @@ const Brands = () => {
 export default Brands;
 
 const SingleBrand = ({ brand }: { brand: Brand }) => {
-  const { href, image, imageLight, name } = brand;
+  const { href, image, name } = brand;
 
   return (
-    <div className="flex w-1/2 items-center justify-center px-3 py-[15px] sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6">
-      <a
-        href={href}
-        target="_blank"
-        rel="nofollow noreferrer"
-        className="relative h-10 w-full opacity-70 transition hover:opacity-100 dark:opacity-60 dark:hover:opacity-100"
-      >
-        <Image src={imageLight} alt={name} fill className="hidden dark:block" />
-        <Image src={image} alt={name} fill className="block dark:hidden" />
-      </a>
-    </div>
+    <a
+      href={href}
+      target="_blank"
+      rel="nofollow noreferrer"
+      className="inline-flex shrink-0 items-center transition hover:opacity-85"
+    >
+      <img
+        src={image}
+        alt={name}
+        loading="lazy"
+        decoding="async"
+        className="w-autoobject-contain block h-18"
+      />
+    </a>
   );
 };
