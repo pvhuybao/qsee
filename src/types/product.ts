@@ -13,8 +13,11 @@ export interface ProductItem {
   badge?: string;
   brandLogo?: string;
   image: string;
+  images?: string[];
   title: string;
   description: string;
+  summaryBullets: string[];
+  details: string;
   featureIcon: ProductFeatureIcon;
   featureText: string;
   href: string;

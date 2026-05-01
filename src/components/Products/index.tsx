@@ -132,7 +132,7 @@ function FeatureIcon({ type }: { type: "check" | "zap" | "spool" }) {
 }
 
 const Products = () => {
-  const [active, setActive] = useState<ProductCategoryId>("electrical");
+  const [active, setActive] = useState<ProductCategoryId>("all");
 
   const filtered = useMemo(() => {
     if (active === "all") return products;
@@ -191,7 +191,7 @@ const Products = () => {
                       {item.badge}
                     </span>
                   ) : null}
-                  {item.brandLogo ? (
+                  {/* {item.brandLogo ? (
                     <div className="absolute top-3 right-3 z-10 shadow-sm">
                       <Image
                         src={item.brandLogo}
@@ -201,12 +201,12 @@ const Products = () => {
                         className="h-6 w-auto object-contain"
                       />
                     </div>
-                  ) : null}
+                  ) : null} */}
                   <Image
                     src={item.image}
                     alt={item.title}
                     fill
-                    className="object-cover"
+                    className="object-contain"
                     sizes="(max-width: 768px) 100vw, 25vw"
                   />
                 </div>
@@ -225,7 +225,7 @@ const Products = () => {
                     <span>{item.featureText}</span>
                   </div>
                   <Link
-                    href={item.href}
+                    href={`/san-pham/${item.id}`}
                     className="mt-auto inline-flex w-full items-center justify-center gap-2 rounded-lg px-4 py-3 text-sm font-semibold text-white transition hover:opacity-95"
                     style={{ backgroundColor: primary }}
                   >
