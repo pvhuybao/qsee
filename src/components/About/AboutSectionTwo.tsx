@@ -12,14 +12,14 @@ const AboutSectionTwo = () => {
             >
               <Image
                 // src="https://qsee.com.vn/_assets/media/81ebcd84ba3fdb5ade362608e7bdc716.jpg"
-                src="/images/about/about-image.png"
+                src="/images/about/about-image-5.png"
                 alt="about image"
                 fill
                 className="drop-shadow-three rounded-lg dark:hidden dark:drop-shadow-none"
               />
               <Image
                 // src="https://qsee.com.vn/_assets/media/81ebcd84ba3fdb5ade362608e7bdc716.jpg"
-                src="/images/about/about-image.png"
+                src="/images/about/about-image-5.png"
                 alt="about image"
                 fill
                 className="drop-shadow-three hidden rounded-lg dark:block dark:drop-shadow-none"
