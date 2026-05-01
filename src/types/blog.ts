@@ -11,6 +11,7 @@ export type Blog = {
   paragraph: string;
   thumbnail: string;
   images?: string[];
+  type?: "company" | "personal" | string;
   capacity?: number;
   author?: Author;
   tags?: string[];

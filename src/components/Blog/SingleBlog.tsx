@@ -26,7 +26,7 @@ const SingleBlog = ({ blog }: { blog: Blog }) => {
           <Image src={thumbnail} alt="image" fill className="object-cover" />
         </Link>
 
-        <div className="p-6">
+        <div className="px-4 py-3">
           <h3>
             <Link
               href={`/du-an/${blog.id}`}

@@ -89,7 +89,7 @@ const BlogSidebarPage = async ({ params }: BlogSidebarPageProps) => {
                   Thông tin chi tiết
                 </h3>
                 <ul className="px-8 py-6">
-                  {blog.company && (
+                  {blog.type === "company" && (
                     <li className="mb-6">
                       <div className="mb-2 font-bold">Chủ sở hữu:</div>
                       <div>{blog.company}</div>

@@ -18,6 +18,7 @@ const solarCompanyData: Blog[] = [
       "/data/le-phan-gia/le-phan-gia-6.jpg",
     ],
     capacity: 1336,
+    type: "company",
     author: {
       name: "QSEE",
       image: "/images/blog/author-02.png",
@@ -41,6 +42,7 @@ const solarCompanyData: Blog[] = [
       "/data/soi-long-van/soi-long-van-5.jpg",
     ],
     capacity: 2700,
+    type: "company",
     author: {
       name: "QSEE",
       image: "/images/blog/author-03.png",
@@ -64,6 +66,7 @@ const solarCompanyData: Blog[] = [
       "/data/nhua-pha-le/nhua-pha-le-6.jpg",
     ],
     capacity: 1557.36,
+    type: "company",
     author: {
       name: "QSEE",
       image: "/images/blog/author-03.png",
@@ -87,6 +90,7 @@ const solarCompanyData: Blog[] = [
       "/data/global-running/global-running-6.jpg",
     ],
     capacity: 2137.59,
+    type: "company",
     author: {
       name: "QSEE",
       image: "/images/blog/author-01.png",
@@ -112,6 +116,7 @@ const solarFamilyData: Blog[] = [
       "/data/nha-be/nha-be-5.jpg",
     ],
     capacity: 11.9,
+    type: "personal",
     author: {
       name: "QSEE",
       image: "/images/blog/author-01.png",
@@ -132,6 +137,7 @@ const solarFamilyData: Blog[] = [
       "/data/vung-tau/vung-tau-3.jpg",
     ],
     capacity: 14.28,
+    type: "personal",
     author: {
       name: "QSEE",
       image: "/images/blog/author-02.png",
@@ -153,6 +159,7 @@ const solarFamilyData: Blog[] = [
       "/data/huynh-tinh-cua/huynh-tinh-cua-2.jpg",
     ],
     capacity: 4.96,
+    type: "personal",
     author: {
       name: "QSEE",
       image: "/images/blog/author-03.png",
@@ -174,6 +181,7 @@ const solarFamilyData: Blog[] = [
       "/data/thong-nhat/thong-nhat-5.jpg",
     ],
     capacity: 7.5,
+    type: "personal",
     author: {
       name: "QSEE",
       image: "/images/blog/author-03.png",
