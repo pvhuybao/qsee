@@ -8,14 +8,32 @@ const NewsLatterBox = () => {
   return (
     <div className="shadow-three dark:bg-gray-dark relative z-10 rounded-xs bg-white p-8">
       <h3 className="mb-4 text-2xl leading-tight font-bold text-black dark:text-white">
-        Địa chỉ & liên hệ
+        Liên hệ trực tiếp với chúng tôi
       </h3>
-      <div className="border-body-color/25 text-body-color dark:text-body-color-dark mb-7 border-b pb-6 text-base leading-relaxed dark:border-white/25">
+      <div className="border-body-color/25 text-body-color dark:text-body-color-dark text-base leading-relaxed dark:border-white/25">
         <strong>Trụ sở:</strong> 35/15A Phan Bội Châu, Phường Bình Thạnh, TP. Hồ
         Chí Minh.
         <div className="h-3"></div>
         <strong className="mt-3">VP đại diện:</strong> 311G31 Đường số 8, Khu
-        phố 1, Phường Bình Trưng, TP. Hồ Chí Minh. Hotline, email theo công bố
+        phố 1, Phường Bình Trưng, TP. Hồ Chí Minh.
+        <div className="h-3"></div>
+        <div>
+          <strong className="mr-2">Hotline:</strong>
+          <a href="tel:0962260512" className="text-[blue]">
+            <span className="font-medium">(+84) 966 266 578</span>
+          </a>
+        </div>
+        <div className="h-3"></div>
+        <div>
+          <strong className="mr-2">Email:</strong>
+          <a
+            href="mailto:sang.hv@qsee.com.vn"
+            className="text-[blue] underline"
+          >
+            <span className="font-medium">info@qsee.com.vn</span>
+          </a>
+        </div>
+        {/* Hotline, email theo công bố
         tại trang {` `}
         <a
           className="text-primary hover:underline"
@@ -25,9 +43,9 @@ const NewsLatterBox = () => {
         >
           qsee.com.vn
         </a>
-        .
+        . */}
       </div>
-      <div>
+      {/* <div>
         <input
           type="text"
           name="name"
@@ -48,45 +66,9 @@ const NewsLatterBox = () => {
         <p className="text-body-color dark:text-body-color-dark text-center text-base leading-relaxed">
           Bạn sẽ nhận cập nhật về công nghệ NLMT và ưu đãi từ QSEE
         </p>
-      </div>
+      </div> */}
 
       <div>
-        <span className="absolute top-7 left-2">
-          <svg
-            width="57"
-            height="65"
-            viewBox="0 0 57 65"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              opacity="0.5"
-              d="M0.407629 15.9573L39.1541 64.0714L56.4489 0.160793L0.407629 15.9573Z"
-              fill="url(#paint0_linear_1028_600)"
-            />
-            <defs>
-              <linearGradient
-                id="paint0_linear_1028_600"
-                x1="-18.3187"
-                y1="55.1044"
-                x2="37.161"
-                y2="15.3509"
-                gradientUnits="userSpaceOnUse"
-              >
-                <stop
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
-                  stopOpacity="0.62"
-                />
-                <stop
-                  offset="1"
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
-                  stopOpacity="0"
-                />
-              </linearGradient>
-            </defs>
-          </svg>
-        </span>
-
         <span className="absolute bottom-24 left-1.5">
           <svg
             width="39"
