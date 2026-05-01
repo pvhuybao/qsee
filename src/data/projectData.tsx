@@ -144,10 +144,13 @@ const solarFamilyData: Blog[] = [
     title: "Hộ Gia đình Huỳnh Tịnh Của - 4.96 kWp, pin lưu trữ 5.12 kWh",
     company: "Hộ gia đình",
     paragraph: "Địa chỉ: Huỳnh Tịnh Của, TP.HCM",
-    thumbnail:
-      "https://qsee.com.vn/_assets/media/cba0e6e2a2a1c0490310e0398c2af603.png",
+    thumbnail: "/data/huynh-tinh-cua/huynh-tinh-cua-3.jpg",
     images: [
-      "https://qsee.com.vn/_assets/media/cba0e6e2a2a1c0490310e0398c2af603.png",
+      "/data/huynh-tinh-cua/huynh-tinh-cua-3.jpg",
+      "/data/huynh-tinh-cua/huynh-tinh-cua-4.jpg",
+      "/data/huynh-tinh-cua/huynh-tinh-cua-5.jpg",
+      "/data/huynh-tinh-cua/huynh-tinh-cua-1.jpg",
+      "/data/huynh-tinh-cua/huynh-tinh-cua-2.jpg",
     ],
     capacity: 4.96,
     author: {
@@ -162,10 +165,13 @@ const solarFamilyData: Blog[] = [
     title: "Hộ Gia đình Thống Nhất - 7.5 kWp, pin lưu trữ 16 kWh",
     company: "Chủ sỡ hữu: Anh Lưu",
     paragraph: "Địa chỉ: Thống Nhất, Tân Phú, TP.HCM",
-    thumbnail:
-      "https://qsee.com.vn/_assets/media/cba0e6e2a2a1c0490310e0398c2af603.png",
+    thumbnail: "/data/thong-nhat/thong-nhat-1.jpg",
     images: [
-      "https://qsee.com.vn/_assets/media/cba0e6e2a2a1c0490310e0398c2af603.png",
+      "/data/thong-nhat/thong-nhat-1.jpg",
+      "/data/thong-nhat/thong-nhat-2.jpg",
+      "/data/thong-nhat/thong-nhat-3.jpg",
+      "/data/thong-nhat/thong-nhat-4.jpg",
+      "/data/thong-nhat/thong-nhat-5.jpg",
     ],
     capacity: 7.5,
     author: {

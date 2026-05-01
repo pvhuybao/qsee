@@ -57,7 +57,7 @@ const BlogSidebarPage = async ({ params }: BlogSidebarPageProps) => {
                     • Địa Chỉ: {normalizedAddress}
                   </p>
                   <div className="h-4"></div>
-                  <div className="mb-6 flex w-full flex-col gap-8 overflow-hidden rounded-sm">
+                  <div className="mb-6 flex w-full flex-col gap-4 overflow-hidden rounded-sm">
                     {blog.images?.map((image) => (
                       <div className="relative aspect-97/60 w-full">
                         <Image
@@ -83,7 +83,7 @@ const BlogSidebarPage = async ({ params }: BlogSidebarPageProps) => {
                 </div>
               </div>
             </div>
-            <div className="w-full px-4 lg:w-4/12">
+            <div className="w-full px-0 md:pr-4 lg:w-4/12">
               <div className="shadow-three dark:bg-gray-dark mb-10 rounded-xs bg-white dark:shadow-none">
                 <h3 className="border-body-color/10 border-b px-8 py-4 text-xl font-bold text-black dark:border-white/10 dark:text-white">
                   Thông tin chi tiết
