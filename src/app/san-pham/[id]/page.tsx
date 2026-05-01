@@ -1,6 +1,6 @@
 import ProductImageGallery from "@/components/Product/ProductImageGallery";
 import ProductSocialShare from "@/components/Product/ProductSocialShare";
-import { buildProductPageDetail } from "@/data/productsData";
+
 import { products } from "@/data/productsData";
 import type { Metadata } from "next";
 import { headers } from "next/headers";
@@ -44,7 +44,7 @@ export default async function ProductDetailPage({ params }: PageProps) {
     notFound();
   }
 
-  const detail = buildProductPageDetail(product);
+  const detail = product;
   const shareUrl = await absoluteUrl(`/san-pham/${product.id}`);
 
   return (
@@ -73,7 +73,7 @@ export default async function ProductDetailPage({ params }: PageProps) {
         <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
           <div className="md:col-span-1">
             <ProductImageGallery
-              images={detail.galleryImages}
+              images={detail.images}
               productTitle={product.title}
             />
           </div>
