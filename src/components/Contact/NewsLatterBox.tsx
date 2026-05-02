@@ -19,17 +19,14 @@ const NewsLatterBox = () => {
         <div className="h-3"></div>
         <div>
           <strong className="mr-2">Hotline:</strong>
-          <a href="tel:0962260512" className="text-[blue]">
+          <a href="tel:+84966266578" className="text-[blue]">
             <span className="font-medium">(+84) 966 266 578</span>
           </a>
         </div>
         <div className="h-3"></div>
         <div>
           <strong className="mr-2">Email:</strong>
-          <a
-            href="mailto:sang.hv@qsee.com.vn"
-            className="text-[blue] underline"
-          >
+          <a href="mailto:info@qsee.com.vn" className="text-[blue] underline">
             <span className="font-medium">info@qsee.com.vn</span>
           </a>
         </div>

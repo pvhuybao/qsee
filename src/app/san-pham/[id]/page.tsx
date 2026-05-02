@@ -82,7 +82,7 @@ export default async function ProductDetailPage({ params }: PageProps) {
             <h1 className="mb-6 text-2xl leading-tight font-bold text-[#0a2540] md:text-3xl dark:text-white">
               {product.title}
             </h1>
-            <ul className="mb-8 list-disc space-y-2 pl-5 text-base leading-relaxed text-gray-700 dark:text-gray-300">
+            <ul className="mb-8 list-disc space-y-2 pl-5 text-base leading-relaxed text-black dark:text-gray-300">
               {detail.summaryBullets.map((line) => (
                 <li key={line}>{line}</li>
               ))}

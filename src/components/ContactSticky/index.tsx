@@ -2,8 +2,8 @@ import type { ReactNode } from "react";
 
 const CONTACT = {
   email: "/#contact",
-  phone: "tel:+84962260512",
-  zalo: "https://zalo.me/84962260512",
+  phone: "tel:+84966266578",
+  zalo: "https://zalo.me/84966266578",
 } as const;
 
 export default function ContactSticky() {
