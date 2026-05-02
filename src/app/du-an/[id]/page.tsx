@@ -101,7 +101,14 @@ const BlogSidebarPage = async ({ params }: BlogSidebarPageProps) => {
                   </li>
                   <li>
                     <div className="mb-2 font-bold">Lợi ích:</div>
+                    <div className="mb-1">- Tiết kiệm chi phí điện lâu dài</div>
                     <div className="mb-1">
+                      - Bảo vệ môi trường, giảm phát thải
+                    </div>
+                    <div className="mb-1">- Giải pháp năng lượng bền vững</div>
+                    <div className="mb-1">- Tự chủ và độc lập nguồn điện</div>
+                    <div className="mb-1">- Làm mát và bảo vệ hạ tầng</div>
+                    {/* <div className="mb-1">
                       {(((blog.capacity * 2.6) / 1000) * 365).toFixed(2)}{" "}
                       MWh/Năm
                     </div>
@@ -111,7 +118,7 @@ const BlogSidebarPage = async ({ params }: BlogSidebarPageProps) => {
                     </div>
                     <div>
                       {((blog.capacity * 2.6) / 1000).toFixed(2)} MWh/Ngày
-                    </div>
+                    </div> */}
                   </li>
                 </ul>
               </div>
