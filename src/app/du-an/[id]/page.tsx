@@ -101,13 +101,24 @@ const BlogSidebarPage = async ({ params }: BlogSidebarPageProps) => {
                   </li>
                   <li>
                     <div className="mb-2 font-bold">Lợi ích:</div>
-                    <div className="mb-1">- Tiết kiệm chi phí điện lâu dài</div>
-                    <div className="mb-1">
-                      - Bảo vệ môi trường, giảm phát thải
+                    <div className="mb-2">
+                      - Tiết kiệm chi phí điện lâu dài.
                     </div>
-                    <div className="mb-1">- Giải pháp năng lượng bền vững</div>
-                    <div className="mb-1">- Tự chủ và độc lập nguồn điện</div>
-                    <div className="mb-1">- Làm mát và bảo vệ hạ tầng</div>
+                    <div className="mb-2">
+                      - Bảo vệ môi trường, giảm phát thải CO₂.
+                    </div>
+                    <div className="mb-2">
+                      - Giải pháp điện bền vững nhờ nguồn năng lượng tái tạo, vô
+                      tận.
+                    </div>
+                    <div className="mb-2">
+                      - Tự chủ và độc lập nguồn điện, giảm rủi ro mất điện nhờ
+                      khả năng lưu trữ.
+                    </div>
+                    <div className="">
+                      - Làm mát và bảo vệ hạ tầng nhờ tấm pin giúp giảm bức xạ
+                      nhiệt trên mái nhà.
+                    </div>
                     {/* <div className="mb-1">
                       {(((blog.capacity * 2.6) / 1000) * 365).toFixed(2)}{" "}
                       MWh/Năm
