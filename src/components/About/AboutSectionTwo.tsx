@@ -5,7 +5,7 @@ const AboutSectionTwo = () => {
     <section id="about" className="bg-gray-light dark:bg-bg-color-dark py-10">
       <div className="container">
         <div className="-mx-4 flex flex-col-reverse flex-wrap lg:flex-row">
-          <div className="w-full px-4 lg:w-1/2">
+          <div className="w-full px-4 lg:w-[45%]">
             <div
               className="relative mx-auto mb-12 aspect-77/100 max-w-[580px] text-center"
               data-wow-delay=".15s"
@@ -26,7 +26,7 @@ const AboutSectionTwo = () => {
               />
             </div>
           </div>
-          <div className="w-full px-4 lg:w-1/2">
+          <div className="w-full px-4 lg:w-[55%]">
             <div className="">
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black sm:text-2xl lg:text-xl xl:text-2xl dark:text-white">
