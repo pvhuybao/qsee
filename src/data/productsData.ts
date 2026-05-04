@@ -22,154 +22,38 @@ export const products: ProductItem[] = [
     description:
       "Cáp điện năng lượng mặt trời Lappkabel Olflex XLR-E (gọi tắt là cáp Lapp Kabel) dùng để kết nối các tấm pin năng lượng mặt trời. Sản phẩm được sản xuất bởi Lappkabel (Đức) – nhà sản xuất cáp hàng đầu thế giới.",
     summaryBullets: [
-      "Quy cách: 1km/cuộn nên ít bị hao hụt khi chia cắt cáp theo từng tổ",
-      "Kích thước cuộn:  40x33cm, trọng lượng 95kg",
-      "Nhiệt độ hoạt động: -40°C to +90°C nhiệt độ tối đa tại dây dẫn +120°C",
-      "Điện áp cực đại: AC 1,0/1,0 kV – DC 1,5/1,5 kV",
-      "Điện áp DC tối đa cho phép: 1,8kV",
-      "Điện áp thử nghiệm: AC 6,5kV",
+      "Hãng: Lapp",
+      "Tên gọi: Cáp điện DC - ÖLFLEX® SOLAR H1 BUR",
+      // "Cỡ cáp: 4 mm², 6 mm², 10 mm²",
+      // "Màu cáp: Red - Đỏ (Cực dương+) và  Black - Đen (Cực âm-)",
+      // "Loại cáp: Cu/XLPO/XLPO",
+      // "Dải nhiệt độ hoạt động: Nhiệt độ hoạt động: -40°C to +90°C nhiệt độ tối đa tại dây dẫn +120°C",
+      // "Điện áp cực đại: Điện áp cực đại: AC 1,0/1,0 kV – DC 1,5/1,5 kV",
+      // "Điện áp làm việc: Điện áp DC tối đa cho phép: 1,8kV",
+      // "Điện áp thử: Điện áp thử nghiệm: AC 6,5kV",
+      // "Tiêu chuẩn áp dụng: TÜV Rheinland certificate with No. R 50598420, R 60176265, R 50462071 (62930 IEC 131). TÜV Rheinland certificate with No. R 5059841B, R 60176265, R 50345247 (H1Z2Z2-K)",
+      // "Chứng nhận	Đầy đủ: CO, CQ",
+      // "Tuổi thọ chất lượng cáp:	> 25 năm",
+      // "Quy cách: 1km/cuộn nên ít bị hao hụt khi chia cắt cáp theo từng tổ",
+      // "Kích thước cuộn:  40x33cm, trọng lượng 95kg",
+      // "Nhiệt độ hoạt động: -40°C to +90°C nhiệt độ tối đa tại dây dẫn +120°C",
+      // "Điện áp cực đại: AC 1,0/1,0 kV – DC 1,5/1,5 kV",
+      // "Điện áp DC tối đa cho phép: 1,8kV",
+      // "Điện áp thử nghiệm: AC 6,5kV",
     ],
     details: `
-      <p>
-        Cáp điện năng lượng mặt trời Lappkabel Olflex XLR-E (gọi tắt là cáp Lapp Kabel)
-        dùng để kết nối các tấm pin năng lượng mặt trời. Sản phẩm được sản xuất bởi
-        Lappkabel (Đức) – nhà sản xuất cáp hàng đầu thế giới.
-      </p>
-
-      <h2>Cáp Lapp Kabel Olflex XLR-E 6mm2</h2>
-
-      <p>
-        Cáp điện năng lượng mặt trời Lappkabel Olflex XLR-E dùng để kết nối các tấm pin
-        năng lượng mặt trời. Sản phẩm được sản xuất bởi Lappkabel (Đức) – nhà sản xuất
-        cáp hàng đầu thế giới. Sản phẩm phù hợp với Chỉ thị điện áp thấp 2014/35/EU.
-      </p>
-
-      <h3>Mô tả sản phẩm</h3>
-
-      <ul>
-        <li><strong>Tên sản phẩm:</strong> UNITRONIC® BUS EIB 2 x 2 x 0.8</li>
-        <li><strong>Xuất xứ:</strong> Đức</li>
-        <li><strong>Quy cách:</strong> Dây 6.0mm2</li>
-        <li><strong>Tình trạng:</strong> Sẵn hàng kho HCM</li>
-        <li>
-          <strong>Ứng dụng:</strong>
-          Sử dụng trong tự động hóa tòa nhà để điều khiển hệ thống chiếu sáng,
-          sưởi ấm, điều hòa không khí, quản lý thời gian,...
-          phạm vi nhiệt độ từ -30°C đến 70°C
-        </li>
-        <li><strong>Đóng gói:</strong> 500m - 1000m/cuộn</li>
-      </ul>
-
-      <h3>Ưu điểm của cáp Lapp Kabel XLR-E 6mm2</h3>
-
-      <p>
-        Cáp điện năng lượng mặt trời được sản xuất theo tiêu chuẩn H1Z2Z2-K,
-        có lõi dây nhuyễn đạt cấp độ 5 theo VDE 0295, IEC 60228.
-      </p>
-
-      <p>
-        Cáp có khả năng chống tác động của tia cực tím và Ozone theo EN 50396.
-        Cáp điện NLMT Lapp Kabel Olflex chống chịu tốt với thời tiết khắc nghiệt,
-        môi trường kiềm, axit. Cáp được cấp chứng nhận đáp ứng tiêu chuẩn EN 50618.
-        Trong điều kiện bình thường, cáp được sử dụng tối thiểu 25 năm.
-      </p>
-
-      <p>
-        Cáp phải chịu được nắng nóng và truyền dẫn điện một chiều trong suốt thời gian dài.
-        Cáp mặt trời Lappkabel đạt chứng nhận EN 50618 do TUV cấp R50345247.
-      </p>
-
-      <h3>
-        Đặc tính kỹ thuật Cáp điện năng lượng mặt trời Lapp Kabel Olflex Solar XLR-E 6mm2
-      </h3>
-
-      <h4>Hình thức</h4>
-
-      <ul>
-        <li>
-          Cáp có màu đen hoặc đen có sọc đỏ, giúp dễ nhận dạng trong quá trình thi công
-        </li>
-        <li>
-          Quy cách 1km/cuộn nên ít bị hao hụt khi chia cắt cáp theo từng tổ
-        </li>
-        <li>
-          Cuộn cáp có kích thước 40x33cm, trọng lượng 95kg
-        </li>
-      </ul>
-
-      <h4>Thông số kỹ thuật</h4>
-
-      <ul>
-        <li>
-          <strong>Nhiệt độ hoạt động:</strong>
-          -40°C đến +90°C, nhiệt độ tối đa tại dây dẫn +120°C
-        </li>
-        <li>
-          <strong>Điện áp cực đại:</strong>
-          AC 1,0/1,0 kV – DC 1,5/1,5 kV
-        </li>
-        <li>
-          <strong>Điện áp DC tối đa cho phép:</strong> 1,8kV
-        </li>
-        <li>
-          <strong>Điện áp thử nghiệm:</strong> AC 6,5kV
-        </li>
-      </ul>
-
-      <h4>Cấu trúc cáp</h4>
-
-      <ul>
-        <li>
-          Lõi dây nhuyễn đồng mạ thiếc đạt cấp độ 5 theo VDE 0295, IEC 60228
-        </li>
-        <li>
-          Lớp cách điện bằng hợp chất liên kết chéo (cross-linked) đặc biệt
-        </li>
-        <li>
-          Vỏ ngoài cùng: Đen hoặc Đỏ
-        </li>
-      </ul>
-
-      <h4>Đặc tính</h4>
-
-      <ul>
-        <li>2 lớp cách điện</li>
-        <li>Phù hợp với mức bảo vệ cấp độ 2</li>
-        <li>Chống tia UV</li>
-        <li>Chống tia Ozone</li>
-      </ul>
-
-      <h4>Thử nghiệm</h4>
-
-      <ul>
-        <li>Không chứa Halogen theo IEC 60754</li>
-        <li>Kháng cháy theo IEC 60332-1-2</li>
-        <li>Mật độ khói theo IEC 61034</li>
-        <li>Kháng axit, kiềm theo EN 60811-404</li>
-        <li>Chống chịu thời tiết, chống tia UV theo DIN EN 50618</li>
-        <li>Chống tia Ozone theo EN 50396</li>
-      </ul>
-
-      <h4>Phê duyệt</h4>
-
-      <ul>
-        <li>EN 50618, TUV số R50345247</li>
-      </ul>
-
-      <h3>Cách sử dụng cáp điện năng lượng mặt trời Lapp Kabel</h3>
-
-      <p>
-        Cáp năng lượng mặt trời Lappkabel Olflex Solar được sử dụng để kết nối
-        các tấm pin năng lượng mặt trời.
-      </p>
-
-      <p>
-        CE = Sản phẩm phù hợp với Chỉ thị điện áp thấp 2014/35/EU.
-      </p>
-
-      <p>
-        Các loại cáp năng lượng mặt trời Lapp Kabel
-      </p>
+    <ul class="list-disc pl-4 space-y-1">
+      <li>Cỡ cáp: 4 mm², 6 mm², 10 mm²</li>
+      <li>Màu cáp: Red - Đỏ (Cực dương+) và  Black - Đen (Cực âm-)</li>
+      <li>Loại cáp: Cu/XLPO/XLPO</li>
+      <li>Dải nhiệt độ hoạt động: Nhiệt độ hoạt động: -40°C to +90°C nhiệt độ tối đa tại dây dẫn +120°C</li>
+      <li>Điện áp cực đại: Điện áp cực đại: AC 1,0/1,0 kV – DC 1,5/1,5 kV</li>
+      <li>Điện áp làm việc: Điện áp DC tối đa cho phép: 1,8kV</li>
+      <li>Điện áp thử: Điện áp thử nghiệm: AC 6,5kV</li>
+      <li>Tiêu chuẩn áp dụng: TÜV Rheinland certificate with No. R 50598420, R 60176265, R 50462071 (62930 IEC 131). TÜV Rheinland certificate with No. R 5059841B, R 60176265, R 50345247 (H1Z2Z2-K)</li>
+      <li>Chứng nhận	Đầy đủ: CO, CQ</li>
+      <li>Tuổi thọ chất lượng cáp:	> 25 năm</li>
+    </ul>
     `,
     featureIcon: "check",
     featureText: "Chất lượng cao - Độ bền vượt trội",
