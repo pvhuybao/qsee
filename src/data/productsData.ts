@@ -235,4 +235,155 @@ export const products: ProductItem[] = [
     featureText: "Chất lượng cao - Độ bền vượt trội",
     href: "#",
   },
+  {
+    id: "bien-tan-sungrow-mg5rl",
+    categoryId: "inverter",
+    badge: "",
+    title: "Inverter Hybrid Sungrow MG5RL 1 Pha",
+    description:
+      "Sungrow MG5RL là dòng inverter hybrid 1 pha công suất 5kW, được thiết kế tối ưu cho hệ thống điện mặt trời dân dụng có nhu cầu backup tải và lưu trữ điện. Sản phẩm hỗ trợ pin lithium, chuyển mạch dự phòng siêu nhanh <4ms, tích hợp sẵn bypass switch 40A, dễ dàng mở rộng khi cần thiết.",
+    image:
+      "/data/pin-luu-tru-lithium-valley-w15-5a/pin-luu-tru-lithium-valley-w15-5a-1.png",
+    images: [
+      "/data/pin-luu-tru-lithium-valley-w15-5a/pin-luu-tru-lithium-valley-w15-5a-1.png",
+    ],
+    summaryBullets: [
+      "Hãng: SUNGROW",
+      "Tên gọi: Inverter Hybrid Sungrow MG5RL 1 Pha",
+    ],
+    details: `
+    <ul class="list-disc pl-4 space-y-1">
+      <li>Sungrow MG5RL là dòng inverter hybrid 1 pha công suất 5kW, được thiết kế tối ưu cho hệ thống điện mặt trời dân dụng có nhu cầu backup tải và lưu trữ điện. Sản phẩm hỗ trợ pin lithium, chuyển mạch dự phòng siêu nhanh <4ms, tích hợp sẵn bypass switch 40A, dễ dàng mở rộng khi cần thiết.</li>
+    </ul>
+    `,
+    featureIcon: "check",
+    featureText: "Chất lượng cao - Độ bền vượt trội",
+    href: "#",
+  },
+  {
+    id: "bien-tan-sungrow-mg6rl",
+    categoryId: "inverter",
+    badge: "",
+    title: "Inverter Hybrid Sungrow MG6RL 1 Pha",
+    description:
+      "Sungrow MG6RL là dòng inverter hybrid 1 pha công suất 6kW, được thiết kế tối ưu cho hệ thống điện mặt trời dân dụng có nhu cầu backup tải và lưu trữ điện. Sản phẩm hỗ trợ pin lithium, chuyển mạch dự phòng siêu nhanh <4ms, tích hợp sẵn bypass switch 40A, dễ dàng mở rộng khi cần thiết.",
+    image:
+      "/data/pin-luu-tru-lithium-valley-w15-5a/pin-luu-tru-lithium-valley-w15-5a-1.png",
+    images: [
+      "/data/pin-luu-tru-lithium-valley-w15-5a/pin-luu-tru-lithium-valley-w15-5a-1.png",
+    ],
+    summaryBullets: [
+      "Hãng: SUNGROW",
+      "Tên gọi: Inverter Hybrid Sungrow MG6RL 1 Pha",
+    ],
+    details: `
+    <ul class="list-disc pl-4 space-y-1">
+      <li>Sungrow MG6RL là dòng inverter hybrid 1 pha công suất 6kW, được thiết kế tối ưu cho hệ thống điện mặt trời dân dụng có nhu cầu backup tải và lưu trữ điện. Sản phẩm hỗ trợ pin lithium, chuyển mạch dự phòng siêu nhanh <4ms, tích hợp sẵn bypass switch 40A, dễ dàng mở rộng khi cần thiết.</li>
+    </ul>
+    `,
+    featureIcon: "check",
+    featureText: "Chất lượng cao - Độ bền vượt trội",
+    href: "#",
+  },
+  {
+    id: "bien-tan-goodwe-et-lv",
+    categoryId: "inverter",
+    badge: "",
+    title: "Inverter Hybrid GoodWe ET LV Series 6-20kW 3 Pha",
+    description:
+      "Hybrid Inverter GoodWe ET LV Series (công suất 6-20kW) là giải pháp lý tưởng cho các hệ thống điện mặt trời dân dụng. Sản phẩm tích hợp liền mạch với pin điện áp thấp (48V) giúp tối ưu chi phí và tăng tính an toàn khi vận hành. Với thiết kế linh hoạt, GoodWe ET LV Series tương thích với nhiều loại pin lưu trữ khác nhau, bao gồm Lynx A G3, Lynx U G3 và BAT 14kWh của GoodWe. Điều này mang đến sự tiện lợi và dễ dàng mở rộng cho người dùng đang tìm kiếm giải pháp lưu trữ năng lượng đáng tin cậy và hiệu quả.",
+    image:
+      "/data/pin-luu-tru-lithium-valley-w15-5a/pin-luu-tru-lithium-valley-w15-5a-1.png",
+    images: [
+      "/data/pin-luu-tru-lithium-valley-w15-5a/pin-luu-tru-lithium-valley-w15-5a-1.png",
+    ],
+    summaryBullets: [
+      "Hãng: GOODWE",
+      "Tên gọi: Inverter Hybrid GoodWe ET LV Series 6-20kW 3 Pha",
+    ],
+    details: `
+    <ul class="list-disc pl-4 space-y-1">
+      <li>Hybrid Inverter GoodWe ET LV Series (công suất 6-20kW) là giải pháp lý tưởng cho các hệ thống điện mặt trời dân dụng. Sản phẩm tích hợp liền mạch với pin điện áp thấp (48V) giúp tối ưu chi phí và tăng tính an toàn khi vận hành. Với thiết kế linh hoạt, GoodWe ET LV Series tương thích với nhiều loại pin lưu trữ khác nhau, bao gồm Lynx A G3, Lynx U G3 và BAT 14kWh của GoodWe. Điều này mang đến sự tiện lợi và dễ dàng mở rộng cho người dùng đang tìm kiếm giải pháp lưu trữ năng lượng đáng tin cậy và hiệu quả.</li>
+    </ul>
+    `,
+    featureIcon: "check",
+    featureText: "Chất lượng cao - Độ bền vượt trội",
+    href: "#",
+  },
+  {
+    id: "bien-tan-8k-goodwe-es-uniq",
+    categoryId: "inverter",
+    badge: "",
+    title: "Inverter 8kW GoodWe ES Uniq 1 Pha Có Màn Hình",
+    description:
+      "GoodWe Hybrid Inverter ES UniQ có màn hình công suất 8kW, được thiết kế chuyên biệt cho các hệ thống điện mặt trời dân dụng. Dòng sản phẩm này tương thích linh hoạt với cả hệ thống hòa lưới và off-grid (độc lập), đồng thời hỗ trợ kết nối song song tối đa 6 inverter để mở rộng hệ thống dễ dàng. Với màn hình cảm ứng LCD thân thiện, ES Uniq giúp người dùng vận hành và giám sát đơn giản, đồng thời có thể kết hợp với nhiều dòng pin lưu trữ, bao gồm cả Lynx A và Lynx U của GoodWe.",
+    image:
+      "/data/pin-luu-tru-lithium-valley-w15-5a/pin-luu-tru-lithium-valley-w15-5a-1.png",
+    images: [
+      "/data/pin-luu-tru-lithium-valley-w15-5a/pin-luu-tru-lithium-valley-w15-5a-1.png",
+    ],
+    summaryBullets: [
+      "Hãng: GOODWE",
+      "Tên gọi: Inverter 8kW GoodWe ES Uniq 1 Pha Có Màn Hình",
+    ],
+    details: `
+    <ul class="list-disc pl-4 space-y-1">
+      <li>GoodWe Hybrid Inverter ES UniQ có màn hình công suất 8kW, được thiết kế chuyên biệt cho các hệ thống điện mặt trời dân dụng. Dòng sản phẩm này tương thích linh hoạt với cả hệ thống hòa lưới và off-grid (độc lập), đồng thời hỗ trợ kết nối song song tối đa 6 inverter để mở rộng hệ thống dễ dàng. Với màn hình cảm ứng LCD thân thiện, ES Uniq giúp người dùng vận hành và giám sát đơn giản, đồng thời có thể kết hợp với nhiều dòng pin lưu trữ, bao gồm cả Lynx A và Lynx U của GoodWe.</li>
+    </ul>
+    `,
+    featureIcon: "check",
+    featureText: "Chất lượng cao - Độ bền vượt trội",
+    href: "#",
+  },
+  {
+    id: "bien-tan-goodwe-es-uniq-10kw",
+    categoryId: "inverter",
+    badge: "",
+    title: "Hybrid Inverter GoodWe ES Uniq Series 10kW 1 Pha – Có Màn Hình",
+    description:
+      "GoodWe Hybrid Inverter ES UniQ có màn hình công suất 10kW, được thiết kế chuyên biệt cho các hệ thống điện mặt trời dân dụng. Dòng sản phẩm này tương thích linh hoạt với cả hệ thống hòa lưới và off-grid (độc lập), đồng thời hỗ trợ kết nối song song tối đa 6 inverter để mở rộng hệ thống dễ dàng. Với màn hình cảm ứng LCD thân thiện, ES Uniq giúp người dùng vận hành và giám sát đơn giản, đồng thời có thể kết hợp với nhiều dòng pin lưu trữ, bao gồm cả Lynx A và Lynx U của GoodWe.",
+    image:
+      "/data/pin-luu-tru-lithium-valley-w15-5a/pin-luu-tru-lithium-valley-w15-5a-1.png",
+    images: [
+      "/data/pin-luu-tru-lithium-valley-w15-5a/pin-luu-tru-lithium-valley-w15-5a-1.png",
+    ],
+    summaryBullets: [
+      "Hãng: GOODWE",
+      "Tên gọi: Hybrid Inverter GoodWe ES Uniq Series 10kW 1 Pha – Có Màn Hình",
+    ],
+    details: `
+    <ul class="list-disc pl-4 space-y-1">
+      <li>GoodWe Hybrid Inverter ES UniQ có màn hình công suất 10kW, được thiết kế chuyên biệt cho các hệ thống điện mặt trời dân dụng. Dòng sản phẩm này tương thích linh hoạt với cả hệ thống hòa lưới và off-grid (độc lập), đồng thời hỗ trợ kết nối song song tối đa 6 inverter để mở rộng hệ thống dễ dàng. Với màn hình cảm ứng LCD thân thiện, ES Uniq giúp người dùng vận hành và giám sát đơn giản, đồng thời có thể kết hợp với nhiều dòng pin lưu trữ, bao gồm cả Lynx A và Lynx U của GoodWe.</li>
+    </ul>
+    `,
+    featureIcon: "check",
+    featureText: "Chất lượng cao - Độ bền vượt trội",
+    href: "#",
+  },
+  {
+    id: "bien-tan-goodwe-es-uniq-12kw",
+    categoryId: "inverter",
+    badge: "",
+    title:
+      "Hybrid Inverter GoodWe ES Uniq Series 12kW 1 Pha – Phiên bản có màn hình",
+    description:
+      "GoodWe Hybrid Inverter ES UniQ có màn hình công suất 12kW, được thiết kế chuyên biệt cho các hệ thống điện mặt trời dân dụng. Dòng sản phẩm này tương thích linh hoạt với cả hệ thống hòa lưới và off-grid (độc lập), đồng thời hỗ trợ kết nối song song tối đa 6 inverter để mở rộng hệ thống dễ dàng. Với màn hình cảm ứng LCD thân thiện, ES Uniq giúp người dùng vận hành và giám sát đơn giản, đồng thời có thể kết hợp với nhiều dòng pin lưu trữ, bao gồm cả Lynx A và Lynx U của GoodWe.",
+    image:
+      "/data/pin-luu-tru-lithium-valley-w15-5a/pin-luu-tru-lithium-valley-w15-5a-1.png",
+    images: [
+      "/data/pin-luu-tru-lithium-valley-w15-5a/pin-luu-tru-lithium-valley-w15-5a-1.png",
+    ],
+    summaryBullets: [
+      "Hãng: GOODWE",
+      "Tên gọi: Hybrid Inverter GoodWe ES Uniq Series 12kW 1 Pha – Phiên bản có màn hình",
+    ],
+    details: `
+    <ul class="list-disc pl-4 space-y-1">
+      <li>GoodWe Hybrid Inverter ES UniQ có màn hình công suất 12kW, được thiết kế chuyên biệt cho các hệ thống điện mặt trời dân dụng. Dòng sản phẩm này tương thích linh hoạt với cả hệ thống hòa lưới và off-grid (độc lập), đồng thời hỗ trợ kết nối song song tối đa 6 inverter để mở rộng hệ thống dễ dàng. Với màn hình cảm ứng LCD thân thiện, ES Uniq giúp người dùng vận hành và giám sát đơn giản, đồng thời có thể kết hợp với nhiều dòng pin lưu trữ, bao gồm cả Lynx A và Lynx U của GoodWe.</li>
+    </ul>
+    `,
+    featureIcon: "check",
+    featureText: "Chất lượng cao - Độ bền vượt trội",
+    href: "#",
+  },
 ];
