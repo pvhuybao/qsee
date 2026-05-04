@@ -185,7 +185,7 @@ const Products = () => {
                 key={item.id}
                 className="border-stroke-stroke dark:border-stroke-dark shadow-one dark:bg-gray-dark flex flex-col overflow-hidden rounded-xl border bg-white"
               >
-                <div className="border-stroke-stroke dark:border-stroke-dark relative aspect-[4/3] w-full border-b bg-gray-50 dark:bg-gray-800/50">
+                <div className="border-stroke-stroke dark:border-stroke-dark relative aspect-[4/3] w-full border-b bg-[white]">
                   {item.badge ? (
                     <span className="absolute top-3 left-3 z-10 max-w-[70%] rounded-md bg-red-600 px-2 py-1 text-[10px] font-semibold text-white md:text-xs">
                       {item.badge}

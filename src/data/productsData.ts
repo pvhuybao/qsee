@@ -2,7 +2,7 @@ import type { ProductCategoryTab, ProductItem } from "@/types/product";
 
 export const productCategories: ProductCategoryTab[] = [
   { id: "all", label: "TẤT CẢ SẢN PHẨM", icon: "grid" },
-  { id: "frame", label: "HỆ KHUNG", icon: "frame" },
+  { id: "frame", label: "PIN LƯU TRỮ", icon: "frame" },
   { id: "panel", label: "TẤM PIN", icon: "panel" },
   { id: "inverter", label: "BIẾN TẦN", icon: "inverter" },
   { id: "electrical", label: "VẬT TƯ THIẾT BỊ ĐIỆN", icon: "cable" },
@@ -10,36 +10,20 @@ export const productCategories: ProductCategoryTab[] = [
 
 export const products: ProductItem[] = [
   {
-    id: "cap-dien-lapp-6",
+    id: "cap-dien-dc-lapp",
     categoryId: "electrical",
     badge: "",
-    image: "/data/cap-dien-1/cap-dien-1.png",
+    title: "Cáp điện DC - ÖLFLEX® SOLAR H1 BUR",
+    description:
+      "ÖLFLEX® SOLAR H1 BUR là dòng cáp điện một chiều (DC) chuyên dụng, cao cấp được sản xuất bởi tập đoàn Lapp Kabel (Đức), thiết kế đặc biệt để kết nối các tấm pin năng lượng mặt trời",
+    image: "/data/cap-dien-1/cap-dien-2.png",
     images: [
       "/data/cap-dien-1/cap-dien-1.png",
       "/data/cap-dien-1/cap-dien-2.png",
     ],
-    title: "Cáp điện DC năng lượng mặt trời LAPP 6.0",
-    description:
-      "Cáp điện năng lượng mặt trời Lappkabel Olflex XLR-E (gọi tắt là cáp Lapp Kabel) dùng để kết nối các tấm pin năng lượng mặt trời. Sản phẩm được sản xuất bởi Lappkabel (Đức) – nhà sản xuất cáp hàng đầu thế giới.",
     summaryBullets: [
       "Hãng: Lapp",
       "Tên gọi: Cáp điện DC - ÖLFLEX® SOLAR H1 BUR",
-      // "Cỡ cáp: 4 mm², 6 mm², 10 mm²",
-      // "Màu cáp: Red - Đỏ (Cực dương+) và  Black - Đen (Cực âm-)",
-      // "Loại cáp: Cu/XLPO/XLPO",
-      // "Dải nhiệt độ hoạt động: Nhiệt độ hoạt động: -40°C to +90°C nhiệt độ tối đa tại dây dẫn +120°C",
-      // "Điện áp cực đại: Điện áp cực đại: AC 1,0/1,0 kV – DC 1,5/1,5 kV",
-      // "Điện áp làm việc: Điện áp DC tối đa cho phép: 1,8kV",
-      // "Điện áp thử: Điện áp thử nghiệm: AC 6,5kV",
-      // "Tiêu chuẩn áp dụng: TÜV Rheinland certificate with No. R 50598420, R 60176265, R 50462071 (62930 IEC 131). TÜV Rheinland certificate with No. R 5059841B, R 60176265, R 50345247 (H1Z2Z2-K)",
-      // "Chứng nhận	Đầy đủ: CO, CQ",
-      // "Tuổi thọ chất lượng cáp:	> 25 năm",
-      // "Quy cách: 1km/cuộn nên ít bị hao hụt khi chia cắt cáp theo từng tổ",
-      // "Kích thước cuộn:  40x33cm, trọng lượng 95kg",
-      // "Nhiệt độ hoạt động: -40°C to +90°C nhiệt độ tối đa tại dây dẫn +120°C",
-      // "Điện áp cực đại: AC 1,0/1,0 kV – DC 1,5/1,5 kV",
-      // "Điện áp DC tối đa cho phép: 1,8kV",
-      // "Điện áp thử nghiệm: AC 6,5kV",
     ],
     details: `
     <ul class="list-disc pl-4 space-y-1">
@@ -51,155 +35,204 @@ export const products: ProductItem[] = [
       <li>Điện áp làm việc: Điện áp DC tối đa cho phép: 1,8kV</li>
       <li>Điện áp thử: Điện áp thử nghiệm: AC 6,5kV</li>
       <li>Tiêu chuẩn áp dụng: TÜV Rheinland certificate with No. R 50598420, R 60176265, R 50462071 (62930 IEC 131). TÜV Rheinland certificate with No. R 5059841B, R 60176265, R 50345247 (H1Z2Z2-K)</li>
-      <li>Chứng nhận	Đầy đủ: CO, CQ</li>
-      <li>Tuổi thọ chất lượng cáp:	> 25 năm</li>
+      <li>Chứng nhận: Đầy đủ CO, CQ</li>
+      <li>Tuổi thọ chất lượng cáp: > 25 năm</li>
     </ul>
     `,
     featureIcon: "check",
     featureText: "Chất lượng cao - Độ bền vượt trội",
     href: "#",
   },
-  // {
-  //   id: "helu-4",
-  //   categoryId: "electrical",
-  //   badge: "MỚI NHẤT",
-  //   image: "/images/products/tam-nen.png",
-  //   title: "Cáp điện năng lượng mặt trời Helukabel SolarFlex H1Z2Z2-K 4mm²",
-  //   description:
-  //     "Dây dẫn một lõi, vỏ chống tia UV và chịu nhiệt, dùng cho đường DC hệ quang điện dân dụng và thương mại.",
-  //   featureIcon: "check",
-  //   featureText: "Chống UV - Chịu nhiệt tốt",
-  //   href: "#",
-  // },
-  // {
-  //   id: "lapp-10",
-  //   categoryId: "electrical",
-  //   brandLogo: "/images/partners/jj-lapp.png",
-  //   image: "/images/products/tam-nen.png",
-  //   title: "Cáp điện DC năng lượng mặt trời LAPP 10mm²",
-  //   description:
-  //     "Giải pháp dẫn điện DC công suất lớn, tiếp điểm ổn định, phù hợp chuỗi dài và hệ thống yêu cầu tiết diện lớn.",
-  //   featureIcon: "zap",
-  //   featureText: "Dẫn điện ổn định - An toàn tối ưu",
-  //   href: "#",
-  // },
-  // {
-  //   id: "lapp-6",
-  //   categoryId: "electrical",
-  //   brandLogo: "/images/partners/jj-lapp.png",
-  //   image: "/images/products/tam-nen.png",
-  //   title: "Cáp điện DC năng lượng mặt trời LAPP 6.0",
-  //   description:
-  //     "Cáp DC đa dụng cho lắp đặt gọn, tối ưu chi phí vật tư mà vẫn đảm bảo hiệu suất và tuổi thọ hệ thống.",
-  //   featureIcon: "spool",
-  //   featureText: "Tiết kiệm - Hiệu quả cao",
-  //   href: "#",
-  // },
-  // {
-  //   id: "lapp-4",
-  //   categoryId: "electrical",
-  //   brandLogo: "/images/partners/jj-lapp.png",
-  //   image: "/images/products/tam-nen.png",
-  //   title: "Cáp điện DC năng lượng mặt trời LAPP 4.0",
-  //   description:
-  //     "Cáp DC một lõi Lappkabel cho hệ PV, phù hợp nối tấm pin và biến tần, đạt chỉ tiêu điện áp thử và vận hành ngoài trời.",
-  //   featureIcon: "check",
-  //   featureText: "Tiêu chuẩn EU - Bền bỉ",
-  //   href: "#",
-  // },
-  // {
-  //   id: "helu-61",
-  //   categoryId: "frame",
-  //   badge: "ĐẶT TRƯỚC",
-  //   image: "/images/products/tam-nen.png",
-  //   title: "Cáp điện năng lượng mặt trời Helukabel SolarFlex 6mm²",
-  //   description:
-  //     "Cáp DC chuyên dụng cho hệ thống PV, phù hợp kết nối tấm pin–biến tần, đạt tiêu chuẩn an toàn và chịu môi trường ngoài trời.",
-  //   featureIcon: "check",
-  //   featureText: "Chất lượng cao - Độ bền vượt trội",
-  //   href: "#",
-  // },
-  // {
-  //   id: "helu-41",
-  //   categoryId: "frame",
-  //   badge: "BEST SELLER",
-  //   image: "/images/products/tam-nen.png",
-  //   title: "Cáp điện năng lượng mặt trời Helukabel SolarFlex H1Z2Z2-K 4mm²",
-  //   description:
-  //     "Dây dẫn một lõi, vỏ chống tia UV và chịu nhiệt, dùng cho đường DC hệ quang điện dân dụng và thương mại.",
-  //   featureIcon: "check",
-  //   featureText: "Chống UV - Chịu nhiệt tốt",
-  //   href: "#",
-  // },
-  // {
-  //   id: "lapp-101",
-  //   categoryId: "frame",
-  //   brandLogo: "/images/partners/jj-lapp.png",
-  //   image: "/images/products/tam-nen.png",
-  //   title: "Cáp điện DC năng lượng mặt trời LAPP 10mm²",
-  //   description:
-  //     "Giải pháp dẫn điện DC công suất lớn, tiếp điểm ổn định, phù hợp chuỗi dài và hệ thống yêu cầu tiết diện lớn.",
-  //   featureIcon: "zap",
-  //   featureText: "Dẫn điện ổn định - An toàn tối ưu",
-  //   href: "#",
-  // },
-];
-
-export type ProductPageDetail = {
-  galleryImages: string[];
-  summaryBullets: string[];
-  detailIntro: string;
-  detailSubtitle: string;
-  details: string;
-  detailCompliance?: string;
-  detailBullets: string[];
-};
-
-export function buildProductPageDetail(
-  product: ProductItem,
-): ProductPageDetail {
-  // const override = detailOverrides[product.id];
-  // if (override) return override;
-
-  return {
-    galleryImages: product.images,
-    summaryBullets: product.summaryBullets,
-    detailIntro: `${product.description} Liên hệ QSEE để được báo giá và hỗ trợ kỹ thuật.`,
-    detailSubtitle: product.title,
-    detailBullets: [
-      `Sản phẩm: ${product.title}`,
-      `Đặc điểm: ${product.featureText}`,
-      "Vui lòng liên hệ để cập nhật tồn kho và thời gian giao hàng.",
+  {
+    id: "cap-dien-dc-leader",
+    categoryId: "electrical",
+    badge: "",
+    title: "Cáp điện DC - 1.5KV DC SOLAR CABLE H1Z2Z2-K",
+    description:
+      "Cáp điện DC H1Z2Z2-K (1.5kV DC Solar Cable) là loại dây cáp chuyên dụng cao cấp, đạt tiêu chuẩn châu Âu EN 50618, được thiết kế để kết nối các tấm pin quang điện trong hệ thống điện mặt trời 0.5.4. Cáp chịu được điện áp cao (1.5kV DC), kháng tia UV, chịu nhiệt tốt (\(>90^{\circ }\text{C}\)) và độ bền trên 25 năm, lý tưởng cho cả lắp đặt ngoài trời và trong nhà 0.5.3, 0.5.7",
+    image: "/data/cap-dien-2/cap-dien-1.png",
+    images: ["/data/cap-dien-2/cap-dien-1.png"],
+    summaryBullets: [
+      "Hãng: Leader",
+      "Tên gọi: Cáp điện DC - 1.5KV DC SOLAR CABLE H1Z2Z2-K",
     ],
-    details: product.details,
-  };
-}
-
-const detailOverrides: Record<string, ProductPageDetail> = {
-  "cap-dien-lapp-6": {
-    galleryImages: [
-      "/images/products/tam-nen.png",
-      "/images/products/tam-nen.png",
+    details: `
+    <ul class="list-disc pl-4 space-y-1">
+      <li>Cỡ cáp: 4 mm², 6 mm², 10 mm²</li>
+      <li>Màu cáp: Red - Đỏ (Cực dương+) và  Black - Đen (Cực âm-)</li>
+      <li>Loại cáp: Cu/XLPO/XLPO</li>
+      <li>Dải nhiệt độ hoạt động: Nhiệt độ hoạt động: -40°C to +90°C nhiệt độ tối đa tại dây dẫn +120°C</li>
+      <li>Điện áp cực đại: Điện áp cực đại: AC 1,0/1,0 kV – DC 1,5/1,5 kV</li>
+      <li>Điện áp làm việc: Điện áp DC tối đa cho phép: 1,8kV</li>
+      <li>Điện áp thử: Điện áp thử nghiệm: AC 6,5kV</li>
+      <li>Tiêu chuẩn áp dụng: IEC62930/EN50618, TÜV Rheinland certificate</li>
+      <li>Chứng nhận: Đầy đủ CO, CQ</li>
+      <li>Tuổi thọ chất lượng cáp: > 25 năm</li>
+    </ul>
+    `,
+    featureIcon: "check",
+    featureText: "Chất lượng cao - Độ bền vượt trội",
+    href: "#",
+  },
+  {
+    id: "tam-pin-tcl-615",
+    categoryId: "panel",
+    badge: "",
+    title: "Tấm pin năng lượng mặt trời TCL 615W 2 mặt kính",
+    description:
+      "Tấm pin năng lượng mặt trời TCL 615W là sản phẩm cao cấp đến từ TCL Solar – thương hiệu công nghệ toàn cầu với nền tảng sản xuất tiên tiến và tiêu chuẩn chất lượng quốc tế",
+    image: "/data/tam-pin-tcl/tam-pin-tcl-1.png",
+    images: ["/data/tam-pin-tcl/tam-pin-tcl-1.png"],
+    summaryBullets: [
+      "Hãng: TCL",
+      "Tên gọi: Tấm pin năng lượng mặt trời TCL 615W 2 mặt kính",
+      "Loại: N-type TOPCon",
+    ],
+    details: `
+    <ul class="list-disc pl-4 space-y-1">
+      <li>Tấm pin năng lượng mặt trời TCL 615W là sản phẩm cao cấp đến từ TCL Solar – thương hiệu công nghệ toàn cầu với nền tảng sản xuất tiên tiến và tiêu chuẩn chất lượng quốc tế. Ứng dụng công nghệ Shingled Cell tiên tiến, sản phẩm mang lại hiệu suất vượt trội, thiết kế tinh tế và tính thẩm mỹ cao. Đây là lựa chọn tối ưu cho các công trình dân dụng, thương mại và dự án điện mặt trời quy mô lớn, nơi vừa cần hiệu năng cao vừa cần vẻ đẹp đồng bộ, sang trọng.</li>
+    </ul>
+    `,
+    featureIcon: "check",
+    featureText: "Chất lượng cao - Độ bền vượt trội",
+    href: "#",
+  },
+  {
+    id: "tam-pin-astronergy-550",
+    categoryId: "panel",
+    badge: "",
+    title: "Tấm pin năng lượng mặt trời Astronergy 550W",
+    description:
+      "Tấm pin mặt trời Astronergy 550W được lắp ráp từ các tấm cell kích thước 182mm kèm công nghệ cell SuperPERC4.0, sản phẩm cung cấp công suất lên tới 550W và hiệu suất mô-đun là 21.3%. Công nghệ Multi-Busbar (MBB) và công nghệ Non-destructive cutting giúp cải thiện khả năng chịu tải của tấm pin, đảm bảo độ tin cậy cao.",
+    image: "/data/tam-pin-astronergy/tam-pin-astronergy-1.png",
+    images: ["/data/tam-pin-astronergy/tam-pin-astronergy-1.png"],
+    summaryBullets: [
+      "Hãng: Astronergy Solar",
+      "Tên gọi: Tấm pin năng lượng mặt trời Astronergy 550W",
+    ],
+    details: `
+    <ul class="list-disc pl-4 space-y-1">
+      <li>Tấm pin mặt trời Astronergy 550W được lắp ráp từ các tấm cell kích thước 182mm kèm công nghệ cell SuperPERC4.0, sản phẩm cung cấp công suất lên tới 550W và hiệu suất mô-đun là 21.3%. Công nghệ Multi-Busbar (MBB) và công nghệ Non-destructive cutting giúp cải thiện khả năng chịu tải của tấm pin, đảm bảo độ tin cậy cao.</li>
+    </ul>
+    `,
+    featureIcon: "check",
+    featureText: "Chất lượng cao - Độ bền vượt trội",
+    href: "#",
+  },
+  {
+    id: "tam-pin-canadian-550",
+    categoryId: "panel",
+    badge: "",
+    title: "Tấm pin năng lượng mặt trời Canadian 550W",
+    description:
+      "Tấm pin mono HiKu6 Canadian Solar 550W là dòng pin đơn tinh thể được sản xuất theo công nghệ làm mát Ku Modules, dựa trên nền tảng công nghệ Low Internal Current (LIC) Modules. Hiệu suất tấm pin đạt 21.5 %, giảm chi phí sản xuất điện LCOE đến 4.5%, giảm giá thành hệ thống lên đến 5.6%. Công nghệ giảm thiểu LID / LeTID toàn diện, mức độ suy giảm thấp hơn tới 50%. Tấm pin được trang bị nhiều công nghệ tối tân như: Half-cut cells, PERC, Multi Busbars…. giúp hệ thống điện mặt trời đạt hiệu suất và sản lượng cao, giảm mức độ ảnh hưởng của đổ bóng.",
+    image: "/data/tam-pin-astronergy/tam-pin-astronergy-1.png",
+    images: ["/data/tam-pin-astronergy/tam-pin-astronergy-1.png"],
+    summaryBullets: [
+      "Hãng: Canadian Solar",
+      "Tên gọi: Tấm pin năng lượng mặt trời Canadian 550W",
+    ],
+    details: `
+    <ul class="list-disc pl-4 space-y-1">
+      <li>Tấm pin mono HiKu6 Canadian Solar 550W là dòng pin đơn tinh thể được sản xuất theo công nghệ làm mát Ku Modules, dựa trên nền tảng công nghệ Low Internal Current (LIC) Modules. Hiệu suất tấm pin đạt 21.5 %, giảm chi phí sản xuất điện LCOE đến 4.5%, giảm giá thành hệ thống lên đến 5.6%. Công nghệ giảm thiểu LID / LeTID toàn diện, mức độ suy giảm thấp hơn tới 50%. Tấm pin được trang bị nhiều công nghệ tối tân như: Half-cut cells, PERC, Multi Busbars…. giúp hệ thống điện mặt trời đạt hiệu suất và sản lượng cao, giảm mức độ ảnh hưởng của đổ bóng.</li>
+    </ul>
+    `,
+    featureIcon: "check",
+    featureText: "Chất lượng cao - Độ bền vượt trội",
+    href: "#",
+  },
+  {
+    id: "pin-luu-tru-goodwe-14.3kWh",
+    categoryId: "frame",
+    badge: "",
+    title: "Pin lưu trữ điện áp thấp GoodWe BAT Series 14.3kWh",
+    description:
+      "Pin lưu trữ điện áp thấp GoodWe công suất 14.3kWh được thiết kế chuyên biệt dành cho các hệ thống dân dụng. Sản phẩm cho phép lưu trữ điện năng để sử dụng trong giờ cao điểm hoặc khi mất điện, giúp tăng khả năng tự chủ năng lượng và tối ưu hiệu quả đầu tư lâu dài. Đồng thời, pin tương thích hoàn hảo với các dòng Hybrid Inverter điện áp thấp của GoodWe, đảm bảo tích hợp liền mạch, vận hành an toàn và hiệu suất tối đa cho các hệ thống điện mặt trời hộ gia đình.",
+    image: "/data/pin-luu-tru-goodwe/pin-luu-tru-goodwe-1.png",
+    images: ["/data/pin-luu-tru-goodwe/pin-luu-tru-goodwe-1.png"],
+    summaryBullets: [
+      "Hãng: Goodwe",
+      "Tên gọi: Pin lưu trữ điện áp thấp GoodWe BAT Series 14.3kWh",
+    ],
+    details: `
+    <ul class="list-disc pl-4 space-y-1">
+      <li>Pin lưu trữ điện áp thấp GoodWe công suất 14.3kWh được thiết kế chuyên biệt dành cho các hệ thống dân dụng. Sản phẩm cho phép lưu trữ điện năng để sử dụng trong giờ cao điểm hoặc khi mất điện, giúp tăng khả năng tự chủ năng lượng và tối ưu hiệu quả đầu tư lâu dài. Đồng thời, pin tương thích hoàn hảo với các dòng Hybrid Inverter điện áp thấp của GoodWe, đảm bảo tích hợp liền mạch, vận hành an toàn và hiệu suất tối đa cho các hệ thống điện mặt trời hộ gia đình.</li>
+    </ul>
+    `,
+    featureIcon: "check",
+    featureText: "Chất lượng cao - Độ bền vượt trội",
+    href: "#",
+  },
+  {
+    id: "pin-luu-tru-pylontech-16kWh",
+    categoryId: "frame",
+    badge: "",
+    title: "Pin Lưu Trữ Áp Thấp Pylontech Fidus Plus 16kWh",
+    description:
+      "Pylontech Fidus Plus 16kWh là dòng pin lưu trữ áp thấp, hiệu suất cao dành cho gia đình và dự án nhỏ, nổi bật với khả năng dập cháy tự động trong 60 giây (test thực tế trong 10 giây) nhờ tích hợp công nghệ dập lửa (Aerosol). Sản phẩm được thiết kế với tiêu chuẩn chống ăn mòn C5-M, kết hợp BMS thông minh – công nghệ lõi đã làm nên uy tín toàn cầu của Pylontech, cho phép xả sâu đến 100% (100% DoD), bảo vệ an toàn đa lớp và bảo hành lên đến 10 năm. Fidus Plus 16kWh tương thích với nhiều dòng inverter hybrid phổ biến, sở hữu thiết kế treo tường (wall-mounted) hiện đại, mang đến giải pháp lưu trữ ổn định – an toàn – tối ưu hiệu quả vận hành cho hệ thống điện mặt trời dân dụng và thương mại quy mô nhỏ.",
+    image: "/data/pin-luu-tru-pylontech/pin-luu-tru-pylontech-1.png",
+    images: ["/data/pin-luu-tru-pylontech/pin-luu-tru-pylontech-1.png"],
+    summaryBullets: [
+      "Hãng: Pylontech",
+      "Tên gọi: Pin Lưu Trữ Áp Thấp Pylontech Fidus Plus 16kWh",
+    ],
+    details: `
+    <ul class="list-disc pl-4 space-y-1">
+      <li>Pylontech Fidus Plus 16kWh là dòng pin lưu trữ áp thấp, hiệu suất cao dành cho gia đình và dự án nhỏ, nổi bật với khả năng dập cháy tự động trong 60 giây (test thực tế trong 10 giây) nhờ tích hợp công nghệ dập lửa (Aerosol). Sản phẩm được thiết kế với tiêu chuẩn chống ăn mòn C5-M, kết hợp BMS thông minh – công nghệ lõi đã làm nên uy tín toàn cầu của Pylontech, cho phép xả sâu đến 100% (100% DoD), bảo vệ an toàn đa lớp và bảo hành lên đến 10 năm. Fidus Plus 16kWh tương thích với nhiều dòng inverter hybrid phổ biến, sở hữu thiết kế treo tường (wall-mounted) hiện đại, mang đến giải pháp lưu trữ ổn định – an toàn – tối ưu hiệu quả vận hành cho hệ thống điện mặt trời dân dụng và thương mại quy mô nhỏ.</li>
+    </ul>
+    `,
+    featureIcon: "check",
+    featureText: "Chất lượng cao - Độ bền vượt trội",
+    href: "#",
+  },
+  {
+    id: "pin-luu-tru-lithium-valley-w16-5a",
+    categoryId: "frame",
+    badge: "",
+    title: "Pin Lưu Trữ Điện Áp Thấp Lithium Valley W16-5A",
+    description:
+      "W16-5A là pin lưu trữ điện áp thấp dùng trong gia đình và các công trình dân dụng. Hệ thống Quản lý Pin (BMS) thông minh có thể theo dõi và tối ưu hóa hiệu suất pin theo thời gian thực, kéo dài tuổi thọ và cho phép điều khiển từ xa qua ứng dụng di động, giúp bạn dễ dàng theo dõi tình trạng năng lượng của ngôi nhà. Sản phẩm dễ dàng lắp đặt và thiết kế treo tường giúp tiết kiệm không gian. Trong trường hợp khẩn cấp, sản phẩm có thể hoạt động như một bộ sạc dự phòng để cung cấp năng lượng cho các thiết bị gia dụng, thích ứng với nhiều tình huống khác nhau.",
+    image:
+      "/data/pin-luu-tru-lithium-valley-w16-5a/pin-luu-tru-lithium-valley-w16-5a-1.png",
+    images: [
+      "/data/pin-luu-tru-lithium-valley-w16-5a/pin-luu-tru-lithium-valley-w16-5a-1.png",
     ],
     summaryBullets: [
-      "Quy cách: 1km/cuộn nên ít bị hao hụt khi chia cắt cáp theo từng tổ",
-      "Kích thước cuộn: 40×33cm, trọng lượng 60kg",
-      "Nhiệt độ hoạt động: -40°C đến +90°C; nhiệt độ tối đa tại dây dẫn +120°C",
-      "Điện áp cực đại: AC 1,0/1,0 kV – DC 1,5/1,5 kV",
-      "Điện áp DC tối đa cho phép: 1,8kV",
-      "Điện áp thử nghiệm: AC 6,5kV",
+      "Hãng: Lithium Valley",
+      "Tên gọi: Pin Lưu Trữ Điện Áp Thấp Lithium Valley W16-5A",
     ],
-    detailIntro:
-      "Cáp điện một lõi được sử dụng để kết nối các tấm pin mặt trời với nhau tạo thành các chuỗi pin và kết nối các chuỗi pin với biến tần. Cáp điện một lõi được sản xuất bởi hãng Lappkabel của Đức.",
-    detailSubtitle: "Cáp điện năng lượng mặt trời Lappkabel Ölflex XLR-E 4mm²",
-    detailCompliance:
-      "Sản phẩm tuân thủ các yêu cầu của chỉ thị thiết bị điện áp thấp 2014/35/EU.",
-    detailBullets: [
-      "Mô tả sản phẩm: UNITRONIC® BUS EIB 2 × 2 × 0,8",
-      "Xuất xứ: Đức",
-      "Quy cách: Dây 4.0mm²",
-      "Sẵn hàng kho HCM",
-    ],
-    details: "",
+    details: `
+    <ul class="list-disc pl-4 space-y-1">
+      <li>W16-5A là pin lưu trữ điện áp thấp dùng trong gia đình và các công trình dân dụng. Hệ thống Quản lý Pin (BMS) thông minh có thể theo dõi và tối ưu hóa hiệu suất pin theo thời gian thực, kéo dài tuổi thọ và cho phép điều khiển từ xa qua ứng dụng di động, giúp bạn dễ dàng theo dõi tình trạng năng lượng của ngôi nhà. Sản phẩm dễ dàng lắp đặt và thiết kế treo tường giúp tiết kiệm không gian. Trong trường hợp khẩn cấp, sản phẩm có thể hoạt động như một bộ sạc dự phòng để cung cấp năng lượng cho các thiết bị gia dụng, thích ứng với nhiều tình huống khác nhau.</li>
+    </ul>
+    `,
+    featureIcon: "check",
+    featureText: "Chất lượng cao - Độ bền vượt trội",
+    href: "#",
   },
-};
+  {
+    id: "pin-luu-tru-lithium-valley-w15-5a",
+    categoryId: "frame",
+    badge: "",
+    title: "Pin lưu trữ điện Lithium Valley W15-5A (14.336kWh)",
+    description:
+      "Lithium Valley W15-5A là dòng pin lưu trữ Lithium Iron Phosphate (LFP) với thiết kế nhỏ gọn, an toàn và có tuổi thọ cao. Sản phẩm phù hợp cho hệ thống điện dân dụng, thương mại, công nghiệp, điện mặt trời và độc lập.",
+    image:
+      "/data/pin-luu-tru-lithium-valley-w15-5a/pin-luu-tru-lithium-valley-w15-5a-1.png",
+    images: [
+      "/data/pin-luu-tru-lithium-valley-w15-5a/pin-luu-tru-lithium-valley-w15-5a-1.png",
+    ],
+    summaryBullets: [
+      "Hãng: Lithium Valley",
+      "Tên gọi: Pin lưu trữ điện Lithium Valley W15-5A (14.336kWh)",
+    ],
+    details: `
+    <ul class="list-disc pl-4 space-y-1">
+      <li>Lithium Valley W15-5A là dòng pin lưu trữ Lithium Iron Phosphate (LFP) với thiết kế nhỏ gọn, an toàn và có tuổi thọ cao. Sản phẩm phù hợp cho hệ thống điện dân dụng, thương mại, công nghiệp, điện mặt trời và độc lập.</li>
+    </ul>
+    `,
+    featureIcon: "check",
+    featureText: "Chất lượng cao - Độ bền vượt trội",
+    href: "#",
+  },
+];

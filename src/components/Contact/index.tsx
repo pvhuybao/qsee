@@ -58,7 +58,7 @@ const Contact = () => {
               <h2 className="mb-3 text-2xl font-bold text-black sm:text-3xl lg:text-2xl xl:text-3xl dark:text-white">
                 Gửi yêu cầu liên hệ
               </h2>
-              <p className="text-body-color mb-6 text-base font-medium">
+              <p className="text-body-color dark:text-body-color-dark mb-6 text-base font-medium">
                 Báo giá linh hoạt theo công trình, phạm vi thi công và hình thức
                 bảo trì. Vui lòng cung cấp thông tin công trình để QSEE tư vấn
                 phương án tối ưu về tài chính và vận hành.

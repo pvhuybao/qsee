@@ -21,10 +21,16 @@ const menuData: Menu[] = [
   },
   {
     id: 3,
-    title: "Lĩnh vực",
-    path: "/#features",
+    title: "Sản phẩm",
+    path: "/#products",
     newTab: false,
   },
+  // {
+  //   id: 3,
+  //   title: "Lĩnh vực",
+  //   path: "/#features",
+  //   newTab: false,
+  // },
   // {
   //   id: 4,
   //   title: "Pages",
