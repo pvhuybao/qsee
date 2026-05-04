@@ -98,6 +98,29 @@ export const products: ProductItem[] = [
     href: "#",
   },
   {
+    id: "bien-tan-goodwe-es-uniq-12kw",
+    categoryId: "inverter",
+    badge: "",
+    title:
+      "Hybrid Inverter GoodWe ES Uniq Series 12kW 1 Pha – Phiên bản có màn hình",
+    description:
+      "GoodWe Hybrid Inverter ES UniQ có màn hình công suất 12kW, được thiết kế chuyên biệt cho các hệ thống điện mặt trời dân dụng. Dòng sản phẩm này tương thích linh hoạt với cả hệ thống hòa lưới và off-grid (độc lập), đồng thời hỗ trợ kết nối song song tối đa 6 inverter để mở rộng hệ thống dễ dàng. Với màn hình cảm ứng LCD thân thiện, ES Uniq giúp người dùng vận hành và giám sát đơn giản, đồng thời có thể kết hợp với nhiều dòng pin lưu trữ, bao gồm cả Lynx A và Lynx U của GoodWe.",
+    image: "/data/bien-tan-goodwe-es-12k/bien-tan-goodwe-es-12k-1.png",
+    images: ["/data/bien-tan-goodwe-es-12k/bien-tan-goodwe-es-12k-1.png"],
+    summaryBullets: [
+      "Hãng: GOODWE",
+      "Tên gọi: Hybrid Inverter GoodWe ES Uniq Series 12kW 1 Pha – Phiên bản có màn hình",
+    ],
+    details: `
+    <ul class="list-disc pl-4 space-y-1">
+      <li>GoodWe Hybrid Inverter ES UniQ có màn hình công suất 12kW, được thiết kế chuyên biệt cho các hệ thống điện mặt trời dân dụng. Dòng sản phẩm này tương thích linh hoạt với cả hệ thống hòa lưới và off-grid (độc lập), đồng thời hỗ trợ kết nối song song tối đa 6 inverter để mở rộng hệ thống dễ dàng. Với màn hình cảm ứng LCD thân thiện, ES Uniq giúp người dùng vận hành và giám sát đơn giản, đồng thời có thể kết hợp với nhiều dòng pin lưu trữ, bao gồm cả Lynx A và Lynx U của GoodWe.</li>
+    </ul>
+    `,
+    featureIcon: "check",
+    featureText: "Chất lượng cao - Độ bền vượt trội",
+    href: "#",
+  },
+  {
     id: "tam-pin-astronergy-550",
     categoryId: "panel",
     badge: "",
@@ -113,6 +136,31 @@ export const products: ProductItem[] = [
     details: `
     <ul class="list-disc pl-4 space-y-1">
       <li>Tấm pin mặt trời Astronergy 550W được lắp ráp từ các tấm cell kích thước 182mm kèm công nghệ cell SuperPERC4.0, sản phẩm cung cấp công suất lên tới 550W và hiệu suất mô-đun là 21.3%. Công nghệ Multi-Busbar (MBB) và công nghệ Non-destructive cutting giúp cải thiện khả năng chịu tải của tấm pin, đảm bảo độ tin cậy cao.</li>
+    </ul>
+    `,
+    featureIcon: "check",
+    featureText: "Chất lượng cao - Độ bền vượt trội",
+    href: "#",
+  },
+  {
+    id: "pin-luu-tru-lithium-valley-w16-5a",
+    categoryId: "frame",
+    badge: "",
+    title: "Pin Lưu Trữ Điện Áp Thấp Lithium Valley W16-5A",
+    description:
+      "W16-5A là pin lưu trữ điện áp thấp dùng trong gia đình và các công trình dân dụng. Hệ thống Quản lý Pin (BMS) thông minh có thể theo dõi và tối ưu hóa hiệu suất pin theo thời gian thực, kéo dài tuổi thọ và cho phép điều khiển từ xa qua ứng dụng di động, giúp bạn dễ dàng theo dõi tình trạng năng lượng của ngôi nhà. Sản phẩm dễ dàng lắp đặt và thiết kế treo tường giúp tiết kiệm không gian. Trong trường hợp khẩn cấp, sản phẩm có thể hoạt động như một bộ sạc dự phòng để cung cấp năng lượng cho các thiết bị gia dụng, thích ứng với nhiều tình huống khác nhau.",
+    image:
+      "/data/pin-luu-tru-lithium-valley-w16-5a/pin-luu-tru-lithium-valley-w16-5a-1.png",
+    images: [
+      "/data/pin-luu-tru-lithium-valley-w16-5a/pin-luu-tru-lithium-valley-w16-5a-1.png",
+    ],
+    summaryBullets: [
+      "Hãng: Lithium Valley",
+      "Tên gọi: Pin Lưu Trữ Điện Áp Thấp Lithium Valley W16-5A",
+    ],
+    details: `
+    <ul class="list-disc pl-4 space-y-1">
+      <li>W16-5A là pin lưu trữ điện áp thấp dùng trong gia đình và các công trình dân dụng. Hệ thống Quản lý Pin (BMS) thông minh có thể theo dõi và tối ưu hóa hiệu suất pin theo thời gian thực, kéo dài tuổi thọ và cho phép điều khiển từ xa qua ứng dụng di động, giúp bạn dễ dàng theo dõi tình trạng năng lượng của ngôi nhà. Sản phẩm dễ dàng lắp đặt và thiết kế treo tường giúp tiết kiệm không gian. Trong trường hợp khẩn cấp, sản phẩm có thể hoạt động như một bộ sạc dự phòng để cung cấp năng lượng cho các thiết bị gia dụng, thích ứng với nhiều tình huống khác nhau.</li>
     </ul>
     `,
     featureIcon: "check",
@@ -186,31 +234,6 @@ export const products: ProductItem[] = [
     href: "#",
   },
   {
-    id: "pin-luu-tru-lithium-valley-w16-5a",
-    categoryId: "frame",
-    badge: "",
-    title: "Pin Lưu Trữ Điện Áp Thấp Lithium Valley W16-5A",
-    description:
-      "W16-5A là pin lưu trữ điện áp thấp dùng trong gia đình và các công trình dân dụng. Hệ thống Quản lý Pin (BMS) thông minh có thể theo dõi và tối ưu hóa hiệu suất pin theo thời gian thực, kéo dài tuổi thọ và cho phép điều khiển từ xa qua ứng dụng di động, giúp bạn dễ dàng theo dõi tình trạng năng lượng của ngôi nhà. Sản phẩm dễ dàng lắp đặt và thiết kế treo tường giúp tiết kiệm không gian. Trong trường hợp khẩn cấp, sản phẩm có thể hoạt động như một bộ sạc dự phòng để cung cấp năng lượng cho các thiết bị gia dụng, thích ứng với nhiều tình huống khác nhau.",
-    image:
-      "/data/pin-luu-tru-lithium-valley-w16-5a/pin-luu-tru-lithium-valley-w16-5a-1.png",
-    images: [
-      "/data/pin-luu-tru-lithium-valley-w16-5a/pin-luu-tru-lithium-valley-w16-5a-1.png",
-    ],
-    summaryBullets: [
-      "Hãng: Lithium Valley",
-      "Tên gọi: Pin Lưu Trữ Điện Áp Thấp Lithium Valley W16-5A",
-    ],
-    details: `
-    <ul class="list-disc pl-4 space-y-1">
-      <li>W16-5A là pin lưu trữ điện áp thấp dùng trong gia đình và các công trình dân dụng. Hệ thống Quản lý Pin (BMS) thông minh có thể theo dõi và tối ưu hóa hiệu suất pin theo thời gian thực, kéo dài tuổi thọ và cho phép điều khiển từ xa qua ứng dụng di động, giúp bạn dễ dàng theo dõi tình trạng năng lượng của ngôi nhà. Sản phẩm dễ dàng lắp đặt và thiết kế treo tường giúp tiết kiệm không gian. Trong trường hợp khẩn cấp, sản phẩm có thể hoạt động như một bộ sạc dự phòng để cung cấp năng lượng cho các thiết bị gia dụng, thích ứng với nhiều tình huống khác nhau.</li>
-    </ul>
-    `,
-    featureIcon: "check",
-    featureText: "Chất lượng cao - Độ bền vượt trội",
-    href: "#",
-  },
-  {
     id: "pin-luu-tru-lithium-valley-w15-5a",
     categoryId: "frame",
     badge: "",
@@ -242,11 +265,8 @@ export const products: ProductItem[] = [
     title: "Inverter Hybrid Sungrow MG5RL 1 Pha",
     description:
       "Sungrow MG5RL là dòng inverter hybrid 1 pha công suất 5kW, được thiết kế tối ưu cho hệ thống điện mặt trời dân dụng có nhu cầu backup tải và lưu trữ điện. Sản phẩm hỗ trợ pin lithium, chuyển mạch dự phòng siêu nhanh <4ms, tích hợp sẵn bypass switch 40A, dễ dàng mở rộng khi cần thiết.",
-    image:
-      "/data/pin-luu-tru-lithium-valley-w15-5a/pin-luu-tru-lithium-valley-w15-5a-1.png",
-    images: [
-      "/data/pin-luu-tru-lithium-valley-w15-5a/pin-luu-tru-lithium-valley-w15-5a-1.png",
-    ],
+    image: "/data/bien-tan-mg5rl/bien-tan-mg5rl-2.png",
+    images: ["/data/bien-tan-mg5rl/bien-tan-mg5rl-2.png"],
     summaryBullets: [
       "Hãng: SUNGROW",
       "Tên gọi: Inverter Hybrid Sungrow MG5RL 1 Pha",
@@ -267,11 +287,8 @@ export const products: ProductItem[] = [
     title: "Inverter Hybrid Sungrow MG6RL 1 Pha",
     description:
       "Sungrow MG6RL là dòng inverter hybrid 1 pha công suất 6kW, được thiết kế tối ưu cho hệ thống điện mặt trời dân dụng có nhu cầu backup tải và lưu trữ điện. Sản phẩm hỗ trợ pin lithium, chuyển mạch dự phòng siêu nhanh <4ms, tích hợp sẵn bypass switch 40A, dễ dàng mở rộng khi cần thiết.",
-    image:
-      "/data/pin-luu-tru-lithium-valley-w15-5a/pin-luu-tru-lithium-valley-w15-5a-1.png",
-    images: [
-      "/data/pin-luu-tru-lithium-valley-w15-5a/pin-luu-tru-lithium-valley-w15-5a-1.png",
-    ],
+    image: "/data/bien-tan-mg6rl/bien-tan-mg6rl-1.png",
+    images: ["/data/bien-tan-mg6rl/bien-tan-mg6rl-1.png"],
     summaryBullets: [
       "Hãng: SUNGROW",
       "Tên gọi: Inverter Hybrid Sungrow MG6RL 1 Pha",
@@ -292,11 +309,8 @@ export const products: ProductItem[] = [
     title: "Inverter Hybrid GoodWe ET LV Series 6-20kW 3 Pha",
     description:
       "Hybrid Inverter GoodWe ET LV Series (công suất 6-20kW) là giải pháp lý tưởng cho các hệ thống điện mặt trời dân dụng. Sản phẩm tích hợp liền mạch với pin điện áp thấp (48V) giúp tối ưu chi phí và tăng tính an toàn khi vận hành. Với thiết kế linh hoạt, GoodWe ET LV Series tương thích với nhiều loại pin lưu trữ khác nhau, bao gồm Lynx A G3, Lynx U G3 và BAT 14kWh của GoodWe. Điều này mang đến sự tiện lợi và dễ dàng mở rộng cho người dùng đang tìm kiếm giải pháp lưu trữ năng lượng đáng tin cậy và hiệu quả.",
-    image:
-      "/data/pin-luu-tru-lithium-valley-w15-5a/pin-luu-tru-lithium-valley-w15-5a-1.png",
-    images: [
-      "/data/pin-luu-tru-lithium-valley-w15-5a/pin-luu-tru-lithium-valley-w15-5a-1.png",
-    ],
+    image: "/data/bien-tan-goodwe-et/bien-tan-goodwe-et-1.png",
+    images: ["/data/bien-tan-goodwe-et/bien-tan-goodwe-et-1.png"],
     summaryBullets: [
       "Hãng: GOODWE",
       "Tên gọi: Inverter Hybrid GoodWe ET LV Series 6-20kW 3 Pha",
@@ -317,11 +331,8 @@ export const products: ProductItem[] = [
     title: "Inverter 8kW GoodWe ES Uniq 1 Pha Có Màn Hình",
     description:
       "GoodWe Hybrid Inverter ES UniQ có màn hình công suất 8kW, được thiết kế chuyên biệt cho các hệ thống điện mặt trời dân dụng. Dòng sản phẩm này tương thích linh hoạt với cả hệ thống hòa lưới và off-grid (độc lập), đồng thời hỗ trợ kết nối song song tối đa 6 inverter để mở rộng hệ thống dễ dàng. Với màn hình cảm ứng LCD thân thiện, ES Uniq giúp người dùng vận hành và giám sát đơn giản, đồng thời có thể kết hợp với nhiều dòng pin lưu trữ, bao gồm cả Lynx A và Lynx U của GoodWe.",
-    image:
-      "/data/pin-luu-tru-lithium-valley-w15-5a/pin-luu-tru-lithium-valley-w15-5a-1.png",
-    images: [
-      "/data/pin-luu-tru-lithium-valley-w15-5a/pin-luu-tru-lithium-valley-w15-5a-1.png",
-    ],
+    image: "/data/bien-tan-goodwe-es-8k/bien-tan-goodwe-es-8k-1.png",
+    images: ["/data/bien-tan-goodwe-es-8k/bien-tan-goodwe-es-8k-1.png"],
     summaryBullets: [
       "Hãng: GOODWE",
       "Tên gọi: Inverter 8kW GoodWe ES Uniq 1 Pha Có Màn Hình",
@@ -342,11 +353,8 @@ export const products: ProductItem[] = [
     title: "Hybrid Inverter GoodWe ES Uniq Series 10kW 1 Pha – Có Màn Hình",
     description:
       "GoodWe Hybrid Inverter ES UniQ có màn hình công suất 10kW, được thiết kế chuyên biệt cho các hệ thống điện mặt trời dân dụng. Dòng sản phẩm này tương thích linh hoạt với cả hệ thống hòa lưới và off-grid (độc lập), đồng thời hỗ trợ kết nối song song tối đa 6 inverter để mở rộng hệ thống dễ dàng. Với màn hình cảm ứng LCD thân thiện, ES Uniq giúp người dùng vận hành và giám sát đơn giản, đồng thời có thể kết hợp với nhiều dòng pin lưu trữ, bao gồm cả Lynx A và Lynx U của GoodWe.",
-    image:
-      "/data/pin-luu-tru-lithium-valley-w15-5a/pin-luu-tru-lithium-valley-w15-5a-1.png",
-    images: [
-      "/data/pin-luu-tru-lithium-valley-w15-5a/pin-luu-tru-lithium-valley-w15-5a-1.png",
-    ],
+    image: "/data/bien-tan-goodwe-es-10k/bien-tan-goodwe-es-10k-1.png",
+    images: ["/data/bien-tan-goodwe-es-10k/bien-tan-goodwe-es-10k-1.png"],
     summaryBullets: [
       "Hãng: GOODWE",
       "Tên gọi: Hybrid Inverter GoodWe ES Uniq Series 10kW 1 Pha – Có Màn Hình",
@@ -354,32 +362,6 @@ export const products: ProductItem[] = [
     details: `
     <ul class="list-disc pl-4 space-y-1">
       <li>GoodWe Hybrid Inverter ES UniQ có màn hình công suất 10kW, được thiết kế chuyên biệt cho các hệ thống điện mặt trời dân dụng. Dòng sản phẩm này tương thích linh hoạt với cả hệ thống hòa lưới và off-grid (độc lập), đồng thời hỗ trợ kết nối song song tối đa 6 inverter để mở rộng hệ thống dễ dàng. Với màn hình cảm ứng LCD thân thiện, ES Uniq giúp người dùng vận hành và giám sát đơn giản, đồng thời có thể kết hợp với nhiều dòng pin lưu trữ, bao gồm cả Lynx A và Lynx U của GoodWe.</li>
-    </ul>
-    `,
-    featureIcon: "check",
-    featureText: "Chất lượng cao - Độ bền vượt trội",
-    href: "#",
-  },
-  {
-    id: "bien-tan-goodwe-es-uniq-12kw",
-    categoryId: "inverter",
-    badge: "",
-    title:
-      "Hybrid Inverter GoodWe ES Uniq Series 12kW 1 Pha – Phiên bản có màn hình",
-    description:
-      "GoodWe Hybrid Inverter ES UniQ có màn hình công suất 12kW, được thiết kế chuyên biệt cho các hệ thống điện mặt trời dân dụng. Dòng sản phẩm này tương thích linh hoạt với cả hệ thống hòa lưới và off-grid (độc lập), đồng thời hỗ trợ kết nối song song tối đa 6 inverter để mở rộng hệ thống dễ dàng. Với màn hình cảm ứng LCD thân thiện, ES Uniq giúp người dùng vận hành và giám sát đơn giản, đồng thời có thể kết hợp với nhiều dòng pin lưu trữ, bao gồm cả Lynx A và Lynx U của GoodWe.",
-    image:
-      "/data/pin-luu-tru-lithium-valley-w15-5a/pin-luu-tru-lithium-valley-w15-5a-1.png",
-    images: [
-      "/data/pin-luu-tru-lithium-valley-w15-5a/pin-luu-tru-lithium-valley-w15-5a-1.png",
-    ],
-    summaryBullets: [
-      "Hãng: GOODWE",
-      "Tên gọi: Hybrid Inverter GoodWe ES Uniq Series 12kW 1 Pha – Phiên bản có màn hình",
-    ],
-    details: `
-    <ul class="list-disc pl-4 space-y-1">
-      <li>GoodWe Hybrid Inverter ES UniQ có màn hình công suất 12kW, được thiết kế chuyên biệt cho các hệ thống điện mặt trời dân dụng. Dòng sản phẩm này tương thích linh hoạt với cả hệ thống hòa lưới và off-grid (độc lập), đồng thời hỗ trợ kết nối song song tối đa 6 inverter để mở rộng hệ thống dễ dàng. Với màn hình cảm ứng LCD thân thiện, ES Uniq giúp người dùng vận hành và giám sát đơn giản, đồng thời có thể kết hợp với nhiều dòng pin lưu trữ, bao gồm cả Lynx A và Lynx U của GoodWe.</li>
     </ul>
     `,
     featureIcon: "check",
