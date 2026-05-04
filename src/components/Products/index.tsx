@@ -2,11 +2,12 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { productCategories, products } from "@/data/productsData";
 import type { ProductCategoryId } from "@/types/product";
 
 const primary = "#0056b3";
+const ITEMS_PER_PAGE = 8;
 
 function TabIcon({
   name,
@@ -133,11 +134,29 @@ function FeatureIcon({ type }: { type: "check" | "zap" | "spool" }) {
 
 const Products = () => {
   const [active, setActive] = useState<ProductCategoryId>("all");
+  const [currentPage, setCurrentPage] = useState(1);
 
   const filtered = useMemo(() => {
     if (active === "all") return products;
     return products.filter((p) => p.categoryId === active);
   }, [active]);
+
+  const totalPages = Math.ceil(filtered.length / ITEMS_PER_PAGE);
+
+  const paginatedProducts = useMemo(() => {
+    const start = (currentPage - 1) * ITEMS_PER_PAGE;
+    return filtered.slice(start, start + ITEMS_PER_PAGE);
+  }, [currentPage, filtered]);
+
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [active]);
+
+  useEffect(() => {
+    if (totalPages > 0 && currentPage > totalPages) {
+      setCurrentPage(totalPages);
+    }
+  }, [currentPage, totalPages]);
 
   return (
     <section id="products" className="dark:bg-gray-dark bg-white py-10">
@@ -179,71 +198,132 @@ const Products = () => {
             Danh mục này đang được cập nhật. Vui lòng liên hệ để được tư vấn.
           </p>
         ) : (
-          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
-            {filtered.map((item) => (
-              <article
-                key={item.id}
-                className="border-stroke-stroke dark:border-stroke-dark shadow-one dark:bg-gray-dark flex flex-col overflow-hidden rounded-xl border bg-white"
-              >
-                <div className="border-stroke-stroke dark:border-stroke-dark relative aspect-[4/3] w-full border-b bg-[white]">
-                  {item.badge ? (
-                    <span className="absolute top-3 left-3 z-10 max-w-[70%] rounded-md bg-red-600 px-2 py-1 text-[10px] font-semibold text-white md:text-xs">
-                      {item.badge}
-                    </span>
-                  ) : null}
-                  {/* {item.brandLogo ? (
-                    <div className="absolute top-3 right-3 z-10 shadow-sm">
-                      <Image
-                        src={item.brandLogo}
-                        alt="Thương hiệu"
-                        width={88}
-                        height={28}
-                        className="h-6 w-auto object-contain"
-                      />
-                    </div>
-                  ) : null} */}
-                  <Image
-                    src={item.image}
-                    alt={item.title}
-                    fill
-                    className="object-contain"
-                    sizes="(max-width: 768px) 100vw, 25vw"
-                  />
-                </div>
-                <div className="flex flex-1 flex-col p-4">
-                  <h3 className="mb-2 text-base leading-snug font-bold text-[#0a2540] md:text-lg dark:text-white">
-                    {item.title}
-                  </h3>
-                  <p className="text-body-color dark:text-body-color-dark mb-4 line-clamp-3 flex-1 text-sm leading-relaxed">
-                    {item.description}
-                  </p>
-                  <div
-                    className="mb-4 flex items-center gap-2 text-sm font-semibold"
-                    style={{ color: primary }}
-                  >
-                    <FeatureIcon type={item.featureIcon} />
-                    <span>{item.featureText}</span>
+          <>
+            <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+              {paginatedProducts.map((item) => (
+                <article
+                  key={item.id}
+                  className="border-stroke-stroke dark:border-stroke-dark shadow-one dark:bg-gray-dark flex flex-col overflow-hidden rounded-xl border bg-white"
+                >
+                  <div className="border-stroke-stroke dark:border-stroke-dark relative aspect-[4/3] w-full border-b bg-[white]">
+                    {item.badge ? (
+                      <span className="absolute top-3 left-3 z-10 max-w-[70%] rounded-md bg-red-600 px-2 py-1 text-[10px] font-semibold text-white md:text-xs">
+                        {item.badge}
+                      </span>
+                    ) : null}
+                    {/* {item.brandLogo ? (
+                      <div className="absolute top-3 right-3 z-10 shadow-sm">
+                        <Image
+                          src={item.brandLogo}
+                          alt="Thương hiệu"
+                          width={88}
+                          height={28}
+                          className="h-6 w-auto object-contain"
+                        />
+                      </div>
+                    ) : null} */}
+                    <Image
+                      src={item.image}
+                      alt={item.title}
+                      fill
+                      className="object-contain"
+                      sizes="(max-width: 768px) 100vw, 25vw"
+                    />
                   </div>
-                  <Link
-                    href={`/san-pham/${item.id}`}
-                    className="mt-auto inline-flex w-full items-center justify-center gap-2 rounded-lg px-4 py-3 text-sm font-semibold text-white transition hover:opacity-95"
-                    style={{ backgroundColor: primary }}
-                  >
-                    XEM THÊM
-                    <svg
-                      className="h-4 w-4"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2.5"
+                  <div className="flex flex-1 flex-col p-4">
+                    <h3 className="mb-2 text-base leading-snug font-bold text-[#0a2540] md:text-lg dark:text-white">
+                      {item.title}
+                    </h3>
+                    <p className="text-body-color dark:text-body-color-dark mb-4 line-clamp-3 flex-1 text-sm leading-relaxed">
+                      {item.description}
+                    </p>
+                    <div
+                      className="mb-4 flex items-center gap-2 text-sm font-semibold"
+                      style={{ color: primary }}
                     >
-                      <path d="M5 12h14M13 6l6 6-6 6" />
-                    </svg>
-                  </Link>
+                      <FeatureIcon type={item.featureIcon} />
+                      <span>{item.featureText}</span>
+                    </div>
+                    <Link
+                      href={`/san-pham/${item.id}`}
+                      className="mt-auto inline-flex w-full items-center justify-center gap-2 rounded-lg px-4 py-3 text-sm font-semibold text-white transition hover:opacity-95"
+                      style={{ backgroundColor: primary }}
+                    >
+                      XEM THÊM
+                      <svg
+                        className="h-4 w-4"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2.5"
+                      >
+                        <path d="M5 12h14M13 6l6 6-6 6" />
+                      </svg>
+                    </Link>
+                  </div>
+                </article>
+              ))}
+            </div>
+            {totalPages > 1 ? (
+              <div className="-mx-4 mt-8 flex flex-wrap" data-wow-delay=".15s">
+                <div className="w-full px-4">
+                  <ul className="flex items-center justify-center pt-2">
+                    <li className="mx-1">
+                      <button
+                        type="button"
+                        onClick={() =>
+                          setCurrentPage((prev) => Math.max(prev - 1, 1))
+                        }
+                        disabled={currentPage === 1}
+                        className={`flex h-9 min-w-[36px] items-center justify-center rounded-md px-4 text-sm transition ${
+                          currentPage === 1
+                            ? "bg-body-color/15 text-body-color cursor-not-allowed"
+                            : "bg-body-color/15 text-body-color hover:bg-primary hover:text-white"
+                        }`}
+                      >
+                        Trước
+                      </button>
+                    </li>
+                    {Array.from({ length: totalPages }, (_, i) => i + 1).map(
+                      (page) => (
+                        <li key={page} className="mx-1">
+                          <button
+                            type="button"
+                            onClick={() => setCurrentPage(page)}
+                            className={`flex h-9 min-w-[36px] items-center justify-center rounded-md px-4 text-sm transition ${
+                              currentPage === page
+                                ? "bg-primary text-white"
+                                : "bg-body-color/15 text-body-color hover:bg-primary hover:text-white"
+                            }`}
+                          >
+                            {page}
+                          </button>
+                        </li>
+                      ),
+                    )}
+                    <li className="mx-1">
+                      <button
+                        type="button"
+                        onClick={() =>
+                          setCurrentPage((prev) =>
+                            Math.min(prev + 1, totalPages),
+                          )
+                        }
+                        disabled={currentPage === totalPages}
+                        className={`flex h-9 min-w-[36px] items-center justify-center rounded-md px-4 text-sm transition ${
+                          currentPage === totalPages
+                            ? "bg-body-color/15 text-body-color cursor-not-allowed"
+                            : "bg-body-color/15 text-body-color hover:bg-primary hover:text-white"
+                        }`}
+                      >
+                        Sau
+                      </button>
+                    </li>
+                  </ul>
                 </div>
-              </article>
-            ))}
-          </div>
+              </div>
+            ) : null}
+          </>
         )}
       </div>
     </section>
