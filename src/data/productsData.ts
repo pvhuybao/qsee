@@ -30,12 +30,12 @@ export const products: ProductItem[] = [
       <li>Cỡ cáp: 4 mm², 6 mm², 10 mm²</li>
       <li>Màu cáp: Red - Đỏ (Cực dương+) và  Black - Đen (Cực âm-)</li>
       <li>Loại cáp: Cu/XLPO/XLPO</li>
-      <li>Dải nhiệt độ hoạt động: Nhiệt độ hoạt động: -40°C to +90°C nhiệt độ tối đa tại dây dẫn +120°C</li>
-      <li>Điện áp cực đại: Điện áp cực đại: AC 1,0/1,0 kV – DC 1,5/1,5 kV</li>
+      <li>Dải nhiệt độ hoạt động: -40°C to +90°C nhiệt độ tối đa tại dây dẫn +120°C</li>
+      <li>Điện áp cực đại: AC 1,0/1,0 kV – DC 1,5/1,5 kV</li>
       <li>Điện áp làm việc: Điện áp DC tối đa cho phép: 1,8kV</li>
-      <li>Điện áp thử: Điện áp thử nghiệm: AC 6,5kV</li>
+      <li>Điện áp thử nghiệm: AC 6,5kV</li>
       <li>Tiêu chuẩn áp dụng: TÜV Rheinland certificate with No. R 50598420, R 60176265, R 50462071 (62930 IEC 131). TÜV Rheinland certificate with No. R 5059841B, R 60176265, R 50345247 (H1Z2Z2-K)</li>
-      <li>Chứng nhận: Đầy đủ CO, CQ</li>
+      <li>Chứng nhận: Đầy đủ CO, CQ, Testing report</li>
       <li>Tuổi thọ chất lượng cáp: > 25 năm</li>
     </ul>
     `,
@@ -61,12 +61,12 @@ export const products: ProductItem[] = [
       <li>Cỡ cáp: 4 mm², 6 mm², 10 mm²</li>
       <li>Màu cáp: Red - Đỏ (Cực dương+) và  Black - Đen (Cực âm-)</li>
       <li>Loại cáp: Cu/XLPO/XLPO</li>
-      <li>Dải nhiệt độ hoạt động: Nhiệt độ hoạt động: -40°C to +90°C nhiệt độ tối đa tại dây dẫn +120°C</li>
-      <li>Điện áp cực đại: Điện áp cực đại: AC 1,0/1,0 kV – DC 1,5/1,5 kV</li>
-      <li>Điện áp làm việc: Điện áp DC tối đa cho phép: 1,8kV</li>
-      <li>Điện áp thử: Điện áp thử nghiệm: AC 6,5kV</li>
-      <li>Tiêu chuẩn áp dụng: IEC62930/EN50618, TÜV Rheinland certificate</li>
-      <li>Chứng nhận: Đầy đủ CO, CQ</li>
+      <li>Dải nhiệt độ hoạt động: -40°C to +90°C nhiệt độ tối đa tại dây dẫn +120°C</li>
+      <li>Điện áp cực đại: AC 1,0/1,0 kV – DC 1,5/1,5 kV</li>
+      <li>Điện áp làm việc: Điện áp DC tối đa cho phép 1,8kV</li>
+      <li>Điện áp thử nghiệm: AC 6,5kV</li>
+      <li>Tiêu chuẩn áp dụng: IEC62930/EN50618</li>
+      <li>Chứng nhận: Đầy đủ CO, CQ, TUV</li>
       <li>Tuổi thọ chất lượng cáp: > 25 năm</li>
     </ul>
     `,
