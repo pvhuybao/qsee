@@ -51,7 +51,11 @@ export const products: ProductItem[] = [
     description:
       "Cáp điện DC H1Z2Z2-K (1.5kV DC Solar Cable) là loại dây cáp chuyên dụng cao cấp, đạt tiêu chuẩn châu Âu EN 50618, được thiết kế để kết nối các tấm pin quang điện trong hệ thống điện mặt trời 0.5.4. Cáp chịu được điện áp cao (1.5kV DC), kháng tia UV, chịu nhiệt tốt (\(>90^{\circ }\text{C}\)) và độ bền trên 25 năm, lý tưởng cho cả lắp đặt ngoài trời và trong nhà 0.5.3, 0.5.7",
     image: "/data/cap-dien-2/cap-dien-1.png",
-    images: ["/data/cap-dien-2/cap-dien-1.png"],
+    images: [
+      "/data/cap-dien-2/cap-dien-1.png",
+      "/data/cap-dien-2/cap-dien-2.png",
+      "/data/cap-dien-2/cap-dien-3.png",
+    ],
     summaryBullets: [
       "Hãng: Leader",
       "Tên gọi: Cáp điện DC - 1.5KV DC SOLAR CABLE H1Z2Z2-K",
@@ -82,7 +86,11 @@ export const products: ProductItem[] = [
     description:
       "Tấm pin năng lượng mặt trời TCL 615W là sản phẩm cao cấp đến từ TCL Solar – thương hiệu công nghệ toàn cầu với nền tảng sản xuất tiên tiến và tiêu chuẩn chất lượng quốc tế",
     image: "/data/tam-pin-tcl/tam-pin-tcl-1.png",
-    images: ["/data/tam-pin-tcl/tam-pin-tcl-1.png"],
+    images: [
+      "/data/tam-pin-tcl/tam-pin-tcl-1.png",
+      "/data/tam-pin-tcl/tam-pin-tcl-2.png",
+      "/data/tam-pin-tcl/tam-pin-tcl-3.png",
+    ],
     summaryBullets: [
       "Hãng: TCL",
       "Tên gọi: Tấm pin năng lượng mặt trời TCL 615W 2 mặt kính",
@@ -106,7 +114,11 @@ export const products: ProductItem[] = [
     description:
       "GoodWe Hybrid Inverter ES UniQ có màn hình công suất 12kW, được thiết kế chuyên biệt cho các hệ thống điện mặt trời dân dụng. Dòng sản phẩm này tương thích linh hoạt với cả hệ thống hòa lưới và off-grid (độc lập), đồng thời hỗ trợ kết nối song song tối đa 6 inverter để mở rộng hệ thống dễ dàng. Với màn hình cảm ứng LCD thân thiện, ES Uniq giúp người dùng vận hành và giám sát đơn giản, đồng thời có thể kết hợp với nhiều dòng pin lưu trữ, bao gồm cả Lynx A và Lynx U của GoodWe.",
     image: "/data/bien-tan-goodwe-es-12k/bien-tan-goodwe-es-12k-1.png",
-    images: ["/data/bien-tan-goodwe-es-12k/bien-tan-goodwe-es-12k-1.png"],
+    images: [
+      "/data/bien-tan-goodwe-es-12k/bien-tan-goodwe-es-12k-1.png",
+      "/data/bien-tan-goodwe-es-12k/bien-tan-goodwe-es-12k-2.png",
+      "/data/bien-tan-goodwe-es-12k/bien-tan-goodwe-es-12k-3.png",
+    ],
     summaryBullets: [
       "Hãng: GOODWE",
       "Tên gọi: Hybrid Inverter GoodWe ES Uniq Series 12kW 1 Pha – Phiên bản có màn hình",
@@ -127,8 +139,11 @@ export const products: ProductItem[] = [
     title: "Tấm pin năng lượng mặt trời Astronergy 550W",
     description:
       "Tấm pin mặt trời Astronergy 550W được lắp ráp từ các tấm cell kích thước 182mm kèm công nghệ cell SuperPERC4.0, sản phẩm cung cấp công suất lên tới 550W và hiệu suất mô-đun là 21.3%. Công nghệ Multi-Busbar (MBB) và công nghệ Non-destructive cutting giúp cải thiện khả năng chịu tải của tấm pin, đảm bảo độ tin cậy cao.",
-    image: "/data/tam-pin-astronergy/tam-pin-astronergy-1.png",
-    images: ["/data/tam-pin-astronergy/tam-pin-astronergy-1.png"],
+    image: "/data/tam-pin-astronergy/tam-pin-astronergy-2.png",
+    images: [
+      "/data/tam-pin-astronergy/tam-pin-astronergy-2.png",
+      "/data/tam-pin-astronergy/tam-pin-astronergy-1.png",
+    ],
     summaryBullets: [
       "Hãng: Astronergy Solar",
       "Tên gọi: Tấm pin năng lượng mặt trời Astronergy 550W",
@@ -153,6 +168,8 @@ export const products: ProductItem[] = [
       "/data/pin-luu-tru-lithium-valley-w16-5a/pin-luu-tru-lithium-valley-w16-5a-1.png",
     images: [
       "/data/pin-luu-tru-lithium-valley-w16-5a/pin-luu-tru-lithium-valley-w16-5a-1.png",
+      "/data/pin-luu-tru-lithium-valley-w16-5a/pin-luu-tru-lithium-valley-w16-5a-2.png",
+      "/data/pin-luu-tru-lithium-valley-w16-5a/pin-luu-tru-lithium-valley-w16-5a-3.png",
     ],
     summaryBullets: [
       "Hãng: Lithium Valley",
@@ -174,8 +191,11 @@ export const products: ProductItem[] = [
     title: "Tấm pin năng lượng mặt trời Canadian 550W",
     description:
       "Tấm pin mono HiKu6 Canadian Solar 550W là dòng pin đơn tinh thể được sản xuất theo công nghệ làm mát Ku Modules, dựa trên nền tảng công nghệ Low Internal Current (LIC) Modules. Hiệu suất tấm pin đạt 21.5 %, giảm chi phí sản xuất điện LCOE đến 4.5%, giảm giá thành hệ thống lên đến 5.6%. Công nghệ giảm thiểu LID / LeTID toàn diện, mức độ suy giảm thấp hơn tới 50%. Tấm pin được trang bị nhiều công nghệ tối tân như: Half-cut cells, PERC, Multi Busbars…. giúp hệ thống điện mặt trời đạt hiệu suất và sản lượng cao, giảm mức độ ảnh hưởng của đổ bóng.",
-    image: "/data/tam-pin-astronergy/tam-pin-astronergy-1.png",
-    images: ["/data/tam-pin-astronergy/tam-pin-astronergy-1.png"],
+    image: "/data/tam-pin-canadian/tam-pin-canadian-1.png",
+    images: [
+      "/data/tam-pin-canadian/tam-pin-canadian-1.png",
+      "/data/tam-pin-canadian/tam-pin-canadian-2.png",
+    ],
     summaryBullets: [
       "Hãng: Canadian Solar",
       "Tên gọi: Tấm pin năng lượng mặt trời Canadian 550W",
