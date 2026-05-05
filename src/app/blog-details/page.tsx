@@ -1,4 +1,4 @@
-import SharePost from "@/components/Blog/SharePost";
+import ProductSocialShare from "@/components/Product/ProductSocialShare";
 import TagButton from "@/components/Blog/TagButton";
 import Image from "next/image";
 
@@ -330,7 +330,7 @@ const BlogDetailsPage = () => {
                         Share this post :
                       </h5>
                       <div className="flex items-center sm:justify-end">
-                        <SharePost />
+                        <ProductSocialShare title="10 amazing sites to download stock photos & digital assets for free" />
                       </div>
                     </div>
                   </div>

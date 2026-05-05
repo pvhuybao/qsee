@@ -1,7 +1,9 @@
 "use client";
 
+import { useEffect, useState } from "react";
+
 type ProductSocialShareProps = {
-  shareUrl: string;
+  shareUrl?: string;
   title: string;
 };
 
@@ -12,7 +14,17 @@ export default function ProductSocialShare({
   shareUrl,
   title,
 }: ProductSocialShareProps) {
-  const encodedUrl = encodeURIComponent(shareUrl);
+  const [currentUrl, setCurrentUrl] = useState(shareUrl ?? "");
+
+  useEffect(() => {
+    if (shareUrl) {
+      setCurrentUrl(shareUrl);
+      return;
+    }
+    setCurrentUrl(window.location.href);
+  }, [shareUrl]);
+
+  const encodedUrl = encodeURIComponent(currentUrl);
   const encodedTitle = encodeURIComponent(title);
 
   const links = [

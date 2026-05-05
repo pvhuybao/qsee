@@ -1,7 +1,7 @@
 import RelatedPost from "@/components/Blog/RelatedPost";
-import SharePost from "@/components/Blog/SharePost";
 import TagButton from "@/components/Blog/TagButton";
 import NewsLatterBox from "@/components/Contact/NewsLatterBox";
+import ProductSocialShare from "@/components/Product/ProductSocialShare";
 import Image from "next/image";
 
 import { Metadata } from "next";
@@ -334,7 +334,7 @@ const BlogSidebarPage = () => {
                         Share this post :
                       </h5>
                       <div className="flex items-center sm:justify-end">
-                        <SharePost />
+                        <ProductSocialShare title="10 amazing sites to download stock photos & digital assets for free" />
                       </div>
                     </div>
                   </div>

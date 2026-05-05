@@ -3,20 +3,12 @@ import ProductSocialShare from "@/components/Product/ProductSocialShare";
 
 import { products } from "@/data/productsData";
 import type { Metadata } from "next";
-import { headers } from "next/headers";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
 type PageProps = {
   params: Promise<{ id: string }>;
 };
-
-async function absoluteUrl(path: string): Promise<string> {
-  const h = await headers();
-  const host = h.get("host") ?? "localhost:3000";
-  const proto = h.get("x-forwarded-proto") ?? "http";
-  return `${proto}://${host}${path}`;
-}
 
 export async function generateStaticParams() {
   return products.map((p) => ({ id: p.id }));
@@ -45,8 +37,6 @@ export default async function ProductDetailPage({ params }: PageProps) {
   }
 
   const detail = product;
-  const shareUrl = await absoluteUrl(`/san-pham/${product.id}`);
-
   return (
     <main className="border-b bg-white pt-[88px] pb-16 md:pt-[120px] dark:bg-black">
       <div className="container px-4">
@@ -124,7 +114,7 @@ export default async function ProductDetailPage({ params }: PageProps) {
               <p className="text-body-color dark:text-body-color-dark my-3 text-sm font-medium">
                 Chia sẻ:
               </p>
-              <ProductSocialShare shareUrl={shareUrl} title={product.title} />
+              <ProductSocialShare title={product.title} />
             </div>
           </div>
         </div>

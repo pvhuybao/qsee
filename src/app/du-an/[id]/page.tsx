@@ -1,5 +1,5 @@
-import SharePost from "@/components/Blog/SharePost";
 import NewsLatterBox from "@/components/Contact/NewsLatterBox";
+import ProductSocialShare from "@/components/Product/ProductSocialShare";
 import {
   solarCompanyData,
   solarFamilyData,
@@ -72,11 +72,11 @@ const BlogSidebarPage = async ({ params }: BlogSidebarPageProps) => {
 
                   <div className="items-center justify-between sm:flex">
                     <div className="mb-5 flex items-center md:mb-0">
-                      <h5 className="text-body-color dark:text-body-color-dark mb-3 text-sm font-medium">
+                      <h5 className="text-body-color dark:text-body-color-dark mx-3 text-sm font-medium">
                         Chia sẻ:
                       </h5>
                       <div className="flex items-center">
-                        <SharePost />
+                        <ProductSocialShare title={blog.title} />
                       </div>
                     </div>
                   </div>
